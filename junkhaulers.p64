@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM2Iixtb2RpZmllZD0iMjAyNS0w
-NS0yMCAyMDozMToyMyIscmV2aXNpb249NjAwXV1sejQA1A8AAEROAADxKHtbMF09e2JtcD1weHUA
+NS0yMSAxNDoxMjowOCIscmV2aXNpb249NzI3XV1sejQA1A8AAEROAADxKHtbMF09e2JtcD1weHUA
 QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feD0tMC4xMjUNABB5DQDKNjI1LHpvb209
 OH0sSADwISAfGVAeYA5WDnAGHxwfHh8cBjAOEAYtHx4tBhAuBj0cPQYeAAa9BhAGB50HBhAGtwoA
 QT0XPQcIABESCAD-HBctFS0XBgAeBhcdFR0XBi4QBhcNFQ0XBhAOMAYHNQcGcA4GNQYOYB5QHiCn
@@ -78,21 +78,21 @@ HvAWHvCPDvAWFwATGSIAIGUOCADyBVsODPBKDvAVHvBZDvBNDvBYLvC1SgAr-5i3DnMzMi42OTE2
 AQAUN8AOVjMuNjE2FgAByQ4fMQQPKA87AP------------------QlBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-NS0yMCAyMDozOTowNiJdXQ==
+NS0yMSAxNDozMToyMSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM1Iixtb2RpZmllZD0iMjAyNS0w
-NS0yMCAyMDozMToyMyIscmV2aXNpb249NTY1XV1sejQAkQAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
+NS0yMSAxNDoxMjowOCIscmV2aXNpb249NjgzXV1sejQAkQAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
 KCJpMTYiLDMyAwAvIjABAP-------60TNAQADwEAZV81MDAwNoQAZFMzMDAwMQgALzcwAQBfFzIE
 AB44iAEPAQD---------nvEIIiksaGlkZGVuPWZhbHNlLHBhbl94PTAIANJ5PTAsdGlsZV9oPTE2
 CgAQdwoAgHpvb209MX19
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-NS0yMCAyMDozOTowNiJdXQ==
+NS0yMSAxNDozMToyMSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM2Iixtb2RpZmllZD0iMjAyNS0w
-NS0yMCAyMDozMToyNCIscmV2aXNpb249NTUyXV1sejQA3AEAAOUKAAD-MHB4dQADKAAABAAED0AQ
+NS0yMSAxNDoxMjowOCIscmV2aXNpb249NjY4XV1sejQA3AEAAOUKAAD-MHB4dQADKAAABAAED0AQ
 Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-EDqgEQ
 Bg8gEAEgASAB8AAPEhACDgD5Lg8hD6oQAQ--IA8xIAFQAQkgDz4gD1TwBgEIIA9xUALwjA8oD--w
 xg-4Cg--D4AP9w8NAXAPYg9BD04PR8BTAEACEAIOUQCxJQ8WD-ARMA9X8MM8AFoGDyHwr0AAEGU_
@@ -104,9 +104,9 @@ FEAPMA8i8y4BAvMuDw0G8y5QAA4vzwNRAAUBoQAi-96iAEXzsPBwCgAf-wEAGh6_OAAPAQD-pVD-
 ----tA==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-NS0yMCAyMDozOTowNiJdXQ==
+NS0yMSAxNDozMToyMSJdXQ==
 :: asteroid.lua
---[[pod_format="raw",created="2025-05-20 13:51:18",modified="2025-05-20 20:31:23",revision=185]]
+--[[pod_format="raw",created="2025-05-20 13:51:18",modified="2025-05-21 14:12:08",revision=282]]
 function new_asteroid(position)
 	return{
 		_position=position,
@@ -552,7 +552,7 @@ function new_free_part(position,part)
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-05-19 15:03:03",modified="2025-05-20 20:31:23",revision=781]]
+--[[pod_format="raw",created="2025-05-19 15:03:03",modified="2025-05-21 14:12:08",revision=907]]
 function new_game()
 	return{
 		_ship=new_ship(new_point(480/2,270/2+30)),
@@ -560,8 +560,10 @@ function new_game()
 		asteroids={},
 		_part_spawner,
 		_asteroid_spawner,
+		_light_road,
 		score=0,
 		init=function(self)
+			self._light_road= new_lightroad()
 			self._part_spawner=new_part_spawner()
 			self._part_spawner:init()
 			self._asteroid_spawner=new_asteroid_spawner()
@@ -570,6 +572,7 @@ function new_game()
 			self._ship:init()	
 		end,
 		update=function(self)
+			self._light_road:update()
 			self._ship:update()
 			self._part_spawner:update()
 			self._asteroid_spawner:update()
@@ -591,6 +594,7 @@ function new_game()
 		end,
 		draw=function(self)
 			cls()
+			self._light_road:draw()
 			foreach(self.free_parts, function(part)
 	    		part:draw()
 	 	 	end)
@@ -599,6 +603,7 @@ function new_game()
 	 	 	end)
 			self._ship:draw()
 			print_right(self.score,0)
+			pq(stat(1))
 		end		
 	}
 end
@@ -649,7 +654,7 @@ function new_win()
 end
 :: helpers.lua
 b64$LS1bW3BvZF9mb3JtYXQ9InJhdyIsY3JlYXRlZD0iMjAyNS0wNS0xOSAxNToxMzo1MyIsbW9k
-aWZpZWQ9IjIwMjUtMDUtMjAgMTk6MTU6MzIiLHJldmlzaW9uPTQyNl1dCmZ1bmN0aW9uIHNtKGEp
+aWZpZWQ9IjIwMjUtMDUtMjEgMTQ6MTI6MDgiLHJldmlzaW9uPTQ5Nl1dCmZ1bmN0aW9uIHNtKGEp
 CglyZXR1cm4gc2V0bWV0YXRhYmxlKGEsYSkKZW5kCmZ1bmN0aW9uIHJhbmRvbShuKQoJaWYobj4w
 KSB0aGVuIAoJCXJldHVybiBybmQoKSpuCgllbHNlCgkJcmV0dXJuIC1uK3JuZCgpKm4qMiAKCWVu
 ZAplbmQKZnVuY3Rpb24gcGlja19yYW5kb20oYXJyKQoJaWYgYXJyPT1uaWxsIHRoZW4gcmV0dXJu
@@ -693,9 +698,16 @@ dWx0IHNldDoKCXJvc2UgICAgICAgICA9IDE2LAoJc2FsbW9uICAgICAgID0gMTcsCgliZWlnZSAg
 ICAgICAgPSAxOCwKCWxpZ2h0X3llbGxvdyA9IDE5LAoJbGlnaHRfZ3JlZW4gID0gMjAsCglzZWFm
 b2FtICAgICAgPSAyMSwKCXNreV9ibHVlICAgICA9IDIyLAoJcGVyaXdpbmtsZSAgID0gMjMsCgls
 YXZlbmRlciAgICAgPSAyNCwKCWxpZ2h0X3BpbmsgICA9IDI1LAoJZGFya19icm93biA9MjgKCS0t
-IC4uLnlvdSBjYW4gY29udGludWUgYWRkaW5nIGFzIG5lZWRlZAp9Cg==
+IC4uLnlvdSBjYW4gY29udGludWUgYWRkaW5nIGFzIG5lZWRlZAp9Cm5ld190aW1lcj1mdW5jdGlv
+bihzcGF3bl9yYXRlLHN0YXJ0LGFjdGlvbikKCXJldHVybnsKCXNwYXduX3JhdGU9c3Bhd25fcmF0
+ZSwKCXRpbWVyPXN0YXJ0LAoJYWN0aW9uPWFjdGlvbiwKCXVwZGF0ZT1mdW5jdGlvbihzZWxmLG90
+aGVyKQoJCWlmKHNlbGYuc3Bhd25fcmF0ZT4xKQl0aGVuCQoJCQlpZihzZWxmLnRpbWVyPnNlbGYu
+c3Bhd25fcmF0ZSkgdGhlbgoJCQkJc2VsZi5hY3Rpb24ob3RoZXIpCgkJCQlzZWxmLnRpbWVyPTAK
+CQkJZWxzZQoJCQkJc2VsZi50aW1lcis9MQoJCQllbmQKCQllbHNlCgkJCWZvciBpPTEsMS9zZWxm
+LnNwYXduX3JhdGUsMSBkbwoJCQkJc2VsZi5hY3Rpb24ob3RoZXIpCgkJCWVuZAoJCWVuZAoJZW5k
+Cgl9CmVuZA==
 :: include.lua
---[[pod_format="raw",created="2025-05-19 15:00:08",modified="2025-05-20 20:31:23",revision=587]]
+--[[pod_format="raw",created="2025-05-19 15:00:08",modified="2025-05-21 14:12:08",revision=707]]
 include "lib.lua"
 include "point.lua"
 include "helpers.lua"
@@ -708,6 +720,7 @@ include "free_part.lua"
 include "part_spawner.lua"
 include "asteroid_spawner.lua"
 include "asteroid.lua"
+include "lightroad.lua"
 include "start.lua"
 include "game.lua"
 include "game_over.lua"
@@ -853,6 +866,102 @@ function qf(fmt,...)
   return str
 end
 function pqf(...) printh(qf(...)) end
+:: lightroad.lua
+--[[pod_format="raw",created="2025-05-20 20:49:16",modified="2025-05-21 14:12:08",revision=230]]
+new_lightroad=function()
+	return{
+		beam_timer=new_timer(2,0,function(obj)
+			local beam=new_beam(obj)
+			beam.position= new_point(obj.left+random(obj.right-obj.left),-16)
+			beam.color=pick_random(obj.beam_colors)
+			beam.speed=new_point(0,random(10)+5)
+			beam.size=random(200)
+			add(obj.decorations,beam)	
+		end	
+		),
+		star_timer=new_timer(2,0,function(obj)
+			local star=new_star(obj)
+			local size=random(2)
+			star.position= new_point(obj.left+random(obj.right-obj.left),-16)
+			star.color=obj.star_colors[3-flr(size)]
+			star.speed=new_point(0,size+2)
+			star.size=0
+			add(obj.decorations,star)	
+		end	
+		),
+		--spawn_rate=0,
+		--timer=0,
+		left=0,
+		right=480,
+		decorations={},
+		--colors={2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30},
+		beam_colors={20,4,21,2,23,1,18,19},
+		star_colors={7,6,5},
+		update=function(self)
+			self.beam_timer:update(self)
+			self.star_timer:update(self)
+
+			foreach(self.decorations, function(deco)
+	    		deco:update()
+	 	 	end)
+		end,
+		draw=function(self)
+			foreach(self.decorations, function(deco)
+	    		deco:draw()
+	 	 	end)
+		end,
+
+		
+}
+end
+
+new_decoration=function(parent)
+	return{
+		_parent=parent,
+		position=new_point(0,0),
+		speed=new_point(0,0),
+		size=1,		
+		color=2,
+		update=function(self)
+			self.position+=self.speed
+		end,
+		draw=function(self)
+		end,
+		kill = function(self)
+			del(self._parent.decorations,self)
+		end
+}
+end
+
+new_beam=function(parent)
+	local ret = new_decoration(parent)
+	ret.baseupdate=ret.update
+	ret.update=function(self)
+		ret:baseupdate()
+		if(is_point_on_screen(self.position+new_point(0,-self.size/2))==false	and is_point_on_screen(self.position+new_point(0,self.size/2))==false	) then 
+			self:kill()
+		end
+	end
+	ret.draw=function(self)
+		line(self.position.x,self.position.y-self.size/2,self.position.x,self.position.y+self.size/2,self.color)
+	end
+	return ret
+end
+new_star=function(parent)
+	local ret = new_decoration(parent)
+	ret.baseupdate=ret.update
+	ret.update=function(self)
+		ret:baseupdate()
+		if(is_point_on_screen(self.position)==false) then 
+			self:kill()
+		end
+	end
+	ret.draw=function(self)
+		circfill(self.position.x,self.position.y,self.size,self.color)
+	end
+	return ret
+end
+
 :: main.lua
 --[[pod_format="raw",created="2025-05-19 14:05:35",modified="2025-05-20 19:12:40",revision=476]]
 include "include.lua"
@@ -899,7 +1008,7 @@ function _draw()
 end
 include "error_explorer.lua"
 :: parts.lua
---[[pod_format="raw",created="2025-05-19 15:12:11",modified="2025-05-20 20:31:23",revision=618]]
+--[[pod_format="raw",created="2025-05-19 15:12:11",modified="2025-05-21 14:12:08",revision=737]]
 function new_part(position)
 	return{
 		_position=position,
@@ -980,7 +1089,7 @@ end
 
 
 :: part_spawner.lua
---[[pod_format="raw",created="2025-05-20 03:17:51",modified="2025-05-20 19:14:34",revision=250]]
+--[[pod_format="raw",created="2025-05-20 03:17:51",modified="2025-05-21 14:12:08",revision=373]]
 new_part_spawner=function ()
 	return {
 		spawn_rate=60,
@@ -1009,7 +1118,7 @@ new_part_spawner=function ()
 	}
 end
 :: point.lua
---[[pod_format="raw",created="2025-05-19 15:09:53",modified="2025-05-20 13:08:05",revision=255]]
+--[[pod_format="raw",created="2025-05-19 15:09:53",modified="2025-05-21 14:12:08",revision=342]]
 function new_point(x,y)
 	return sm({
 		x=x,
@@ -1101,7 +1210,7 @@ function stop_sfx(sfx_id, channel)
 	end
 end
 :: ship.lua
---[[pod_format="raw",created="2025-05-19 15:07:48",modified="2025-05-20 20:31:23",revision=709]]
+--[[pod_format="raw",created="2025-05-19 15:07:48",modified="2025-05-21 14:12:08",revision=837]]
 function new_ship(position)
 	return{
 		parts={},
@@ -1205,11 +1314,10 @@ function new_ship(position)
 			if(direction!= nil and parts_can_attach(ship_part, free_part.part, direction))then				
 				local new_location=ship_part.location+ direction
 				for i = 1, #self.parts do --check if this spot is already taken
-					local ship_part = self.parts[i]		
-					if(new_location==ship_part.location) then 
+					local ship_part = self.parts[i]	
+					if(new_location:equals(ship_part.location)) then 
 						return false
-					end
-					
+					end				
 				end
 				free_part.part.location=new_location
 				add(self.parts,free_part.part)
@@ -1296,7 +1404,7 @@ function parts_can_attach(partA, partB, direction)
 	return a_can_attach or b_can_attach
 end
 :: start.lua
---[[pod_format="raw",created="2025-05-20 16:44:31",modified="2025-05-20 20:31:23",revision=90]]
+--[[pod_format="raw",created="2025-05-20 16:44:31",modified="2025-05-21 14:12:08",revision=206]]
 function new_start()
 	return{
 	sprites,
@@ -1323,14 +1431,15 @@ end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjE0OjE1Iixtb2RpZmllZD0iMjAyNS0w
-NS0yMCAyMDozOTowNiIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImluY2x1ZGUu
-bHVhIzYiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWUubHVhIzM4Iix3b3Jrc3Bh
-Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJzdGFydC5sdWEjMTciLHdvcmtzcGFjZV9pbmRleD0xfSx7
-bG9jYXRpb249InNoaXAubHVhIzc3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXJ0
-cy5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ic2Z4Lmx1YSMyIix3b3Jrc3Bh
-Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJhc3Rlcm9pZC5sdWEjMTgiLHdvcmtzcGFjZV9pbmRleD0x
-fSx7bG9jYXRpb249ImdhbWVfb3Zlci5sdWEjMTkiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRp
-b249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlvbj0ibWFwLzAubWFwIix3
-b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngiLHdvcmtzcGFjZV9pbmRleD00
-fX1dXQ==
+NS0yMSAxNDozMToyMSIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImluY2x1ZGUu
+bHVhIzkiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWUubHVhIzUxIix3b3Jrc3Bh
+Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJzdGFydC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0ic2hpcC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0icGFydHMu
+bHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImxpZ2h0cm9hZC5sdWEjMTYiLHdv
+cmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRfc3Bhd25lci5sdWEjMSIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0iYXN0ZXJvaWQubHVhIzMxIix3b3Jrc3BhY2VfaW5kZXg9MX0s
+e2xvY2F0aW9uPSJwb2ludC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iaGVs
+cGVycy5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jr
+c3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7
+bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2luZGV4PTR9fV1d
 :: [eoc]
