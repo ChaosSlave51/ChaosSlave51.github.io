@@ -4,109 +4,112 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM2Iixtb2RpZmllZD0iMjAyNS0w
-NS0yMSAxNDoxMjowOCIscmV2aXNpb249NzI3XV1sejQA1A8AAEROAADxKHtbMF09e2JtcD1weHUA
-QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feD0tMC4xMjUNABB5DQDKNjI1LHpvb209
-OH0sSADwISAfGVAeYA5WDnAGHxwfHh8cBjAOEAYtHx4tBhAuBj0cPQYeAAa9BhAGB50HBhAGtwoA
-QT0XPQcIABESCAD-HBctFS0XBgAeBhcdFR0XBi4QBhcNFQ0XBhAOMAYHNQcGcA4GNQYOYB5QHiCn
-AC3-BlAOcHlwCRUZFQlgCXUJUAkFGRUZBQgADiFAGQgALBkwCACvJRkVGSUg2RDVAJkAJvEQ8BR4
-MA8ZEBgSGBIYEC4oEhgSKB4QKBUYFSgwKBUfHQcABgYA8QAYDRUdFQ0YMBgNVQ0YEB4HACEuAAcA
-MQAOEAgAP1AOUCwBLDAQFhUCABIgBwAjFgAIACsVBggAKxYFCAAPIgAqEwATACIFIBMALwUQ7QEt
-8A1fEA5wDVwNMA4QnRAuHXwdHgANDA0MXQwNDA0QCgA-DTsNDAAaAToA-wIAHh18HS4QnRAOMA1c
-DXAOXZkCM-AZAzADDnBzMA4QE1sTEC4TC18bCxMeABMLDVsNCxMgAwsNCz0LDQsDMAoAPw0bDQwA
-AgEiABMgNACBAB4TC10LEy5RAEEOMHNwYwAPRQM08QVQvRAOAA02Hw82DQAuDTYcNg0eEAcAEzAG
-ABOcBAAGFAAhEB4HACEuAAcATgAOEL2pAg98BCgRV3cEQBcPHBc5BFAuBhddF3kEVxctFy0XcwQK
-fwQCCAAjF319BBQXfQQTF30EX1cGcA5WpAAsL-DwOwCcBuUB8AW2EA4ABjAWECYALgYgFhA2HhAG
-EA4A8AAGMAYAFhAmEAYwJhAmEBYiAEAQJjAGDAABHADQJhAWEAYQHjYQFiAGLg4AbzAGAA4QtvAB
-Ly-w8DsA------------3QWECtDwBA7QLrAe8FAesC7QDgAOQwoPvAH-h-8MULgQDgA4OzgALhh7
-GB4QGBs-GxsYMAgbXRsIBgAAQBgbPRvSEDF7GC41AD8OELgxDDD-OgdvFIAOZGAOJC8fFDAuJB0e
-JBAOVD4kAA4EDqQNAEQNFA40DRAkPSQOFA0QFB0uFA4UDSAOBA0_NB0gFC5EDUCEDVBETWBN8AmD
-ACbwHUAvFMAUIAQOUAQO4AQgDuAEECTQDx8EQATgBA6gBCAEEBQQFBANBGAEEBQgBgARDRQAYNAU
-ABSgDRQAbyTADQTwAwQCKA87AP--------------------------------------D1PIyATw-wEA
-8Q6HDxXwtg4PFPDcjiC_cH5wniC_8AI_MD5APiA_UAgA8zHwJQ6PGQ4QDxSvGXB9cJ0gDxSt8AI9
-DhAOPQ4wPQ4QDC0OQD0MEAw9MA49DPAiDq0OEAydDGAOfRxADp0gDJ0MLQARQCwAUQwOMAwtLgAS
-DC4AxAwQDM0wDK0OIL0gDFgAcUAMLQ4QDE0qAPAEDj0gDE0M8BQesA5NDC0cDhAMPX0uyDA9TC0O
-ID18IAw9bGEAMU0eEI0AECBfAPYNFB7ADj0OgAwtDEA9IA4tDDA9DCA9DJAMLQzwCTMAIm0QkgCS
-IE3wJA49DB5gMAAwDC0MgQAACAAIMgABmwAwbRw9mgBwEE0O8CQObTEAEDCoAAhiAGYADgAO8AVm
-ABDNYwCaAAxN8CUObSwwYwAAMgBGjQ7wAy4A0C0cfQwQDo0M8CgMfQw_AAEsABJNjQBHjQzwA40A
-YC0OAH0OEBYAQSgOjQwsABU9VwAZnVYAUQwQDl0MKwAgKwwJACGtQIkBASoAmC1skA4NDA0OMFsA
-MAwgXekAUBxN8CwMWAFgTQwNDB0MNgAzTQ4QSwEQAJsACGUAEUBQAYEtDBBN8CwOPQsAErBoACcM
-LTMAKgwtNAAA2wEQIEQCVCMODUxNNwDxBgwADA5NDhBNDgwOPCAMPVwOgAw9PG4AGExuAABfAEPw
-IwytNwBAzQwQvXwCdoAMvQ4QDs0pAAHaAHIM8CIMnQwOKwABSAARHKoCpoAODI0cMAydHCBYAHBA
-PQ7wIgyN2gEQsBYA8gE9DDCdIK0MoAx9DFAMjQ4wFAAEKQDwAw4cfkAeDA7ADA4MDlAMDgxAXgoA
-4DCODA6wDC4MHgxwDG4MGABgUC4MMAwuCgAAiQMgVw4mAEBALgxgCAAiDB4IABFAFgARIAYAEJAW
-AAMEADEgDB5MACIOYBEAYA4MDvBGTX4DMEAMfZwBEQ5rAcE9kAzNEA69YI0M8EaeAHRAjQ5ADD1A
-hwEQvQACsAwOMB6NDPAKPvAoQgAgDkDqAAFCACQtDEMAEc0pAJLwCQ4ADgAe8CdMAAHhAkYMLTAO
-UQAAmAMCAgDxARAOPVw9EA49fPAJTgAO8CZbAANNAxMwgwAQPQkCM6AOPWcBQPAQLhBfABElXwAC
-vwIGiQAAXwBTLQ6gDD3EAXAO8A4eAB4QYwNmCQ7wC01MKQAYIGAAMQBOQKEAADUE8wQu8AsOAB4A
-DgAu8AkMDvAKDM0M5gARIJ4AA54CM50MMJUAUA598ApeMgAw8CXdXwA4DiA9XgABKQDwCExNEA4M
-fRzwBh4ADhAeAC7wJQzNDiAOuwAZIL4AAC4AcM0MMA6N8AcrADNO8CUwAUE9DiBNygIHtwDxCQ4c
-DhwOMA69DA5AHA4MTQwO8AceEB7wKBwBSBAO7RCxAABGAYCtDKAePQzwB90AISlNJQA73QwQagEA
-sQMQwCYAMT7wKq4FIQ4gJQARTNcAEGwPAyKMDnAFQA4gfD3yASHwK00AsAw9Xk0QDN0gDL0QEQIR
-Pe0EQr0M8EX1BWAQDD1QDD0pAhEggQMDIwBxDBAOvQ7wRf0BIBBNfAJCMAydQEQAoQw9QA49EAyt
-8EcFARBABgBwDhAMHQwNUAUAEDCKBAMCAEJADB0cCgB1DQwQDh0MDQIAbCAdDA1ADhgABdoG8Rr-
-Nw7wUS7wHR7wJB7wHQwO8CB_8H4O8CA_AE7wrj4QHgAe8KxOMD7wqxcC8AsQPvBBDvBdHhBO8D4e
-TPBajvA6DA48HjzwW1UB8AA1HB5sHgwOPPBdHvA0DryNBKAO8BEe8E4e8B-cDgDwDPASHvAXHvAl
-DvAe-Acu8Dge8FIO-Avwmx58Ls8B8AdsDizwmg5sDhwuAKwuDA7wfy7wAn48wAMxHgCcxQNg8IAO
-8AFe0QMRHBcAEGwMADEe8JHgA0AMHgxOCAAxTA4cIwBBDA7wkssCcAwOHBAMDnwTAEBuDA5wggIS
-iiEAEACxADAuDA4rBGBQngAO8IRGABA_GwCgLD4MHgyeMK4PFg4AIPCBGQAxHhweVwQSPiMA0gwO
-IP4ADAsO8IGODA5RAAMIAKBuEH4QLgtu8IEcJQAEUwARDOgEgBDuCwwLDB4L4ABCDB4QHjkAMCAe
-ECIAoi4Q-gQADhwO8G5MAPAA8AIOIAwODHAsDgwwPgC_OAAAOgBhNQ7wJwwORQAQBjsF8AIOUB4w
-rkAuCwwOCy7wNR7wIgkBIP4GRwNiXmBOCw4MNABgIk4M-gpQowTwBI4gfoCO8GheCw4L-gYQ-gIg
-fiAXAKAOEI7wZ-4GAI4AEwBgEA5wfvBpkQDxBQsOC04ADgt_Cx4LTgCOMA4ADiCOGgDwCn4QPgAe
-Cx4QDhAOQH4gDlB_8HnuAG7QjjAhAPAEDB7wW94QLgseEH4ADiA_ED5QnhQAUEwOXA4QOwHDAA4L
-LhCuIL4grvBqQAHwDfABPhA_EF4QPjD_BAAu8JC_QP4H8GcOHAs_AD7LAQCFAvMR4O5ArgCO8Gj7
-CBAOIF4g-gFA-gLwaA77CA4QnhBOAA4CANMeYP4A8Gn7CgwAnhBeFADwBw6QzvBqDPsAHIsQLgBO
-EP4BkI7wa-sIAvAGID4QbgBOAB7wFw7wUAwOLAAO_wwMFAHwDRAe8Az_AgwOgA7wSQ5cTQAOq2AO
-iw6w-gNQTM1JA_BTDH0MHQAOGxxbDBAOMBsA8A9rDRsMmw4gHA4M-QAO8E1cPQwdPA0ADqsATgAO
-iw4rAfUCMA77ByAs-QAc8E0MbUwdDB0eAPEEAD4AHhAMmwAOmwwgHD1MjQzwTAMFEC1VCAQmAPAB
-DBAOAC4gHAtMG3wePBA8LSoC8AMOPQw9DvBEDg0cDRwtDA1MPQurAEEALgsOdQBhHgAOIA4cYwFA
-rA48EFMFsBweDC0sLfBATo0sEgQwHUs9dgAAlAEgAAynAPARAB4gLA4QLgBufBAcfSwtHC3wPwxd
-DF0sPQsNKw0LHQu1AACQBlCLDoAsPpgB8AAAPnwQDP0ADC0O8D9MXTxTAAEqAABXANBgDosMYIye
-fBAc-QMMpwDwGDwdDC0MHQtNWwAOqwwLDgwOCwybDlAO-AoOEAz9BA7wSgw9TA0MXT4A8AlLDPsG
-DiAOEA78Bx4NDhBNLA0cjQwO8E0EBcJcDQxNAA47DA77Aiy6BsAQbB7cHgwOEF0OLI2gAfApTQwN
-TA1cPQAO_wgMCwwLDiAOIPwHDiwQDE0OHA0MbQwdDvBTDi0MDRw9EPsJDgsMcDwO-AUOEDyiABAN
-VAXwCiwO8DMe8A4OPG0QDvsHDAsMgA68DkwOAEwMBrEsAA4ATgAuIB4ALlgDAQIA8AXwHw7wFAxO
-MAv8AAtcDvAITA5MDioB8ADwAH4A-gPwRg4MC9weXA5HA3HwAawOoA4QNwDwADB_AP4E8EcOC9we
-TAsQLhMAESACAGEADhAOnDCTAQFoAXAeAP4R8EgORwQhC4wGACEcECcAIQAuAgBgDjBeAC5AagKC
--hUAPvBJDjA2AEFuEE4QTQBgIA4wDvACLwDE-gbwcx4AXvAALgCOYADwCvB5LiAOUD4gLvAADgwe
-AF4M8IUMTnA_AC6DALCcDhwOfA7wgS7QXnUJ0fwKLrAO8HAsjiAOID4RAPEBBz4cTlAO8HEcDkwu
-HHAeIHICMCw_TDQFcTAO8HQOPA5wBQGFAGAgHhwOHB5SABJsOwWgHvB6DC4sDgwOHNAA8BdQHkwu
-bA7cXvB_XA4cQA5AfA5MPlxOHC4MHvCBDA4sDgwgDlAerJIAID4sMQbhLB7wRx4cQA4gDlwOzA7z
-BdAe8C0O8EoOQA4gHiwuMgjwAPwCTvBoDvAaDkwOnA4sDlgGUPBpHvAZHAZQHmwOPE4mA-AA8KIO
-DA5sThw_8KUejA4sEgAwpy6MBwBjDQwO8Iw_rADRDg7wlh7w--_tLvC2DlMHQHge8LYSAAUBAKMa
-HvAWHvCPDvAWFwATGSIAIGUOCADyBVsODPBKDvAVHvBZDvBNDvBYLvC1SgAr-5i3DnMzMi42OTE2
-AQAUN8AOVjMuNjE2FgAByQ4fMQQPKA87AP------------------QlBtPTh9fQ==
+NS0yNCAwMToxNjoyOCIscmV2aXNpb249MTAwM11dbHo0AOUPAAA_TgAA8Sh7WzBdPXtibXA9cHh1
+AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3g9LTAuMTI1DQAQeQ0AyzYyNSx6b29t
+PTl9LEgA8CMFVoAGHxwfHh8cBjAPGRAGLxwfHi8cBhAvGQY-HB8ePxwGHxkABr8cBhAGB54HBhAG
+twoARz4XPgcIAP8VFy4XLhcGAB8ZBhceFx4XBi0QBncGEA0wBlcGcA1WDWAdUB0gowAm-w0gHxlQ
+HmAOUA5weXAJFRkVCWAJdQlQCQUZFRkFCAAOIUAZCAAsGTAIAK8lGRUZJSDZENUAPAEn8AQUeGAY
+EhgSGEAoEhgSKDAoFRgVBgAhHx0HABUeBgCxGA4VHhUOGDAYDlUGAD4FOwUIAE9QDxlQKgEsMBAW
+FQIAEiAHACMWAAgAKxUGCAArFgUIAA8iACoTABMAIgUgEwAvBRDrAS3wDV8QDnANXA0wDhCdEC4d
+fB0eAA0MDQxdDA0MDRAKAD8NOw0MABoBOgD-BwAeHXwdLhCdEA4wDVwNcA5dDmAeUB6XAi7wGQMw
+Aw5wczAOEBNbExAuEwtfGwsTHgATCw1bDQsTIAMLDQs9Cw0LAzAKAD8NGw0MAAIBIgATIDQAgQAe
+EwtdCxMuUQBBDjBzcGMAD6wAMvEHUA5QvRAOAA02Hw82DQAuDTYcNg0eEAcAEzAGABOcBAAGFAAh
+EB4HACEuAAcAfwAOEL1QDlCQADPwEVYOcAZXBjAOEAYXDxwXDRcGEC4GF10XBh4ABhctFy0XYgQ1
+PRc9dgQDDAAECADxAxd9FwYAHgYXHRcdFwYuEAYXDUQAEQ53BC8OVqQALC-w8DsAnAblAfAFthAO
+AAYwFhAmAC4GIBYQNh4QBhAOAPAABjAGABYQJhAGMCYQJhAWIgBAECYwBgwAARwA0CYQFhAGEB42
+EBYgBi4OAG8wBgAOELbwAS8v8PA7AP-----------90FhArQ8AQO0C6wHvBQHrAu0A4ADkMKD7wB
+-4f-DFC4EA4AODs4AC4YexgeEBgbPxsbGDAIG10bCAYAALEYGz0bGBAeGHsYLjUAPw4QuDEMMP86
+B28UgA5kYA4kLx8UMC4kHR4kEA5UPiQADgQOpA0ARA0UDjQNECQ9JA4UDRAUHS4UDhQNIA4EDT40
+HSAULkQNQIQNUERNYE3wCYMAJvAdQC8UwBQgBA5QBA7gBCAO4AQQJNAPHwRABOAEDqAEIAQQFBAU
+EA0EYAQQFCAGABENFABg0BQAFKANFABvJMANBPADBAIoDzsA----------------------------
+----------8PU8jIBPD-AQDxDocPFfC2Dg8U8NyOIL5wfnCeIL7wAj4wPkA_ID5QCADzMfAlDo8Z
+DhAPFK8ZcH1wnSAPFK3wAj0OEA49DjA9DhAMLQ5APQwQDD0wDj0M8CIOrQ4QDJ0MYA59HEAOnSAM
+nQwtABFALABRDA4wDC0uABIMLgDEDBAMzTAMrQ4gvSAMWABxQAwtDhAMTSoA8AQOPSAMTQzwFB6w
+Dk0MLRwOEAw9fS7IMD1MLQ4gPXwgDD1sYQAxTR4QjQAQIF8A9g0UHsAOPQ6ADC0MQD0gDi0MMD0M
+ID0MkAwtDPAJMwAibRCSAJIgTfAkDj0MHmAwADAMLQyBAAAIAAgyAAGbADBtHD2aAHAQTQ7wJA5t
+MQAQMKgACGIAZgAOAA7wBWYAEM1jAJoADE3wJQ5tLDBjAAAyAEaNDvADLgDQLRx9DBAOjQzwKAx9
+DD4AASwAEk2NAEeNDPADjQBgLQ4AfQ4QFgBBKA6NDCwAFT1XABmdVgBRDBAOXQwrACArDAkAIa1A
+iQEBKgCYLWyQDg0MDQ4wWwAwDCBd6QBQHE3wLAxYAWBNDA0MHQw2ADNNDhBLARAAmwAIZQARQFAB
+gS0MEE3wLA49CwASsGgAJwwtMwAqDC00AADbARAgRAJUIw4NTE03APEGDAAMDk0OEE0ODA48IAw9
+XA6ADD08bgAYTG4AAF8AQ-AjDK03AEDNDBC9fAJ2gAy9DhAOzSkAAdoAcgzwIgydDA4rAAFIABEc
+qgKmgA4MjRwwDJ0cIFgAcEA9DvAiDI3aARCwFgDyAT0MMJ0grQygDH0MUAyNDjAUAAQpAPADDhx_
+QB4MDsAMDgwOUAwODEBeCgDgMI4MDrAMLgweDHAMbgwYAGBQLgwwDC4KAACJAyBXDiYAQEAuDGAI
+ACIMHggAEUAWABEgBgAQkBYAAwQAMSAMHkwAIg5gEQBgDgwO8EZNfgMwQAx9nAERDmsBwT2QDM0Q
+Dr1gjQzwRp4AdECNDkAMPUCHARC9AAKwDA4wHo0M8Ao_8ChCACAOQOoAAUIAJC0MQwARzSkAkvAJ
+DgAOAB7wJ0wAAeECRgwtMA5RAACYAwICAPEBEA49XD0QDj188AlOAA7wJlsAA00DEzCDABA9CQIz
+oA49ZwFA8BAuEF8AESVfAAK-AgaJAABfAFMtDqAMPcQBcA7wDh4AHhBjA2YJDvALTUwpABggYAAx
+AE5AoQAANQTzBC7wCw4AHgAOAC7wCQwO8AoMzQzmABEgngADngIznQwwlQBQDn3wCl4yADDwJd1f
+ADgOID1eAAEpAPAITE0QDgx9HPAGHgAOEB4ALvAlDM0OIA67ABkgvgAALgBwzQwwDo3wBysAM07w
+JTABQT0OIE3KAge3APEJDhwOHA4wDr0MDkAcDgxNDA7wBx4QHvAoHAFIEA7tELEAAEYBgK0MoB49
+DPAH3QAhKU0lADvdDBBqAQCxAxDAJgAxPvAqrgUhDiAlABFM1wAQbA8DIowOcAVADiB8PfIBIfAr
+TQCwDD1eTRAM3SAMvRARAhE97QRCvQzwRfUFYBAMPVAMPSkCESCBAwMjAHEMEA69DvBF-QEgEE18
+AkIwDJ1ARAChDD1ADj0QDK3wRwUBEEAGAHAOEAwdDA1QBQAQMIoEAwIAQkAMHRwKAHUNDBAOHQwN
+AgBsIB0MDUAOGAAF2gbxGv83DvBRLvAdHvAkHvAdDA7wIH7wfg7wID4ATvCuPhAeAB7wrE4wPvCr
+FwLwCxA_8EEO8F0eEE7wPh5M8FqO8DoMDjwePPBbVQHwADUcHmweDA488F0e8DQOvI0EoA7wER7w
+Th7wH9wOAPAM8BIe8Bce8CUO8B78By7wOB7wUg78C-CbHnwuzwHwB2wOLPCaDmwOHC4ArC4MDvB-
+LvACfjzAAzEeAJzFA2DwgA7wAV7RAxEcFwAQbAwAMR7wkeADQAweDE4IADFMDhwjAEEMDvCSywJw
+DA4cEAwOfBMAQG4MDnCCAhKKIQAQALEAMC4MDisEYFCeAA7whEYAED4bAKAsPgweDJ4wrg8WDgAg
+8IEZADEeHB5XBBI_IwDSDA4g-gAMCw7wgY4MDlEAAwgAoG4QfhAuC27wgRwlAARTABEM6ASAEO4L
+DAsMHgvgAEIMHhAeOQAwIB4QIgCiLhD_BAAOHA7wbkwA8ADwAg4gDA4McCwODDA_AL44AAA6AGE1
+DvAnDA5FABAGOwXwAg5QHjCuQC4LDA4LLvA1HvAiCQEg-gZHA2JeYE4LDgw0AGAiTgz_ClCjBPAE
+jiB_gI7waF4LDgv_BhD_AiB_IBcAoA4QjvBn-gYAjgATAGAQDnB_8GmRAPEFCw4LTgAOC34LHgtO
+AI4wDgAOII4aAPAKfhA_AB4LHhAOEA5AfiAOUH7wee4AbtCOMCEA8AQMHvBb3hAuCx4QfgAOID4Q
+PlCeFABQTA5cDhA7AcMADgsuEK4gviCu8GpAAfAN8AE_ED4QXhA_MP4EAC7wkL5A-gfwZw4cCz4A
+PssBAIUC8xHg7kCuAI7waPsIEA4gXiD_AUD_AvBoDvsIDhCeEE4ADgIA0x5g-gDwafsKDACeEF4U
+APAHDpDO8GoM_wAcixAuAE4Q-gGQjvBr_wgC8AYgPhBuAE4AHvAXDvBQDA4sAA77DAwUAfANEB7w
+DP4CDA6ADvBJDlxNAA6rYA6LDrD_A1BMzUkD4FMMfQwdAA4bHFsMEA4wGwDwD2sNGwybDiAcDgz9
+AA7wTVw9DB08DQAOqwBOAA6LDisB9QIwDvsHICz9ABzwTQxtTB0MHR4A8QQAPgAeEAybAA6bDCAc
+PUyNDPBMAwUQLVUIBCYA8AEMEA4ALiAcC0wbfB48EDwtKgLwAw49DD0O8EQODRwNHC0MDUw9C6sA
+QQAuCw51AGEeAA4gDhxjAUCsDjwQUwWwHB4MLSwt8EBOjSwSBDAdSz12AACUASAADKcA8BEAHiAs
+DhAuAG58EBx9LC0cLfA-DF0MXSw9Cw0rDQsdC7UAAJAGUIsOgCw_mAHwAAA_fBAM-QAMLQ7wP0xd
+PFMAASoAAFcA0GAOiwxgjJ58EBz9AwynAPAYPB0MLQwdC01bAA6rDAsODA4LDJsOUA78Cg4QDP0E
+DvBKDD1MDQxdPgDwCUsM_wYOIA4QDvwHHg0OEE0sDRyNDA7wTQQFwlwNDE0ADjsMDvsCLLoGwBBs
+HtweDA4QXQ4sjaAB8ClNDA1MDVw9AA77CAwLDAsOIA4g-AcOLBAMTQ4cDQxtDB0O8FMOLQwNHD0Q
+_wkOCwxwPA78BQ4QPKIAEA1UBfAKLA7wMx7wDg48bRAO_wcMCwyADrwOTA4ATAwGsSwADgBOAC4g
+HgAuWAMBAgDwBfAfDvAUDE4wC-wAC1wO8AhMDkwOKgHwAPAAfgD_A-BGDgwL3B5cDkcDcfABrA6g
+DhA3APAAMH4A-gTwRw4L3B5MCxAuEwARIAIAYQAOEA6cMJMBAWgBcB4A-hHwSA5HBCELjAYAIRwQ
+JwAhAC4CAGAOMF4ALkBqAoL_FQA_8EkOMDYAQW4QThBNAGAgDjAO8AIvAMT_BvBzHgBe8AAuAI5g
+APAK8HkuIA5QPiAu8AAODB4AXgzwhQxOcD4ALoMAsJwOHA58DvCBLtBedQnR-AousA7wcCyOIA4g
+PhEA8QEHPhxOUA7wcRwOTC4ccB4gcgIwLD5MNAVxMA7wdA48DnAFAYUAYCAeHA4cHlIAEmw7BaAe
+8HoMLiwODA4c0ADwF1AeTC5sDtxe8H5cDhxADkB8Dkw_XE4cLgwe8IEMDiwODCAOUB6skgAgPiwx
+BuEsHvBHHhxADiAOXA7MDvMF0B7wLQ7wSg5ADiAeLC4yCPAA-AJO8GgO8BoOTA6cDiwOWAZQ8Gke
+8BkcBlAebA48TiYD8ADwog4MDmxOHD7wpR6MDiwSADCnLowHAGMNDA7wjD6sANEODvCWHvD--60u
+8LYOUwdAeB7wthIABQEAoxoe8BYe8I8O8BYXABMZIgAgZQ4IAPIFWw4M8EoO8BUe8FkO8E0O8Fgu
+8LVKACv-mLcOczMyLjY5MTYBABQ3wA5WMy42MTYWAAHJDh8xBA8nHzg7AP------------------
+QlBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-NS0yMSAxNDozMToyMSJdXQ==
+NS0yNCAwMToxNjoyOCJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM1Iixtb2RpZmllZD0iMjAyNS0w
-NS0yMSAxNDoxMjowOCIscmV2aXNpb249NjgzXV1sejQAkQAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
+NS0yNCAwMToxNjoyOCIscmV2aXNpb249OTQxXV1sejQAkQAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
 KCJpMTYiLDMyAwAvIjABAP-------60TNAQADwEAZV81MDAwNoQAZFMzMDAwMQgALzcwAQBfFzIE
 AB44iAEPAQD---------nvEIIiksaGlkZGVuPWZhbHNlLHBhbl94PTAIANJ5PTAsdGlsZV9oPTE2
-CgAQdwoAgHpvb209MX19
+CgAQdwoAgHpvb209Mn19
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-NS0yMSAxNDozMToyMSJdXQ==
+NS0yNCAwMToxNjoyOCJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM2Iixtb2RpZmllZD0iMjAyNS0w
-NS0yMSAxNDoxMjowOCIscmV2aXNpb249NjY4XV1sejQA3AEAAOUKAAD-MHB4dQADKAAABAAED0AQ
+NS0yNCAwMToxNjoyOCIscmV2aXNpb249OTM0XV1sejQASwIAAEALAAD-MHB4dQADKAAABAAED0AQ
 Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-EDqgEQ
 Bg8gEAEgASAB8AAPEhACDgD5Lg8hD6oQAQ--IA8xIAFQAQkgDz4gD1TwBgEIIA9xUALwjA8oD--w
 xg-4Cg--D4AP9w8NAXAPYg9BD04PR8BTAEACEAIOUQCxJQ8WD-ARMA9X8MM8AFoGDyHwr0AAEGU_
 AHAPQQ9HD0WgRAAcHUQA_hYhIAEP-hAED1YPMYAPEQIQBA9ADyhAAiABBBAEDvCjDQ_eAvDFVAAA
 lgD9CzIPbg9vD2QPZQ8tD2YPbQ9iD2EfcyABEAYOYQARCvUAHQP0AMFBIA9KEAIPF-CLDQP3ABUD
-YgA0ZA9J9gAfDrEAAFswD0DwwzUAL-AJLQD-----rx--AQCs8CjID0AADxBADzDzLwDzLw7zL-Bw
-D0AABEAPKQ8vDg8rDzcPKg8bDyQPKg0PJA8sDyHzI8DzIw8RNAhhEQsPEA8OCQBBDB7zIzkA-wMP
-FEAPMA8i8y4BAvMuDw0G8y5QAA4vzwNRAAUBoQAi-96iAEXzsPBwCgAf-wEAGh6_OAAPAQD-pVD-
-----tA==
+YgA0ZA9J9gABRABRBQcPNhFTACEPH1QAYA8DEAFADrEA_SYgDlABAhABMA-U8KMNA9ABUA8VDyUP
+Kg8vDzUPPw9KD1oPag96D38Pjw_fD7kPzw-p8J8BAG0Ar2wPQQ9TD0UPUrC-AAJ7IAEwD0Dww6QA
+L-AJLQD-----gh--AQCsUMgPQAAPygXwIjDzLwDzLw7zL-BwD0AABA8NMA8pDy8ODysPNw8qDxsP
+JA8qDQ8kDywPIfMjwPMjDxF5CGERCw8QDw4JAEEMHvMjOwD-BA8UAjAPMA8i8y4BAvMuDw0G8y5T
+ABAvzwNUAAritgEwDynzLwTzLw8Q8y92ARCVGQBlEEDzsPBwCgAf-wEAGh6_OAAPAQD-pVD-----
+tA==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-NS0yMSAxNDozMToyMSJdXQ==
+NS0yNCAwMToxNjoyOCJdXQ==
 :: asteroid.lua
---[[pod_format="raw",created="2025-05-20 13:51:18",modified="2025-05-21 14:12:08",revision=282]]
+--[[pod_format="raw",created="2025-05-20 13:51:18",modified="2025-05-23 23:11:40",revision=522]]
 function new_asteroid(position)
 	return{
 		_position=position,
@@ -115,7 +118,10 @@ function new_asteroid(position)
 		_sprite=0,
 		_flipx,
 		_flipy,
+		
+		health=0,
 		threat=0,
+		name="dummy",
 		init=function(self)
 			self._sprites=game.sprites1
 			self.flipx=rnd() < 0.5
@@ -130,6 +136,13 @@ function new_asteroid(position)
 		draw=function(self)
 			spr(self._sprites[self._sprite].bmp,self._position.x,self._position.y,self.flipx,self.flipy)
 		end,
+		damage=function(self,d)
+			self.health-=d
+			if(self.health<1) then
+				self:kill(2)
+			end
+			return self.health
+		end,
 		kill=function(self,mode)--0 hit, 1 deflected, 2 destroyed, 3 passed
 			del(game.asteroids,self)
 		end
@@ -140,8 +153,9 @@ function new_small_asteroid(position)
 	local ret = new_asteroid(position)
 	ret.threat=1
 	ret._sprite=65
-	
+	ret.name="swarm"
 	ret.basekill=ret.kill
+	ret.health=1
 	ret.kill=function(self,mode)
 		if(mode==0) then
 			play_sfx(1,1)
@@ -156,8 +170,9 @@ function new_large_asteroid(position)
 	local ret = new_asteroid(position)
 	ret.threat=2
 	ret._sprite=64
-	
+	ret.name="large"
 	ret.basekill=ret.kill
+	ret.health=30
 	ret.kill=function(self,mode)
 		if(mode==0) then
 			play_sfx(0,1)
@@ -167,7 +182,7 @@ function new_large_asteroid(position)
 	return ret
 end
 :: asteroid_spawner.lua
---[[pod_format="raw",created="2025-05-20 14:00:55",modified="2025-05-20 19:15:15",revision=216]]
+--[[pod_format="raw",created="2025-05-20 14:00:55",modified="2025-05-24 01:16:28",revision=374]]
 new_asteroid_spawner=function ()
 	return {
 		spawn_rate=60*1,
@@ -176,7 +191,8 @@ new_asteroid_spawner=function ()
 		right=480-16,
 		asteroids,
 		init=function(self)
-			self.asteroids={new_small_asteroid,new_small_asteroid,new_large_asteroid}
+			self.asteroids={new_small_asteroid,new_large_asteroid}
+			--self.asteroids={new_large_asteroid}
 		end,
 		update=function(self)
 			if(self.timer>self.spawn_rate) then
@@ -552,9 +568,10 @@ function new_free_part(position,part)
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-05-19 15:03:03",modified="2025-05-21 14:12:08",revision=907]]
+--[[pod_format="raw",created="2025-05-19 15:03:03",modified="2025-05-24 01:16:28",revision=1158]]
 function new_game()
 	return{
+		_actions = {},
 		_ship=new_ship(new_point(480/2,270/2+30)),
 		free_parts={},
 		asteroids={},
@@ -586,10 +603,16 @@ function new_game()
 	 		if(flr(time()*60)%60==0)then
 	 			self.score+=1
 	 			self._part_spawner.spawn_rate+=1
-				self._asteroid_spawner.spawn_rate=max(0,self._asteroid_spawner.spawn_rate-1)
+				self._asteroid_spawner.spawn_rate=max(0,self._asteroid_spawner.spawn_rate-0.1)
 	 		end
 	 		--pq(#self._free_parts,#self._ship._parts)
-		
+		 	foreach(self._actions, function(action)
+			   if costatus(action) then
+			      coresume(action)
+			   else
+			      del(self.actions,action)
+				end
+			end)
 	 	
 		end,
 		draw=function(self)
@@ -603,12 +626,22 @@ function new_game()
 	 	 	end)
 			self._ship:draw()
 			print_right(self.score,0)
-			pq(stat(1))
+		end,
+		addAction=function(self,action)
+			add(self._actions,cocreate(action)) 
+		end,
+		death=function(self)
+			self:addAction(function()
+				for i=1,60*2 do
+					yield()
+				end
+				gameover()
+			end)
 		end		
 	}
 end
 :: game_over.lua
---[[pod_format="raw",created="2025-05-20 16:43:55",modified="2025-05-20 20:31:23",revision=83]]
+--[[pod_format="raw",created="2025-05-20 16:43:55",modified="2025-05-23 23:12:17",revision=181]]
 function new_gameover()
 	return{
 	timer,
@@ -616,8 +649,7 @@ function new_gameover()
 	init=function(self)
 		self.timer=time()
 		camera_helper:set_camera(new_point(0,0),true)
-		stop_sfx(nil,0
-		)
+		stop_sfx()
 	end,
 	update=function(self)
 		camera_helper:update_camera()
@@ -654,7 +686,7 @@ function new_win()
 end
 :: helpers.lua
 b64$LS1bW3BvZF9mb3JtYXQ9InJhdyIsY3JlYXRlZD0iMjAyNS0wNS0xOSAxNToxMzo1MyIsbW9k
-aWZpZWQ9IjIwMjUtMDUtMjEgMTQ6MTI6MDgiLHJldmlzaW9uPTQ5Nl1dCmZ1bmN0aW9uIHNtKGEp
+aWZpZWQ9IjIwMjUtMDUtMjIgMTk6MzM6MDMiLHJldmlzaW9uPTY1Nl1dCmZ1bmN0aW9uIHNtKGEp
 CglyZXR1cm4gc2V0bWV0YXRhYmxlKGEsYSkKZW5kCmZ1bmN0aW9uIHJhbmRvbShuKQoJaWYobj4w
 KSB0aGVuIAoJCXJldHVybiBybmQoKSpuCgllbHNlCgkJcmV0dXJuIC1uK3JuZCgpKm4qMiAKCWVu
 ZAplbmQKZnVuY3Rpb24gcGlja19yYW5kb20oYXJyKQoJaWYgYXJyPT1uaWxsIHRoZW4gcmV0dXJu
@@ -701,13 +733,13 @@ YXZlbmRlciAgICAgPSAyNCwKCWxpZ2h0X3BpbmsgICA9IDI1LAoJZGFya19icm93biA9MjgKCS0t
 IC4uLnlvdSBjYW4gY29udGludWUgYWRkaW5nIGFzIG5lZWRlZAp9Cm5ld190aW1lcj1mdW5jdGlv
 bihzcGF3bl9yYXRlLHN0YXJ0LGFjdGlvbikKCXJldHVybnsKCXNwYXduX3JhdGU9c3Bhd25fcmF0
 ZSwKCXRpbWVyPXN0YXJ0LAoJYWN0aW9uPWFjdGlvbiwKCXVwZGF0ZT1mdW5jdGlvbihzZWxmLG90
-aGVyKQoJCWlmKHNlbGYuc3Bhd25fcmF0ZT4xKQl0aGVuCQoJCQlpZihzZWxmLnRpbWVyPnNlbGYu
-c3Bhd25fcmF0ZSkgdGhlbgoJCQkJc2VsZi5hY3Rpb24ob3RoZXIpCgkJCQlzZWxmLnRpbWVyPTAK
-CQkJZWxzZQoJCQkJc2VsZi50aW1lcis9MQoJCQllbmQKCQllbHNlCgkJCWZvciBpPTEsMS9zZWxm
-LnNwYXduX3JhdGUsMSBkbwoJCQkJc2VsZi5hY3Rpb24ob3RoZXIpCgkJCWVuZAoJCWVuZAoJZW5k
-Cgl9CmVuZA==
+aGVyKQoJCWlmKHNlbGYuc3Bhd25fcmF0ZT09MCkgdGhlbgoJCQlyZXR1cm4KCQllbHNlaWYoc2Vs
+Zi5zcGF3bl9yYXRlPjEpCXRoZW4JCgkJCWlmKHNlbGYudGltZXI_c2VsZi5zcGF3bl9yYXRlKSB0
+aGVuCgkJCQlzZWxmLmFjdGlvbihvdGhlcikKCQkJCXNlbGYudGltZXI9MAoJCQllbHNlCgkJCQlz
+ZWxmLnRpbWVyKz0xCgkJCWVuZAoJCWVsc2UKCQkJZm9yIGk9MSwxL3NlbGYuc3Bhd25fcmF0ZSwx
+IGRvCgkJCQlzZWxmLmFjdGlvbihvdGhlcikKCQkJZW5kCgkJZW5kCgllbmQKCX0KZW5k
 :: include.lua
---[[pod_format="raw",created="2025-05-19 15:00:08",modified="2025-05-21 14:12:08",revision=707]]
+--[[pod_format="raw",created="2025-05-19 15:00:08",modified="2025-05-24 01:16:28",revision=965]]
 include "lib.lua"
 include "point.lua"
 include "helpers.lua"
@@ -867,10 +899,10 @@ function qf(fmt,...)
 end
 function pqf(...) printh(qf(...)) end
 :: lightroad.lua
---[[pod_format="raw",created="2025-05-20 20:49:16",modified="2025-05-21 14:12:08",revision=230]]
+--[[pod_format="raw",created="2025-05-20 20:49:16",modified="2025-05-23 23:11:40",revision=442]]
 new_lightroad=function()
 	return{
-		beam_timer=new_timer(2,0,function(obj)
+		beam_timer=new_timer(0,0,function(obj)
 			local beam=new_beam(obj)
 			beam.position= new_point(obj.left+random(obj.right-obj.left),-16)
 			beam.color=pick_random(obj.beam_colors)
@@ -963,7 +995,7 @@ new_star=function(parent)
 end
 
 :: main.lua
---[[pod_format="raw",created="2025-05-19 14:05:35",modified="2025-05-20 19:12:40",revision=476]]
+--[[pod_format="raw",created="2025-05-19 14:05:35",modified="2025-05-22 19:53:27",revision=598]]
 include "include.lua"
 tileSize=16
 halfTileSize=tileSize/2
@@ -1006,9 +1038,11 @@ end
 function _draw()
 	modes[mode]:draw()
 end
+
+
 include "error_explorer.lua"
 :: parts.lua
---[[pod_format="raw",created="2025-05-19 15:12:11",modified="2025-05-21 14:12:08",revision=737]]
+--[[pod_format="raw",created="2025-05-19 15:12:11",modified="2025-05-24 01:16:28",revision=1173]]
 function new_part(position)
 	return{
 		_position=position,
@@ -1023,34 +1057,69 @@ function new_part(position)
 		},
 		mass=1,
 		thrust=0,
+		_energy=0,
+		_energy_max=0,
+		_energy_regen=0,
+
 		location=new_point(0,0),
 		init=function(self)
 			self._sprites=game.sprites1
 		end,
-		update=function(self)
+		can_use=function(self)
+			return self._energy_max>0 and self._energy>=self._energy_max
+		end,
+		can_regen=function(self)
+			return true
+		end,
+		update=function(self)		
+			if(self:can_regen()) then
+				self._energy=min(	self._energy+self._energy_regen,self._energy_max)
+			end
 		end,
 		draw=function(self)
+			if(self:can_use()==false)then
+				pal(11,19)
+			end
+			
 			spr(self._sprites[self._sprite].bmp,self._position.x,self._position.y)
+			
+			pal()
+
+			
 		end,
 		set_position=function(self,position)
 			self._position=position+self.location*16
 		end,
 		kill=function(self)
+			for i=1,#game._ship.parts do
+				local part=game._ship.parts[i]
+				if(part.defend!=nil) then
+					if(part:defend(self)) then
+						return false
+					end
+				end
+			end		
 			del(game._ship.parts,self) --fix
+			return true
 		end
 	}
 end
 function new_part_command(position)
 	local ret = new_part(position)
 	ret._sprite=1
-	ret.thrust=.5	
+	ret.thrust=.25
 	ret.name="command"
-	--ret.baseinit=ret.init
-	--ret.init=function()
-	--	ret:baseinit()
-	--end
+	ret.attach_sides = {
+		["1,0"] = true,   -- right
+		["-1,0"] = true, -- left
+		["0,-1"] = false,  -- up
+		["0,1"] = true   -- down
+	}
+	ret.basekill=ret.kill
 	ret.kill=function(self)
-		gameover()
+		if(self:basekill()) then
+			game:death()
+		end
 	end
 	return ret	
 end
@@ -1070,6 +1139,7 @@ end
 function new_part_bulkhead(position)
 	local ret = new_part(position)
 	ret._sprite=4
+	mass=2
 	ret.name="bulkhead"
 	ret.attach_sides = {
 			["1,0"] = false,   -- right
@@ -1086,17 +1156,120 @@ function new_part_scaffold(position)
 	return ret	
 end
 
+function new_part_gun(position)
+	local ret = new_part(position)
+	ret._sprite=3
+	ret.name="gun"
+	ret._energy_max=30
+	ret._energy_regen=0.5
+	ret._target=nil	
+	ret._gun_arc=8
+	ret.attach_sides = {
+			["1,0"] = false,   -- right
+			["-1,0"] = false, -- left
+			["0,-1"] = false,  -- up
+			["0,1"] = true   -- down
+		}
+	ret.baseupdate=ret.update
+	ret.update=function(self)
+		self:baseupdate()
+		if(self:can_use()) then
+			for i=1,#game.asteroids do
+				local asteroid= game.asteroids[i]
+				if(block_collision(asteroid._position,new_point(tileSize,tileSize) 
+				,new_point(self._position.x+halfTileSize-self._gun_arc,0)
+				,new_point(self._gun_arc,self._position.y)) )then
+					if(asteroid.name=="large") then					
+						self._target=asteroid
+						play_sfx(4, 0)
+					end
+				end
+			end
+		end
+		if(self._target!=nil) then
+			self._energy-=1
+			if(self._target:damage(1)<1) then
+				self._target=nil
+				stop_sfx(4, 0)
+			end
+		end
+		if(self._energy<=0) then
+			self._target=nil
+			stop_sfx(4, 0)
+		end		
+	end	
+	ret.basedraw=ret.draw
+	ret.draw=function(self)
+		self:basedraw()
+		if(self._target!=nil) then
+			line(self._position.x+halfTileSize,self._position.y+halfTileSize,
+				self._target._position.x+halfTileSize,self._target._position.y+halfTileSize,11)
+		end
+	end
+	ret.basekill=ret.kill
+	ret.kill=function(self)
+		if(self:basekill()) then
+			stop_sfx(4, 0)
+		end
+		
+	end	
+
+	ret.can_regen=function(self)
+		return self._target==nil
+	end
+	return ret	
+end
+
+function new_part_shield(position)
+	local ret = new_part(position)
+	ret._sprite=5
+	ret.name="shield"
+	ret._energy_max=60
+	ret._energy_regen=0.5
+	ret._shield_time=0
+	ret._target=nil 
+	ret.defend=function(self,part)
+		if(self:can_use()) then
+			self._energy=0
+			ret._shield_time=30
+			ret._target=part--._position+new_point(halfTileSize,halfTileSize)
+			return true
+		end
+		return false
+	end
+	ret.baseupdate=ret.update
+	ret.update=function(self)
+		self:baseupdate()
+		self._shield_time=max(0,self._shield_time-1)
+	end
+	ret.basedraw=ret.draw
+	ret.draw=function(self)
+		ret:basedraw()
+		if(self._shield_time>0) then
+			line(self._position.x+halfTileSize,self._position.y+halfTileSize,
+				self._target._position.x+halfTileSize,self._target._position.y+halfTileSize,12)
+			circfill(self._target._position.x+halfTileSize,self._target._position.y+halfTileSize,8,12)
+		end
+	end
+	return ret
+end
 
 
 :: part_spawner.lua
---[[pod_format="raw",created="2025-05-20 03:17:51",modified="2025-05-21 14:12:08",revision=373]]
+--[[pod_format="raw",created="2025-05-20 03:17:51",modified="2025-05-24 01:16:28",revision=648]]
 new_part_spawner=function ()
 	return {
 		spawn_rate=60,
 		timer=200,
 		left=0,
 		right=480-16,
-		parts={new_part_engine,new_part_bulkhead,new_part_scaffold},
+		parts={
+				new_part_engine,
+				new_part_bulkhead,
+				new_part_scaffold,
+				new_part_gun,
+				new_part_shield},
+--		parts={},
 		init=function(self)
 		end,
 		update=function(self)
@@ -1118,7 +1291,7 @@ new_part_spawner=function ()
 	}
 end
 :: point.lua
---[[pod_format="raw",created="2025-05-19 15:09:53",modified="2025-05-21 14:12:08",revision=342]]
+--[[pod_format="raw",created="2025-05-19 15:09:53",modified="2025-05-22 19:53:27",revision=507]]
 function new_point(x,y)
 	return sm({
 		x=x,
@@ -1172,17 +1345,22 @@ function new_point(x,y)
 			local math=self + (a - self) * t
 			--pq(self.x,a.x,t,math.x)
 			return math
+		end,
+		box=function(self,left, top, right, bottom)
+			self.x=mid(left,self.x,right)
+			self.y=mid(top,self.y,bottom)
 		end
 	})
 end
 :: sfx.lua
---[[pod_format="raw",created="2025-05-20 16:55:03",modified="2025-05-20 20:31:23",revision=32]]
+--[[pod_format="raw",created="2025-05-20 16:55:03",modified="2025-05-23 23:11:40",revision=122]]
 sfx_channels = {}
 function play_sfx(sfx_id, channel,loop,restart)
 	data = sfx_channels[channel]
 	if data and (restart or false) and data.sfx_id == sfx_id then
 		return
 	end
+	
 		sfx(sfx_id, channel, loop)
 		sfx_channels[channel] = {
 			sfx_id = sfx_id,
@@ -1210,7 +1388,7 @@ function stop_sfx(sfx_id, channel)
 	end
 end
 :: ship.lua
---[[pod_format="raw",created="2025-05-19 15:07:48",modified="2025-05-21 14:12:08",revision=837]]
+--[[pod_format="raw",created="2025-05-19 15:07:48",modified="2025-05-24 01:16:28",revision=1121]]
 function new_ship(position)
 	return{
 		parts={},
@@ -1218,7 +1396,7 @@ function new_ship(position)
 		_speed=new_point(0,0),
 		_mass=0,
 		_thrust=0,
-		_acceleration=.5, --fudge number
+		_acceleration=1, --fudge number
 		init=function(self)
 			local command=new_part_command(self._position)
 			command:init()
@@ -1239,6 +1417,7 @@ function new_ship(position)
 			   self._speed.y+=acceleration
 		   end   
 			self._position+=self._speed --apply velocity
+			self._position:box(0,0,screenWidth-tileSize,screenHeight-tileSize)
 			self._speed*=0.90
 			foreach(self.parts, function(part)
 				part:set_position(self._position)
@@ -1404,7 +1583,7 @@ function parts_can_attach(partA, partB, direction)
 	return a_can_attach or b_can_attach
 end
 :: start.lua
---[[pod_format="raw",created="2025-05-20 16:44:31",modified="2025-05-21 14:12:08",revision=206]]
+--[[pod_format="raw",created="2025-05-20 16:44:31",modified="2025-05-21 20:09:53",revision=240]]
 function new_start()
 	return{
 	sprites,
@@ -1431,15 +1610,12 @@ end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjE0OjE1Iixtb2RpZmllZD0iMjAyNS0w
-NS0yMSAxNDozMToyMSIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImluY2x1ZGUu
-bHVhIzkiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWUubHVhIzUxIix3b3Jrc3Bh
-Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJzdGFydC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHts
-b2NhdGlvbj0ic2hpcC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0icGFydHMu
-bHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImxpZ2h0cm9hZC5sdWEjMTYiLHdv
-cmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRfc3Bhd25lci5sdWEjMSIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0iYXN0ZXJvaWQubHVhIzMxIix3b3Jrc3BhY2VfaW5kZXg9MX0s
-e2xvY2F0aW9uPSJwb2ludC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iaGVs
-cGVycy5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jr
-c3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7
-bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2luZGV4PTR9fV1d
+NS0yNCAwMToxNjoyOCIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImluY2x1ZGUu
+bHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRzLmx1YSMyMDIiLHdvcmtz
+cGFjZV9pbmRleD0xfSx7bG9jYXRpb249InNoaXAubHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7
+bG9jYXRpb249InBhcnRfc3Bhd25lci5sdWEjMTIiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRp
+b249ImdhbWUubHVhIzM1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJhc3Rlcm9pZF9z
+cGF3bmVyLmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdv
+cmtzcGFjZV9pbmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9
+LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
 :: [eoc]
