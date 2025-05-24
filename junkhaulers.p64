@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM2Iixtb2RpZmllZD0iMjAyNS0w
-NS0yNCAwMToxNjoyOCIscmV2aXNpb249MTAwM11dbHo0AOUPAAA_TgAA8Sh7WzBdPXtibXA9cHh1
+NS0yNCAwNDozNDowMCIscmV2aXNpb249MTAyOV1dbHo0AOUPAAA_TgAA8Sh7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3g9LTAuMTI1DQAQeQ0AyzYyNSx6b29t
 PTl9LEgA8CMFVoAGHxwfHh8cBjAPGRAGLxwfHi8cBhAvGQY-HB8ePxwGHxkABr8cBhAGB54HBhAG
 twoARz4XPgcIAP8VFy4XLhcGAB8ZBhceFx4XBi0QBncGEA0wBlcGcA1WDWAdUB0gowAm-w0gHxlQ
@@ -79,21 +79,21 @@ BuEsHvBHHhxADiAOXA7MDvMF0B7wLQ7wSg5ADiAeLC4yCPAA-AJO8GgO8BoOTA6cDiwOWAZQ8Gke
 QlBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-NS0yNCAwMToxNjoyOCJdXQ==
+NS0yNCAwNDozNDowMCJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM1Iixtb2RpZmllZD0iMjAyNS0w
-NS0yNCAwMToxNjoyOCIscmV2aXNpb249OTQxXV1sejQAkQAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
+NS0yNCAwNDozNDowMCIscmV2aXNpb249OTY1XV1sejQAkQAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
 KCJpMTYiLDMyAwAvIjABAP-------60TNAQADwEAZV81MDAwNoQAZFMzMDAwMQgALzcwAQBfFzIE
 AB44iAEPAQD---------nvEIIiksaGlkZGVuPWZhbHNlLHBhbl94PTAIANJ5PTAsdGlsZV9oPTE2
 CgAQdwoAgHpvb209Mn19
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-NS0yNCAwMToxNjoyOCJdXQ==
+NS0yNCAwNDozNDowMCJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM2Iixtb2RpZmllZD0iMjAyNS0w
-NS0yNCAwMToxNjoyOCIscmV2aXNpb249OTM0XV1sejQASwIAAEALAAD-MHB4dQADKAAABAAED0AQ
+NS0yNCAwNDozNDowMCIscmV2aXNpb249OTYwXV1sejQASwIAAEALAAD-MHB4dQADKAAABAAED0AQ
 Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-EDqgEQ
 Bg8gEAEgASAB8AAPEhACDgD5Lg8hD6oQAQ--IA8xIAFQAQkgDz4gD1TwBgEIIA9xUALwjA8oD--w
 xg-4Cg--D4AP9w8NAXAPYg9BD04PR8BTAEACEAIOUQCxJQ8WD-ARMA9X8MM8AFoGDyHwr0AAEGU_
@@ -107,7 +107,7 @@ ABAvzwNUAAritgEwDynzLwTzLw8Q8y92ARCVGQBlEEDzsPBwCgAf-wEAGh6_OAAPAQD-pVD-----
 tA==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-NS0yNCAwMToxNjoyOCJdXQ==
+NS0yNCAwNDozNDowMCJdXQ==
 :: asteroid.lua
 --[[pod_format="raw",created="2025-05-20 13:51:18",modified="2025-05-23 23:11:40",revision=522]]
 function new_asteroid(position)
@@ -182,7 +182,7 @@ function new_large_asteroid(position)
 	return ret
 end
 :: asteroid_spawner.lua
---[[pod_format="raw",created="2025-05-20 14:00:55",modified="2025-05-24 01:16:28",revision=374]]
+--[[pod_format="raw",created="2025-05-20 14:00:55",modified="2025-05-24 04:34:00",revision=397]]
 new_asteroid_spawner=function ()
 	return {
 		spawn_rate=60*1,
@@ -568,7 +568,7 @@ function new_free_part(position,part)
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-05-19 15:03:03",modified="2025-05-24 01:16:28",revision=1158]]
+--[[pod_format="raw",created="2025-05-19 15:03:03",modified="2025-05-24 04:34:00",revision=1193]]
 function new_game()
 	return{
 		_actions = {},
@@ -602,8 +602,8 @@ function new_game()
 
 	 		if(flr(time()*60)%60==0)then
 	 			self.score+=1
-	 			self._part_spawner.spawn_rate+=1
-				self._asteroid_spawner.spawn_rate=max(0,self._asteroid_spawner.spawn_rate-0.1)
+	 			self._part_spawner.spawn_rate*=1.03
+				self._asteroid_spawner.spawn_rate*=0.96
 	 		end
 	 		--pq(#self._free_parts,#self._ship._parts)
 		 	foreach(self._actions, function(action)
@@ -739,7 +739,7 @@ aGVuCgkJCQlzZWxmLmFjdGlvbihvdGhlcikKCQkJCXNlbGYudGltZXI9MAoJCQllbHNlCgkJCQlz
 ZWxmLnRpbWVyKz0xCgkJCWVuZAoJCWVsc2UKCQkJZm9yIGk9MSwxL3NlbGYuc3Bhd25fcmF0ZSwx
 IGRvCgkJCQlzZWxmLmFjdGlvbihvdGhlcikKCQkJZW5kCgkJZW5kCgllbmQKCX0KZW5k
 :: include.lua
---[[pod_format="raw",created="2025-05-19 15:00:08",modified="2025-05-24 01:16:28",revision=965]]
+--[[pod_format="raw",created="2025-05-19 15:00:08",modified="2025-05-24 04:34:00",revision=988]]
 include "lib.lua"
 include "point.lua"
 include "helpers.lua"
@@ -1042,7 +1042,7 @@ end
 
 include "error_explorer.lua"
 :: parts.lua
---[[pod_format="raw",created="2025-05-19 15:12:11",modified="2025-05-24 01:16:28",revision=1173]]
+--[[pod_format="raw",created="2025-05-19 15:12:11",modified="2025-05-24 04:34:00",revision=1209]]
 function new_part(position)
 	return{
 		_position=position,
@@ -1198,9 +1198,9 @@ function new_part_gun(position)
 			stop_sfx(4, 0)
 		end		
 	end	
-	ret.basedraw=ret.draw
-	ret.draw=function(self)
-		self:basedraw()
+	--ret.basedraw=ret.draw
+	ret.draw2=function(self)
+		--self:basedraw()
 		if(self._target!=nil) then
 			line(self._position.x+halfTileSize,self._position.y+halfTileSize,
 				self._target._position.x+halfTileSize,self._target._position.y+halfTileSize,11)
@@ -1224,7 +1224,7 @@ function new_part_shield(position)
 	local ret = new_part(position)
 	ret._sprite=5
 	ret.name="shield"
-	ret._energy_max=60
+	ret._energy_max=120
 	ret._energy_regen=0.5
 	ret._shield_time=0
 	ret._target=nil 
@@ -1242,9 +1242,9 @@ function new_part_shield(position)
 		self:baseupdate()
 		self._shield_time=max(0,self._shield_time-1)
 	end
-	ret.basedraw=ret.draw
-	ret.draw=function(self)
-		ret:basedraw()
+	--ret.basedraw=ret.draw
+	ret.draw2=function(self)
+		--ret:basedraw()
 		if(self._shield_time>0) then
 			line(self._position.x+halfTileSize,self._position.y+halfTileSize,
 				self._target._position.x+halfTileSize,self._target._position.y+halfTileSize,12)
@@ -1256,7 +1256,7 @@ end
 
 
 :: part_spawner.lua
---[[pod_format="raw",created="2025-05-20 03:17:51",modified="2025-05-24 01:16:28",revision=648]]
+--[[pod_format="raw",created="2025-05-20 03:17:51",modified="2025-05-24 04:34:00",revision=671]]
 new_part_spawner=function ()
 	return {
 		spawn_rate=60,
@@ -1388,7 +1388,7 @@ function stop_sfx(sfx_id, channel)
 	end
 end
 :: ship.lua
---[[pod_format="raw",created="2025-05-19 15:07:48",modified="2025-05-24 01:16:28",revision=1121]]
+--[[pod_format="raw",created="2025-05-19 15:07:48",modified="2025-05-24 04:34:00",revision=1149]]
 function new_ship(position)
 	return{
 		parts={},
@@ -1429,6 +1429,11 @@ function new_ship(position)
 		draw=function(self)
 	 	 	foreach(self.parts, function(part)
 	    		part:draw()
+	 	 	end)
+	 	 	foreach(self.parts, function(part)
+	 	 		if(part.draw2!=nil)then
+	 	 			part:draw2()
+	 	 		end
 	 	 	end)
 		end,
 		do_part_pickups=function(self)
@@ -1610,12 +1615,12 @@ end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjE0OjE1Iixtb2RpZmllZD0iMjAyNS0w
-NS0yNCAwMToxNjoyOCIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImluY2x1ZGUu
-bHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRzLmx1YSMyMDIiLHdvcmtz
-cGFjZV9pbmRleD0xfSx7bG9jYXRpb249InNoaXAubHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7
-bG9jYXRpb249InBhcnRfc3Bhd25lci5sdWEjMTIiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRp
-b249ImdhbWUubHVhIzM1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJhc3Rlcm9pZF9z
-cGF3bmVyLmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdv
-cmtzcGFjZV9pbmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9
-LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+NS0yNCAwNDozNDowMCIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImluY2x1ZGUu
+bHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRzLmx1YSMxODAiLHdvcmtz
+cGFjZV9pbmRleD0xfSx7bG9jYXRpb249InNoaXAubHVhIzQzIix3b3Jrc3BhY2VfaW5kZXg9MX0s
+e2xvY2F0aW9uPSJwYXJ0X3NwYXduZXIubHVhIzEyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0
+aW9uPSJnYW1lLmx1YSMzNSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iYXN0ZXJvaWRf
+c3Bhd25lci5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3
+b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0z
+fSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2luZGV4PTR9fV1d
 :: [eoc]
