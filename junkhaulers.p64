@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM2Iixtb2RpZmllZD0iMjAyNS0w
-Ni0wNCAxODo1ODoxMiIscmV2aXNpb249MTk0Ml1dbHo0AOSIAAAK4QAA8Sh7WzBdPXtibXA9cHh1
+Ni0wNCAyMDowNzoxOCIscmV2aXNpb249MTk0OV1dbHo0AOSIAAAK4QAA8Sh7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3g9LTAuMTI1DQAQeQ0A2jYyNSx6b29t
 PTExfSxJAPAhIB8eUB5gDlYOcAYfHB8QHxwGMA4QBi0fEC0GEC4GPRw9Bh4ABr0GEAYHnQcGEAa3
 CgBHPRc9BwgA-xQXLRctFwYAHgYXHRcdFwYuEAZ3BhAOMAZXBnAOVg5gHlAeIKAALv8GUA5weXAJ
@@ -622,21 +622,21 @@ BPlRCQAtaAFGAEEOAfBxLQBi6W0pHUEQKTgTcroAgAFNSQ1gEfB3OAD3AQ3JnSkN8IFt8AX9AQAN
 AF2QEh9f6BIpD_4iKA87AP----------eVBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-Ni0wNCAxODo1ODoxMiJdXQ==
+Ni0wNCAyMDowNzoxOSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM1Iixtb2RpZmllZD0iMjAyNS0w
-Ni0wNCAxODo1ODoxMiIscmV2aXNpb249MTc4MF1dbHo0AKgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+Ni0wNCAyMDowNzoxOCIscmV2aXNpb249MTc4Nl1dbHo0AKgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD------yM9NDgwAQAvNDABAF8iNDEEAA8BANEfNBUABS80MAEAZ181
 MDAwNoQAZFMzMDAwMQgALzcwAQBfFzIEAB44iAEPAQD---------nvEIIiksaGlkZGVuPWZhbHNl
 LHBhbl94PTAIANJ5PTAsdGlsZV9oPTE2CgAQdwoAgHpvb209MX19
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-Ni0wNCAxODo1ODoxMiJdXQ==
+Ni0wNCAyMDowNzoxOSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM2Iixtb2RpZmllZD0iMjAyNS0w
-Ni0wNCAxODo1ODoxMiIscmV2aXNpb249MTgyMF1dbHo0ACcGAADJGwAA8idweHUAAygAAAQABA9A
+Ni0wNCAyMDowNzoxOCIscmV2aXNpb249MTgyNl1dbHo0ACcGAADJGwAA8idweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDJDg9ID0IPQwQFBgcAA5APQQ9IYAOQD0IHABJDBwASRAcAj0UPSFAC
 A-D-AQDr8QOCARAGDyAQASABIAHwAA8SEAIOAPkuDyEPqhABD-8gDzEgAVABCSAPPiAPVPAGAQgg
 D3FQAvCMDygP--DGD-gKD-8PgA-3Dw0BcA9iD0EPTg9HwFMAQAIQAgxRALElDxYP8BEwD1fwwzwA
@@ -667,7 +667,7 @@ AIMCD-4DBUADDfEcSgAPKQEHARQADwoAAgYOAA9RAb4CwQwfO8AMC0HxBh0RPQUGBQEPxQw7D08B
 tgxzDC978XIMXR--AQAyUP----_K
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-Ni0wNCAxODo1ODoxMiJdXQ==
+Ni0wNCAyMDowNzoxOSJdXQ==
 :: asteroid.lua
 --[[pod_format="raw",created="2025-05-20 13:51:18",modified="2025-06-03 13:32:01",revision=865]]
 function new_asteroid(position)
@@ -799,7 +799,7 @@ calculate_shake = function(self)
 end
 }
 :: director.lua
---[[pod_format="raw",created="2025-05-26 03:25:48",modified="2025-06-04 18:58:12",revision=702]]
+--[[pod_format="raw",created="2025-05-26 03:25:48",modified="2025-06-04 20:07:18",revision=708]]
 new_director=function()
 	return{
 	scenes={},
@@ -1228,7 +1228,7 @@ function new_free_part(position,part)
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-05-19 15:03:03",modified="2025-06-04 18:58:12",revision=2170]]
+--[[pod_format="raw",created="2025-05-19 15:03:03",modified="2025-06-04 20:07:18",revision=2176]]
 function new_game()
 	return{
 		_actions = {},
@@ -1329,7 +1329,7 @@ function new_game()
 	}
 end
 :: help.lua
---[[pod_format="raw",created="2025-05-24 18:42:03",modified="2025-06-04 18:58:12",revision=524]]
+--[[pod_format="raw",created="2025-05-24 18:42:03",modified="2025-06-04 20:07:18",revision=530]]
 function new_help()
 	return{
 	sprites,
@@ -1385,7 +1385,7 @@ function new_help()
 end
 :: helpers.lua
 b64$LS1bW3BvZF9mb3JtYXQ9InJhdyIsY3JlYXRlZD0iMjAyNS0wNS0xOSAxNToxMzo1MyIsbW9k
-aWZpZWQ9IjIwMjUtMDYtMDQgMTg6NTg6MTIiLHJldmlzaW9uPTEzMzBdXQpmdW5jdGlvbiBzbShh
+aWZpZWQ9IjIwMjUtMDYtMDQgMjA6MDc6MTgiLHJldmlzaW9uPTEzMzZdXQpmdW5jdGlvbiBzbShh
 KQoJcmV0dXJuIHNldG1ldGF0YWJsZShhLGEpCmVuZApmdW5jdGlvbiByYW5kb20obikKCWlmKG4_
 MCkgdGhlbiAKCQlyZXR1cm4gcm5kKCkqbgoJZWxzZQoJCXJldHVybiAtbitybmQoKSpuKjIgCgll
 bmQKZW5kCmZ1bmN0aW9uIHBpY2tfcmFuZG9tKGFycikKCWlmIGFycj09bmlsbCB0aGVuIHJldHVy
@@ -1453,7 +1453,7 @@ PSBmbHIocm5kKHNjcmVlbkhlaWdodCkpCglyZXR1cm4gbmV3X3BvaW50KHgsIHkpCmVuZAoKZnVu
 Y3Rpb24gZm9ybWF0X21vbmV5KG4pCglpZihuPT0wKSB0aGVuCgkJcmV0dXJuICIwIgoJZWxzZQoJ
 CXJldHVybiBuLi4iLDAwMCIKCWVuZAplbmQ=
 :: include.lua
---[[pod_format="raw",created="2025-05-19 15:00:08",modified="2025-06-04 18:58:12",revision=1347]]
+--[[pod_format="raw",created="2025-05-19 15:00:08",modified="2025-06-04 20:07:18",revision=1353]]
 include "lib.lua"
 include "point.lua"
 include "helpers.lua"
@@ -1563,7 +1563,7 @@ function all_buttons_pressed(buttons, player)
 	return true
 end
 :: levels.lua
---[[pod_format="raw",created="2025-06-04 13:56:27",modified="2025-06-04 18:58:12",revision=155]]
+--[[pod_format="raw",created="2025-06-04 13:56:27",modified="2025-06-04 20:07:18",revision=164]]
 get_levels=function()
 	return{		
 				new_level(level1_start(),level1_end(),{
@@ -1775,7 +1775,7 @@ new_star=function(parent)
 end
 
 :: main.lua
---[[pod_format="raw",created="2025-05-19 14:05:35",modified="2025-06-04 18:58:12",revision=1461]]
+--[[pod_format="raw",created="2025-05-19 14:05:35",modified="2025-06-04 20:07:18",revision=1467]]
 include "include.lua"
 tileSize=16
 halfTileSize=tileSize/2
@@ -2473,7 +2473,7 @@ function new_point(x,y)
 end
 
 :: screen.lua
---[[pod_format="raw",created="2025-06-03 13:46:12",modified="2025-06-04 18:58:12",revision=319]]
+--[[pod_format="raw",created="2025-06-03 13:46:12",modified="2025-06-04 20:07:18",revision=325]]
 function new_screen()
 	return{
 	sprites,
@@ -2643,7 +2643,7 @@ function level3_start()
 end
 
 :: sfx.lua
---[[pod_format="raw",created="2025-05-20 16:55:03",modified="2025-06-04 18:58:12",revision=247]]
+--[[pod_format="raw",created="2025-05-20 16:55:03",modified="2025-06-04 20:07:18",revision=254]]
 channels={
 	ship=5,
 	enemy=6,
@@ -2677,14 +2677,16 @@ function stop_sfx(sfx_id, channel)
 		end
 	elseif sfx_id == nil then
 		-- No channel and no sfx_id: stop everything
-		for ch, data in pairs(channels) do
+		for ch, data in pairs(sfx_channels) do
 			sfx(-1, ch)
 			sfx_channels[ch] = nil
 		end
+		sfx(-1,channels.engine)
+
 	end
 end
 :: ship.lua
---[[pod_format="raw",created="2025-05-19 15:07:48",modified="2025-06-04 18:58:12",revision=1869]]
+--[[pod_format="raw",created="2025-05-19 15:07:48",modified="2025-06-04 20:07:18",revision=1875]]
 function new_ship(position)
 	return{
 		parts={},
@@ -2932,7 +2934,7 @@ function parts_can_attach(partA, partB, direction)
 	return a_can_attach or b_can_attach
 end
 :: start.lua
---[[pod_format="raw",created="2025-05-20 16:44:31",modified="2025-06-04 18:58:12",revision=757]]
+--[[pod_format="raw",created="2025-05-20 16:44:31",modified="2025-06-04 20:07:18",revision=763]]
 function new_start()
 	return{
 	sprites,
@@ -2959,7 +2961,7 @@ end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjE0OjE1Iixtb2RpZmllZD0iMjAyNS0w
-Ni0wNCAxODo1ODoxMiIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+Ni0wNCAyMDowNzoxOSIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
 IzEwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1lLmx1YSM3OSIsd29ya3NwYWNl
 X2luZGV4PTF9LHtsb2NhdGlvbj0ibGV2ZWxzLmx1YSMxMiIsd29ya3NwYWNlX2luZGV4PTF9LHts
 b2NhdGlvbj0ic2NyZWVuLmx1YSM2NiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZGly
@@ -2967,7 +2969,7 @@ ZWN0b3IubHVhIzM4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJzdGFydC5sdWEjMSIs
 d29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iaGVscC5sdWEjMSIsd29ya3NwYWNlX2luZGV4
 PTF9LHtsb2NhdGlvbj0iaW5jbHVkZS5sdWEjMTciLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRp
 b249ImhlbHBlcnMubHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InNoaXAubHVh
-IzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InNmeC5sdWEjMzQiLHdvcmtzcGFjZV9p
+IzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InNmeC5sdWEjMzgiLHdvcmtzcGFjZV9p
 bmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlv
 bj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngiLHdv
 cmtzcGFjZV9pbmRleD00fX1dXQ==
