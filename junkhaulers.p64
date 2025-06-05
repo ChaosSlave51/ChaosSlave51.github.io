@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM2Iixtb2RpZmllZD0iMjAyNS0w
-Ni0wNSAxNjoxNDoxMiIscmV2aXNpb249MTk2N11dbHo0AHuKAACk4gAA8Sh7WzBdPXtibXA9cHh1
+Ni0wNSAxNzo1MDozMyIscmV2aXNpb249MTk4OV1dbHo0AHuKAACk4gAA8Sh7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3g9LTAuMTI1DQAQeQ0A2jYyNSx6b29t
 PTExfSxJAPAfIB8eUB5gfnAGHxwfEB8cBjAOEAYtHxAtBhAuBj0cPQYeAA69DhAOB50HDhAOtwoA
 Rz0XPQcIAP8SFy0XLRcOAB4GFx0XHRcGLhAGdwYQDjAGVwZwfmAeUB4gnAAv-wN5cAkVGRUJYAl1
@@ -629,21 +629,21 @@ AOo1YXANafAE_VEJAJRpAUYAQQ4B8HEtAGLpbSkdQRApOBNyugCAAU1JDWAR8Hc4APcBDcmdKQ3w
 gW3wBf0BAA0AXZASH1-oEikP7iIoDzsA----------95UG09OH19
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-Ni0wNSAxNjoxNDoxMiJdXQ==
+Ni0wNSAxNzo1MDozMyJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM1Iixtb2RpZmllZD0iMjAyNS0w
-Ni0wNSAxNjoxNDoxMiIscmV2aXNpb249MTgwMV1dbHo0AKgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+Ni0wNSAxNzo1MDozMyIscmV2aXNpb249MTgxN11dbHo0AKgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD------yM9NDgwAQAvNDABAF8iNDEEAA8BANEfNBUABS80MAEAZ181
 MDAwNoQAZFMzMDAwMQgALzcwAQBfFzIEAB44iAEPAQD---------nvEIIiksaGlkZGVuPWZhbHNl
 LHBhbl94PTAIANJ5PTAsdGlsZV9oPTE2CgAQdwoAgHpvb209MX19
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-Ni0wNSAxNjoxNDoxMiJdXQ==
+Ni0wNSAxNzo1MDozMyJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjA1OjM2Iixtb2RpZmllZD0iMjAyNS0w
-Ni0wNSAxNjoxNDoxMiIscmV2aXNpb249MTg0MF1dbHo0ACcGAADJGwAA8idweHUAAygAAAQABA9A
+Ni0wNSAxNzo1MDozMyIscmV2aXNpb249MTg1NV1dbHo0AH4FAAD5FgAA8idweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDJDg9ID0IPQwQFBgcAA5APQQ9IYAOQD0IHABJDBwASRAcAj0UPSFAC
 A-D-AQDr8QOCARAGDyAQASABIAHwAA8SEAIOAPkuDyEPqhABD-8gDzEgAVABCSAPPiAPVPAGAQgg
 D3FQAvCMDygP--DGD-gKD-8PgA-3Dw0BcA9iD0EPTg9HwFMAQAIQAgxRALElDxYP8BEwD1fwwzwA
@@ -652,29 +652,26 @@ owsPngLwxVMAAJUA-QsyD24Pbw9kD2UPLQ9mD20PYg9hH3MgARAGDGAAEQr0AB0N8wDBQSAPShAC
 DxfwiwsN9gAVDWIANGQPSfUAAUQAUQUHDzYRUwAhDx9UAFADEAFADK8A_SYgDFABAhABMA-U8KML
 DdABUA8VDyUPKg8vDzUPPw9KD1oPag96D38Pjw_fD7kPzw-p8J8BAGwAoGwPQQ9TD0UPUrAfAREe
 bwBHD_EAEcIA0w-3DwUAESAPoiAPqFB1ADAgAeDFAPkSHSAPDxACDz7wAwkgDyogDzMgDy3wag8S
-Cw0JsAGgCfCsbAACjQEA3AAvRaAsAQJrIAEwDvDDEAEv8AksAP----88H-8BACZfQwEQBgJmAABi
-IAQPLw9aPAaADxMADjACARAVAJEh8KIGDwwP6gpABh8NPwYIhWwPdQ90D2UwYQB1DwUPFQ_w0GUA
--xoQAQ8FDzoP8QEED4gP6QFwAQgQBA84D8IBQA__8KsED_UL8AUJ8K0BAGkACnJhD2MPaQ9krAYQ
-AO4FFiHPAGEGDyUPEhHRAJIP-RAED0QAAXDTAJAQUAIPKhABBhDTAO_jD0EADwvwBQ8UAAnwrW8A
-Ct9zD3QfZQ9sD3APYQ9uEwluEHDOCfMwATAPMP0vAP0vDP0v8HAOAAQPDTAPKQ8vDA8rDzcPKg8b
-DyQPKgsPJA8sDyH9I8D9Iw8RDw8PDQ8RDwsPEA8OCgBADxz9Iz4A8QQPFAIwDzAPIv0uAQL9Lg8N
-Bv0uVQAfBVQACBLDVAAUBVMAGgVSAMK2ATAPKf0vBP0vDxCjADAHESC0ACUPBbUATwdA-bAIAHYf
--wEACh8GJgAJ0QUOAA8MDjAfMx81PzcGAFE6HzUfMwQAoTcdPzofMB8zPy4ZABQ8GQDlPy4-K-89
-Ch34FA9aD0gEAD85Dy4QAAoDBAAfHS0AEgwQAAwYACE5D_cBAbwAD6MABAIKADAPNw8GACAwDw4A
-oDcfNQ8zDQ8wDy7vAE4-NfgwXQAPEAAIDBgACyAAEy8EABUPBABgDSkPSAkKKAAoCQqzAAB8AACj
-APAAPykfNx0fNR0fOh88HzofFgABpwCIPzo-PH8w_DA8AA8GAAERHQMABAIACBoADBAAAAYAhQ8k
-Dx0PFw8SOQEPIQEPDyMACxAwxAAi_DBuADEpCikIAEoJDSkKfAAPHgAJD4wAEwFpAA-oAQEPgQAX
-DwoAAQYOAAiLADF-On_JAZF-MH83fzV-M39iAAhBAQ8OAAEIBgAOKAAPDgAbBIoA-wL-GAYd8g4d
-cvEGHfEOHXEJCgIAAQcBAg8fAAoEVQCR-QwS-Q4S-Q4RAwAgCQoEABAdHQC-Bg4wDysNCw0LLQsG
-ABaPDz4NAw0DLQMGABZfDA0MDQwGABgDmQAf8gkBOA9TAEcPWwEGDLYFD38AZA93ADwPygBoD0kB
-bw8kAANG----AycABHcHHwMLAAAPAQD-CBFrYAGjX1QdVR01PTU9VQgAdVEdUR0xPTEIAAm7AQEH
-ABU9BQAPGAABA7gBD_oIHGA78Qod8RRBAAThBQoKAANlAA4bAAwlAAIOAARoBg_4AlxPBg4wVU8B
-Rw9ECC2AO-EDDfEPDbFYAA-HBw0OHgAPVQHBD4sCAw9sARAk8SNHAQYzAQYKAAYOAA9RAQIPpgLl
-AIMCD-4DBUADDfEcSgAPKQEHARQADwoAAgYOAA9RAb4CwQwfO8AMC0HxBh0RPQUGBQEPxQw7D08B
-tgxzDC978XIMXR--AQAyUP----_K
+Cw0JsAGgCfCsbAACjQEA3AAvRaAsAQH3CCUPHgARMA7wwwsNwAFwBBAPSQAPF-CqRAAv8Ak4AAEy
+ISABNgAv8MYsAP----8dH-8BACZfQwEQBgJmAABiIAQPLw9aSAaADxMADjACARAVAJEh8KIGDwwP
+6gpMBh8NSwYIhWwPdQ90D2UwYQB1DwUPFQ_w0GUA-xoQAQ8FDzoP8QEED4gP6QFwAQgQBA84D8IB
+QA__8KsED_UL8AUJ8K0BAGkACnJhD2MPaQ9kuAYQAPoFFiHPAGEGDyUPEhHRAJIP-RAED0QAAXDT
+AJAQUAIPKhABBhDTAO_jD0EADwvwBQ8UAAnwrW8ACt9zD3QfZQ9sD3APYQ9uHwluEHDaCfMwATAP
+MP0vAP0vDP0v8HAOAAQPDTAPKQ8vDA8rDzcPKg8bDyQPKgsPJA8sDyH9I8D9Iw8RDw8PDQ8RDwsP
+EA8OCgBADxz9Iz4A8QQPFAIwDzAPIv0uAQL9Lg8NBv0uVQAfBVQACBLDVAAUBVMAGgVSAMK2ATAP
+Kf0vBP0vDxCjADAHESC0ACUPBbUATwdA-bAIAHZG----AwsADwEABB8qIgAJ0QUOAA8MDjAfMx81
+PzcGAFE6HzUfMwQAoTcdPzofMB8zPy4ZABQ8GQDlPy4-K-89Ch34FA9aD0gEAD85Dy4QAAoDBAAf
+HS0AEgwQAAwYACE5D_4BAbwAD6MABAIKADAPNw8GACAwDw4AoDcfNQ8zDQ8wDy7vAE4-NfgwXQAP
+EAAIDBgACyAAEy8EABUPBABgDSkPSAkKKAAoCQqzAAB8AACjAPAAPykfNx0fNR0fOh88HzofFgAB
+pwCIPzo-PH8w_DA8AA8GAAERHQMABAIACBoADBAAAAYAhQ8kDx0PFw8SOQEPIQEPDyMACxAwxAAi
+_DBuADEpCikIAEoJDSkKfAAPHgAJD4wAEwFpAA-oAQEPgQAXDwoAAQYOAAiLADF-On_JAZF-MH83
+fzV-M39iAAhBAQ8OAAEIBgAOKAAPDgAbBIoA-wL-GAYd8g4dcvEGHfEOHXEJCgIAAQcBAg8fAAoE
+VQCR-QwS-Q4S-Q4RAwAgCQoEABAdHQC-Bg4wDysNCw0LLQsGABaPDz4NAw0DLQMGABZfDA0MDQwG
+ABgDmQAf8gkBOA9TAEcPWwEGDL0FD38AZA93ADwPygBoD0kBbw8kAAMHkQcfcKQHAgcLAA8BAP8G
+G2tBAQ9mAl0PfwD-_Q_xAzpQ-----64=
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE2OjQ3OjIyIixtb2RpZmllZD0iMjAyNS0w
-Ni0wNSAxNjoxNDoxMiJdXQ==
+Ni0wNSAxNzo1MDozMyJdXQ==
 :: asteroid.lua
 --[[pod_format="raw",created="2025-05-20 13:51:18",modified="2025-06-03 13:32:01",revision=865]]
 function new_asteroid(position)
@@ -806,7 +803,7 @@ calculate_shake = function(self)
 end
 }
 :: director.lua
---[[pod_format="raw",created="2025-05-26 03:25:48",modified="2025-06-05 16:14:12",revision=723]]
+--[[pod_format="raw",created="2025-05-26 03:25:48",modified="2025-06-05 17:50:33",revision=737]]
 new_director=function()
 	return{
 	scenes={},
@@ -1235,7 +1232,7 @@ function new_free_part(position,part)
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-05-19 15:03:03",modified="2025-06-05 16:14:12",revision=2191]]
+--[[pod_format="raw",created="2025-05-19 15:03:03",modified="2025-06-05 17:50:33",revision=2205]]
 function new_game()
 	return{
 		_actions = {},
@@ -1336,7 +1333,7 @@ function new_game()
 	}
 end
 :: help.lua
---[[pod_format="raw",created="2025-05-24 18:42:03",modified="2025-06-05 16:14:12",revision=544]]
+--[[pod_format="raw",created="2025-05-24 18:42:03",modified="2025-06-05 17:50:33",revision=559]]
 function new_help()
 	return{
 	sprites,
@@ -1392,7 +1389,7 @@ function new_help()
 end
 :: helpers.lua
 b64$LS1bW3BvZF9mb3JtYXQ9InJhdyIsY3JlYXRlZD0iMjAyNS0wNS0xOSAxNToxMzo1MyIsbW9k
-aWZpZWQ9IjIwMjUtMDYtMDUgMTY6MTQ6MTIiLHJldmlzaW9uPTEzNTFdXQpmdW5jdGlvbiBzbShh
+aWZpZWQ9IjIwMjUtMDYtMDUgMTc6NTA6MzMiLHJldmlzaW9uPTEzNjZdXQpmdW5jdGlvbiBzbShh
 KQoJcmV0dXJuIHNldG1ldGF0YWJsZShhLGEpCmVuZApmdW5jdGlvbiByYW5kb20obikKCWlmKG4_
 MCkgdGhlbiAKCQlyZXR1cm4gcm5kKCkqbgoJZWxzZQoJCXJldHVybiAtbitybmQoKSpuKjIgCgll
 bmQKZW5kCmZ1bmN0aW9uIHBpY2tfcmFuZG9tKGFycikKCWlmIGFycj09bmlsbCB0aGVuIHJldHVy
@@ -1461,7 +1458,7 @@ Y3JlZW5IZWlnaHQpKQoJcmV0dXJuIG5ld19wb2ludCh4LCB5KQplbmQKCmZ1bmN0aW9uIGZvcm1h
 dF9tb25leShuKQoJaWYobj09MCkgdGhlbgoJCXJldHVybiAiMCIKCWVsc2UKCQlyZXR1cm4gbi4u
 IiwwMDAiCgllbmQKZW5k
 :: include.lua
---[[pod_format="raw",created="2025-05-19 15:00:08",modified="2025-06-05 16:14:12",revision=1367]]
+--[[pod_format="raw",created="2025-05-19 15:00:08",modified="2025-06-05 17:50:33",revision=1385]]
 include "lib.lua"
 include "point.lua"
 include "helpers.lua"
@@ -1472,8 +1469,6 @@ include "parts.lua"
 include "input.lua"
 include "ship.lua"
 include "free_part.lua"
-include "part_spawner.lua"
-include "asteroid_spawner.lua"
 include "asteroid.lua"
 include "pirate.lua"
 include "lightroad.lua"
@@ -1571,7 +1566,7 @@ function all_buttons_pressed(buttons, player)
 	return true
 end
 :: levels.lua
---[[pod_format="raw",created="2025-06-04 13:56:27",modified="2025-06-05 16:14:12",revision=181]]
+--[[pod_format="raw",created="2025-06-04 13:56:27",modified="2025-06-05 17:50:33",revision=200]]
 get_levels=function()
 	return{		
 				new_level(level1_start(),level1_end(),{
@@ -1784,7 +1779,7 @@ new_star=function(parent)
 end
 
 :: main.lua
---[[pod_format="raw",created="2025-05-19 14:05:35",modified="2025-06-05 16:14:12",revision=1481]]
+--[[pod_format="raw",created="2025-05-19 14:05:35",modified="2025-06-05 17:50:33",revision=1499]]
 include "include.lua"
 tileSize=16
 halfTileSize=tileSize/2
@@ -2482,7 +2477,7 @@ function new_point(x,y)
 end
 
 :: screen.lua
---[[pod_format="raw",created="2025-06-03 13:46:12",modified="2025-06-05 16:14:12",revision=339]]
+--[[pod_format="raw",created="2025-06-03 13:46:12",modified="2025-06-05 17:50:33",revision=358]]
 function new_screen()
 	return{
 	sprites,
@@ -2528,9 +2523,9 @@ function new_gameover()
 	ret.image=202
 	ret.text={
 		"You didn't make it.",
-		"Or maybe you just didn't get money.",
+		"Or maybe you just didn't get enough `money.",
 		"Either way there is no going back.",
-		"At least where you ejected near a space a space gas station.",
+		"At least where you ejected near a space gas station.",
 		"Cleaning space toilets won't save your dogs, but it will keep you fed.",
 		"Better luck next life!"
 	}
@@ -2652,7 +2647,7 @@ function level3_start()
 end
 
 :: sfx.lua
---[[pod_format="raw",created="2025-05-20 16:55:03",modified="2025-06-05 16:14:12",revision=269]]
+--[[pod_format="raw",created="2025-05-20 16:55:03",modified="2025-06-05 17:50:33",revision=284]]
 channels={
 	ship=5,
 	enemy=6,
@@ -2695,7 +2690,7 @@ function stop_sfx(sfx_id, channel)
 	end
 end
 :: ship.lua
---[[pod_format="raw",created="2025-05-19 15:07:48",modified="2025-06-05 16:14:12",revision=1889]]
+--[[pod_format="raw",created="2025-05-19 15:07:48",modified="2025-06-05 17:50:33",revision=1904]]
 function new_ship(position)
 	return{
 		parts={},
@@ -2943,7 +2938,7 @@ function parts_can_attach(partA, partB, direction)
 	return a_can_attach or b_can_attach
 end
 :: start.lua
---[[pod_format="raw",created="2025-05-20 16:44:31",modified="2025-06-05 16:14:12",revision=777]]
+--[[pod_format="raw",created="2025-05-20 16:44:31",modified="2025-06-05 17:50:33",revision=791]]
 function new_start()
 	return{
 	sprites,
@@ -2970,16 +2965,16 @@ end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA1LTE5IDE0OjE0OjE1Iixtb2RpZmllZD0iMjAyNS0w
-Ni0wNSAxNjoxNDoxMiIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWUubHVhIzEiLHdvcmtzcGFjZV9p
-bmRleD0xfSx7bG9jYXRpb249ImxldmVscy5sdWEjMTEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9j
-YXRpb249InNjcmVlbi5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZGlyZWN0
-b3IubHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InN0YXJ0Lmx1YSMxIix3b3Jr
-c3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJoZWxwLmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0s
-e2xvY2F0aW9uPSJpbmNsdWRlLmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJo
-ZWxwZXJzLmx1YSMxMTQiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InNoaXAubHVhIzEi
-LHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InNmeC5sdWEjMSIsd29ya3NwYWNlX2luZGV4
-PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJt
-YXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3Nw
-YWNlX2luZGV4PTR9fV1d
+Ni0wNSAxNzo1MDozMyIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzIiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImluY2x1ZGUubHVhIzEwIix3b3Jrc3Bh
+Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1lLmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
+Y2F0aW9uPSJsZXZlbHMubHVhIzExIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJzY3Jl
+ZW4ubHVhIzg3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkaXJlY3Rvci5sdWEjMSIs
+d29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ic3RhcnQubHVhIzEiLHdvcmtzcGFjZV9pbmRl
+eD0xfSx7bG9jYXRpb249ImhlbHAubHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249
+ImhlbHBlcnMubHVhIzExNCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ic2hpcC5sdWEj
+MSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ic2Z4Lmx1YSMxIix3b3Jrc3BhY2VfaW5k
+ZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9jYXRpb249
+Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3b3Jr
+c3BhY2VfaW5kZXg9NH19XV0=
 :: [eoc]
