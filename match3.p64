@@ -4,64 +4,75 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxNjozMToyNCIscmV2aXNpb249NjM2XV1sejQAJQcAAAs7AADzIXtbMF09e2JtcD1weHUA
+Ni0xOSAxODozODo0NyIscmV2aXNpb249NzU5XV1sejQAfwkAAAk9AADzIXtbMF09e2JtcD1weHUA
 QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgAynk9MCx6b29tPTh9LD4A-y_AHxjA
 HsAusE6gToAOEE5gLhAOCC5QLhAOGC4wLiAOKC4gLgAeOC4QXkguEC54LiAeeB4wLlgeUC44HoBe
 QG0AHPMR8AYvG7AOIA6QDhALAB6ALhAewB6wTpBucI5QHhAeEB4GAP8DnlA_AE5QLiAucG6ADgAO
 AB5QaAAc9BVgTxCQbnAuIS5QLkEuMC5RLjAeEQ4RDhEeIC4BHhEeEQ4QLhEIAP8JDjEOEV6RTqFO
-kW5xLhA_US5ALjEuYH4w2wAdxQVfHoB_YJ5AviDeEAIAryC_QJ5gfoBe8AVPAB8fGU8AOqVagHpg
-mkC6INoQAgCPILpAmmB6gFqdACEfF50AOF--DwHQHgIABi-_AU8AHHBgDxgADsAu1ALgcB4AHgge
-YC4QHggeUD7aAkFADgge3AI9DggO3gIvHjDeAiv7BgU-G6AOMA6ADkAecA4ADgsQHoAOIOECIAMA
-AwAE4wIvAxDkAlJPDA4RDOYC-25P9wHQFwIABh-35QIg4LAOEC6AHhAucB4QTlA_6QJAUB4IDusC
-QEAOGB7tAicwTscFMQ4IDusCbx4ILkgeIO0CPDBAHmAIACMLIOwCA_YCQR4THhPsAm8DTlAuEwDs
-AkoC5AIACgA-HBEc7ALQH-AxAH6AIB8YEA6gHhDZBwSWAoFOQE4QTjAeCFcIMSAOGFkIMBAOKH0F
-EB4IAN8AHjgeEB4oHkgeIB6IlAI4UWAOUB5QBABRQE5ACzCWAgGOAjAeCwMDAASWAi8LE5YCVG8P
-HAwRDQyZAv9j8AigDxjQHvAODtAe0C6wTlAOMF4wHjAeGP0H0D4YLhB_KC4QLgguGA_jAq8eKC0Y
-HjAuCD0IhQIl8AUDDxsQLoAOUA5gDmAe0B7AHmAOMIMC0B4TLjALID4TDgMOUDOKAkAOAysOigKP
-PisuUB4DKz6NAkVAHA4RHIMCkAwPHBwBDA0cAQwAMB0MAQQAb14BHCEcEZMCOf8WHi8XPi0eEF4d
-XhBeHU4gXh0_ML4wPl0OUC4NPg0OYC49DoBukKYCJIAePxQeYA59DmcAEC1mANAeDQ4dEB0ODR4Q
-Hj0gdgAjIE69Aj8uPS6-ArXwErAfGDAOcB5ADnAe8C8OwD4wDkBuEB4ADgCOEA4wLghOULsC3z4g
-PhgdGB4wHigdDxe8AiXwEhAPGzAecA5gDvACDiAOoA7wCx6wPhMQDlAeMw4gDjAOS7wC8QsTCy8a
-Gx4wDQAOAwsNAB0LHiANEA4DCy0LAwoA-wITKw4TDlAOEwsjDhNgAz4DDtACNf8gDh8cAQ4BHREe
-IA49DgEdDBEOEB4NAB0MAT0BDhAeHQAdAQ0QHV49AU1OER0hLQHSAkL-AE5QHiA_sC7APi2QLg0u
-kM0CM6FOID4gHh0gDhAd0QIAWgEA0QLvHVAdHhA_UD4QPgAOIE7VAr3A8AsfGNAe4A7wIA7wiw1A
-8AEOUC0N-wFeYD4-Dh5QHh0vFz5QLhwdxgIg8A4PG2AeMA4ADvA3HkAOUA4rHxqADRstDjAOIA49
-AMIC-yMDHSANK1ALDSAdCx5QCx0ADQArDlBdABMOMA4ADRMNAx0bAyAOIAMODR4LDkAOIA4ADcAC
-LdAvHDEtHiA9AQ4BDRANJwPEHQ4BDSANDhANMA0MCgD-DT0gHR4dIB0BDTANLh0ATTANLj0RLSAN
-Pi0hTQ7JAjCwLkA_IB4fFxAeIA2cCQGkCeAgLsAuwD4NAA2QLg0QDgUArw0OgD4AHpAuAB7WAing
-DVANDkAOcC4gDpANHhADBAAGAADgAiRwPiAKvzAeAA5QHkAuHTAO1QK1QCAPGHBmCABCBf8BSg7w
-KQ7ADxcuoF2QDQgOLYwFIf8ZHxrwAA8bcA8agB4QDxugDfAFDvAECyAOEA3wAA2gA-AFDtAO4A7w
-Lz0OHvIIEC8coB8QEA4ADnAeUA6QAUAO4A8c4A0CABIOBwD-BRAODZAOEC5wDQ4wHR4BIA4dYC5N
-fQIh0fAADsAOAB7QLtAPFx5zAP8MLhAegB4gDuAO4A4AHsAu0B4wDZA_wC4ADvAGYAAd4Ac-GdAP
-FB8Z4A8UDxngbABX4A4QDrAEAP8A8AAe4A5wDmAeIC6APgAOZwIgDzEA--------------------
-------------5f8ugBrAGsAqsEqgSoAKEEpgKhAKCypQKhAKGyowKiAKKyogKgAaOyoQWksqECp7
-KiAaexowKlsaUCo7GoBaQM4AHg8xAP8TtQVYgHhgmEC4INgQAgCPILhAmGB4gFjCGv93BaUBYigS
-OBIoEAYAUdgQWBJYBACfaAJYILhAKCI4tQEkDzEA------------EVBtPTh9fQ==
+kW5xLhA_US5ALjEuYH4wcwAc8wtQTx6AjlCuQC4PEi4NLjAuLQ4tLiAePQ49HgYA-w4uHS4dLiDO
+MK5ArkA_LT5QLi0uYC4tLnAuDS6gLuEAHf8p8A0PGbA_oB4gDkB_AA5QPho_UD4aLmBeEA5AHhpu
+UA4aXmAOGi4aLkAeEB4aHmBOCg6QXpBO8AZnAB21BVqAemCaQLog2hACAK8gukCaYHqAWvAFTgAe
+tV8XgH5gnkC_IN4QAgCPIL5AnmB_gF5PAB5f-w8B0B4CAAYv-gFPABxwYA8YAA7ALgsD4HAeAB4I
+HmAuEB4IHlA_EQNBQA4IHhMDPQ4IDhUDLx4wFQMr_wYFPxugDjAOgA5AHnAOAA4LEB6ADiAYAyAD
+AAMABBoDLwMQGwNSTwwOEQwdA1RoDw4NLgwNIAOfHk0eYC4NDxYNIwMk8BigDxnQHsAe0B6AfhAO
+QK4wXhoeUA4qHhoADkAeKl4wLhouCh5gTiojA58qTkAeAD4gDlAkA75P9wHQFwIABh-3IwMg4LAO
+EC6AHhAucB4QTlA_JwNAUB4IDikDQEAOGB4rAycwTjwGMQ4IDikDbx4ILkgeICsDPDBAHmAIACML
+ICoDAyQDQR4THhMqA28DTlAuEwAqA0oCIgMACgA-HBEcKgNNrw8OLQ4MLR4gLgwsAwFvHh0PFh0e
+LAMoINAOLAP-EwAuMK5ADipOUB4qDhoeQG4aHlBuCg5gLhpeQB4qbkAeEC4oA3Mf8DEATYAgHxgQ
+DqAeEKcIBO8CgU5AThBOMB4IJQkxIA4YJwkwEA4oFAYQHggA3wAeOB4QHigeSB4gHojtAjhRYA5Q
+HlAEAFFATkALMO8CAecCMB4LAwMABO8CLwsT7wJUbw8cDBENDPICTWwfDh0OHB3yAjIuTS7yAl8N
+LxYNHkEJKSOwDkEJIC4a8QLwAD5gjkCuUB4KLhoOYB4aHj8JnxoeCi5gHgA_kPMC0fAIoA8Y0B7w
+Dg7QHtAusE5QDjBeMB4wHhjuCNA_GC4QfiguEC4ILhgP-QKvHigtGB4wLgg9CN8CJdADDxsQLoAO
+UA5gDmAeqwcwYA4w3QLQHhMuMAsgPhMOAw5QM_QCQA4DKw7kAo8_Ky5QHgMrPucCRUAcDhEc3QKQ
+DA8cHAEMDRwBDAAwHQwBBABvXgEcIRwR7QI04R4fDm5ATQ4tHjAOnR4gBADwCw0fFw0PEg0fFx0e
+IA4dDA0eDQwdHiAeLR4tkAX-BY4NDkAefQ5QDm0OYA4dLB0OcA5d9AIlIIAq9QIwLjoO9wLwDQoX
+Ci5QOhcKHlA6DioADkAOGgcKXlAKFwoOOmAGAGAKFwoeQDoHAJ8OYD4KFwqALioIAyEf8DEAfvAS
+sB8YMA5wHkAOcB7wLw7APjAOQG4QHgAOAI4QDjAuCE5Q5wLfPiA_GB0YHjAeKB0PF_gCJfASEA8b
+MB5wDmAO8AIOIA6gDvALHrA_ExAOUB4zDiAOMA5L6ALxCxMLLxobHjANAA4DCw0AHQseIA0QDgML
+LQsDCgD-AhMrDhMOUA4TCyMOE2ADPgMO-AI1-yAOHxwBDgEdER4gDj0OAR0MEQ4QHg0AHQwBPQEO
+EB4dAB0BDRAdXj0BTU4RHSEtAf4CPfIALxcdPA0eIA4MEAwNHBAMCgBQDxINEBwTA0QsHiwNBAP-
+Di4NbkAOnUAtXB0wHSwgHB0wHRxADB1APUwNcH0gCAMn-zQwOhcqAA5QKgcQBwoeUCogBwoOUAoH
+GjcaQA4nanAXCicKYAcABwoHIAceQCcKFxAHClAKBwoOCjcKUFoXGnBqwBpA2wIeDzEAf7ALHxjQ
+HuAO8CAO8N8OQPABDlCBDv8BXmA_Pw4eUB4dLxc_UC4cHf0CIPAODxtgHjAOAA7wNx5ADlAOKx8a
+gA0bLQ4wDiAOPQD5Av8jAx0gDStQCw0gHQseUAsdAA0AKw5QXQATDjAOAA0TDQMdGwMgDiADDg0e
+Cw5ADiAOAA33Ai3QLxwxLR4gPQEOAQ0QDV4DxB0OAQ0gDQ4QDTANDAoA-w09IB0eHSAdAQ0wDS4d
+AE0wDS49ES0gDT4tIU0OAAMq8AAgDiA_DxdeDQ4APi0uPRDQAHANAE0ADQ4gAwCSQB0OEB0gHTAt
+BgD-JFAdEA0QDw4NDjANEH0eEL0ADhC9IC0APSANDB0ALWA9EE1QHQAOAD0QPQAdAA5ADH0ADgsD
+KUIHABcKDQP-IBceUBcwFw5QJzAHGkAOhwpwFxAHcAcQFzAHHjAHEAdABwpAN1AKUCoARwpwGica
+BgOyQCAPGHD6CACqBf8BSg7wKQ7ADxcuoF2QDQgOLfQFIf8ZHxrwAA8bcA8agB4QDxugDfAFDvAE
+CyAOEA3wAA2gA-AFDtAO4A7wL4QPHvIIEC8coB8QEA4ADnAeUA6QAUAO4A8c4A0CABIOBwD-BhAO
+DZAOEC5wDQ4wHR4BIA4dYC5NMMUAHiEXILEC0A8XLg0OXQ4ADh0OLQ6nAiAQDqkD8BYdUB0ADQ6g
+DWANYA0QDUANUA3ADw4ADTANcC0OEA2AHQAOEA2Q3wL-Cg2gDE2gDQA9cA0QDgA9kA4AHRAMDRBN
+AA2RABz-MuAPGcAOcCcAJw4wFwAXGgAXEA4wBwAaB0AOgAcQBwAXAA7wAwfQDvAPB3AXDjAHcCcw
+J2AKB0AHGkAHCgdAFxogqQIiDzEA--------------------------------5f8tgBrAGsAqsEqg
+SoAKEEpgKhAKCypQKhAKGyowKiAKKyogKgAaOyoQWksqECp7KiAaexowKlsaUCo7GoBaThn-RbUF
+WIB4YJhAuCDYEAIAjyC4QJhgeIBYNyYgD6UB-01iKBI4EigQBgBR2BBYElgEAJ9oAlgguEAoIji1
+ASQPMQD-----------8RUG09OH19
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxNjozNzoxOSJdXQ==
+Ni0xOSAxODozODo1NyJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxNjozMToyNCIscmV2aXNpb249NTg5XV1sejQAngAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
+Ni0xOSAxODozODo0NyIscmV2aXNpb249NjgwXV1sejQAngAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
 KCJpMTYiLDMyAwAvIjABAP------lB8xBAACDwEAVx8xBAACDwEAVx8xBAACDwEAVxcxBAAXMgwA
 DwEAVR8xBAACDwEAVx8xBAACDwEA---------7vxCCIpLGhpZGRlbj1mYWxzZSxwYW5feD0wCADS
 eT0wLHRpbGVfaD0xNgoAEHcKAIB6b29tPTF9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxNjozNzoxOSJdXQ==
+Ni0xOSAxODozODo1NyJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxNjozMToyNCIscmV2aXNpb249NTg1XV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
+Ni0xOSAxODozODo0NyIscmV2aXNpb249Njc0XV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
 Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
 Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
 -70f-wEArM-ID0AADxBA--_w8P8BAP-qUP----8p
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxNjozNzoxOSJdXQ==
+Ni0xOSAxODozODo1NyJdXQ==
 :: bead.lua
---[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-19 16:31:24",revision=886]]
+--[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-19 18:38:47",revision=980]]
 beadid=0
 
 function new_bead(offset,position)
@@ -169,7 +180,7 @@ end
 function new_orange_bead(offset,position)
 	local ret= new_bead(offset,position)
 	ret.color=5
-	ret.sprites={5,13,21,29,21,13}
+	ret.sprites={5,13,21,29}
 	ret.death_anim={37,45,53,71}	
 	return ret
 end
@@ -222,7 +233,7 @@ calculate_shake = function(self)
 end
 }
 :: cursor.lua
---[[pod_format="raw",created="2025-06-19 02:43:31",modified="2025-06-19 16:31:24",revision=186]]
+--[[pod_format="raw",created="2025-06-19 02:43:31",modified="2025-06-19 18:38:47",revision=285]]
 function new_cursor(offset,position)
 	return{
 		sprites={8,16},
@@ -544,7 +555,7 @@ ICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfdXBkYXRlKQogIGVuZAplbmQKCmZ1bmN0aW9uIF9kcmF3
 ICgpCiAgaWYgZXJyb3JfdGhyZWFkIHRoZW4KICAgIGNhbGxfZXJyb3JfZXZlbnQgKGVycm9yX2Ry
 YXcpCiAgZWxzZQogICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfZHJhdykKICBlbmQKZW5k
 :: field.lua
---[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-19 16:31:24",revision=859]]
+--[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-19 18:38:47",revision=950]]
 function new_field()
 	return {
 		position = new_point(200, 100),
@@ -717,40 +728,58 @@ function new_field()
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-19 16:31:24",revision=725]]
+--[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-19 18:38:47",revision=858]]
 function new_game()
 	return{
 		field=nil,
 		state=0, 
 		cursor=nil,
+		points=0,
+		points_hint="",
+		multiplier=1,
+		moves=5,
+		movetimer=0,
+		movetimer_max=10*60,
 		init=function(self)
 			self.field=new_field()
 			self.field:init()
 			self.cursor=new_cursor(self.field.position,new_point(3,7))
 			self.cursor:init()
 		end,
-		
+		matches_to_points=function(m)
+			return m-2
+		end,
 		update=function(self)
 				self.cursor:update()	
-			--0=free 1=moving 2=check 3=remove
-			if(self.state==0) then
+			--0=free 1=moving 2=check 3=remove 4=drop
+			if(self.state==0 and self.moves>0) then
 				if(input:button_press(input_lookup.buttons.o)) then
 					self.state=1
-				end
-				
+					self.moves-=1
+					self.movetimer=self.movetimer_max
+				end				
 			elseif (self.state==1) then
-				if(input:button_press(input_lookup.buttons.o)) then
+				if(input:button_press(input_lookup.buttons.o)or self.movetimer<=0) then
 					self.state=2
+					self.movetimer=0
 				else
 					self.field:update()
+					self.movetimer-=1
 				end
 			end
 			if (self.state==2) then
-				local matches=self.field:find_matches()
-				if(matches>0) then
-					self.state=3
-				else
-					self.state=0
+				if(self.field:update()==false) then
+					local matches=self.field:find_matches()
+					if(matches>0) then
+						self.state=3
+						local points=self.matches_to_points(matches*self.multiplier)
+						self.points+=points
+						self.points_hint=points.."x"..self.multiplier
+						self.multiplier+=1
+					else
+						self.state=0
+						self.multiplier=1
+					end
 				end
 			end
 			if (self.state==3) then
@@ -759,43 +788,33 @@ function new_game()
 					self.field:remove_matched()
 				end	
 			end		
-				
 			if (self.state==4) then
 				if(self.field:update()==false) then
 					self.state=2
 				end
 			end
---			
---				local matches=self.field:find_matches()
---				if(matches>0) then
---					self.state=1
---				else
---					self.field:update()
---				end
---			elseif (self.state==1) then
---				if(self.field:update()==false) then
---					self.state=2
---					self.field:remove_matched()
---				end
---			elseif(self.state==2) then
---				if(self.field:update()==false) then
---					self.state=0
---				end
---	 		else
-	 			
 		end,
 		draw=function(self)
 
 			cls(5)
 			self.field:draw()
 			self.cursor:draw()
+			print_centered("points:"..self.points,10,7)
+			print_centered(self.points_hint,20,7)
+			print_centered("moves left:"..self.moves,30,7)
+			
+			draw_fill_bar(new_point(200, 150),
+								new_point(95,10),self.movetimer,self.movetimer_max,7,7)
+			
+--			rect(screenWidth-101,0,screenWidth-1,10,31)
+--			rectfill(screenWidth-101*fill ,0,screenWidth-1,10,31)
 		end,	
 
 	}
 end
 :: helpers.lua
 b64$LS1bW3BvZF9mb3JtYXQ9InJhdyIsY3JlYXRlZD0iMjAyNS0wNi0xOCAxMjo1NTozNyIsbW9k
-aWZpZWQ9IjIwMjUtMDYtMTkgMTY6MzE6MjQiLHJldmlzaW9uPTU5N11dCmZ1bmN0aW9uIHNtKGEp
+aWZpZWQ9IjIwMjUtMDYtMTkgMTg6Mzg6NDciLHJldmlzaW9uPTY5M11dCmZ1bmN0aW9uIHNtKGEp
 CglyZXR1cm4gc2V0bWV0YXRhYmxlKGEsYSkKZW5kCmZ1bmN0aW9uIHJhbmRvbShuKQoJaWYobj4w
 KSB0aGVuIAoJCXJldHVybiBybmQoKSpuCgllbHNlCgkJcmV0dXJuIC1uK3JuZCgpKm4qMiAKCWVu
 ZAplbmQKZnVuY3Rpb24gcGlja19yYW5kb20oYXJyKQoJaWYgYXJyPT1uaWxsIHRoZW4gcmV0dXJu
@@ -862,9 +881,14 @@ emUpKSAqIHRpbGVTaXplKQoJZW5kCmVuZApmdW5jdGlvbiByYW5kb21fb25zY3JlZW5fcG9pbnQo
 KQoJbG9jYWwgeCA9IGZscihybmQoc2NyZWVuV2lkdGgpKSAKCWxvY2FsIHkgPSBmbHIocm5kKHNj
 cmVlbkhlaWdodCkpCglyZXR1cm4gbmV3X3BvaW50KHgsIHkpCmVuZAoKZnVuY3Rpb24gZ2V0X2Zy
 YW1lKGFycixzcGVlZCkJCglyZXR1cm4gYXJyWyhmbHIodCgpKjYwLyhzcGVlZCBvciAxKSklI2Fy
-cisxKV0KZW5k
+cisxKV0KZW5kCgpmdW5jdGlvbiBkcmF3X2ZpbGxfYmFyKHVwcGVyX2xlZnQsc2l6ZSxmaWxsLG1h
+eCxib3JkZXJfY29sb3IsZmlsbF9jb2xvcikKCWxvY2FsIGxvd2VyX3JpZ2h0PXVwcGVyX2xlZnQr
+c2l6ZQoJcmVjdGZpbGwodXBwZXJfbGVmdC54LHVwcGVyX2xlZnQueSx1cHBlcl9sZWZ0Lngrc2l6
+ZS54KihmaWxsL21heCkgLGxvd2VyX3JpZ2h0LnksZmlsbF9jb2xvcikKCXJlY3QodXBwZXJfbGVm
+dC54LHVwcGVyX2xlZnQueSxsb3dlcl9yaWdodC54LGxvd2VyX3JpZ2h0LnksYm9yZGVyX2NvbG9y
+KQoJCmVuZA==
 :: include.lua
---[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-19 16:31:24",revision=608]]
+--[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-19 18:38:47",revision=697]]
 include "lib.lua"
 include "helpers.lua"
 include "point.lua"
@@ -878,7 +902,7 @@ include "field.lua"
 include "bead.lua"
 include "cursor.lua"
 :: input.lua
---[[pod_format="raw",created="2025-06-19 02:47:43",modified="2025-06-19 16:31:24",revision=129]]
+--[[pod_format="raw",created="2025-06-19 02:47:43",modified="2025-06-19 18:38:47",revision=219]]
 input_lookup = {
 	-- Define logical mappings for clarity
 	lpad = {
@@ -1020,7 +1044,7 @@ function qf(fmt,...)
 end
 function pqf(...) printh(qf(...)) end
 :: main.lua
---[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-19 16:31:24",revision=634]]
+--[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-19 18:38:47",revision=723]]
 include "include.lua"
 tileSize=16
 halfTileSize=tileSize/2
@@ -1175,7 +1199,7 @@ end
 	
 
 :: point.lua
---[[pod_format="raw",created="2025-06-18 12:59:13",modified="2025-06-19 16:31:24",revision=435]]
+--[[pod_format="raw",created="2025-06-18 12:59:13",modified="2025-06-19 18:38:47",revision=525]]
 function new_point(x,y)
 	return sm({
 		x=x,
@@ -1289,12 +1313,12 @@ function stop_sfx(sfx_id, channel)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEzOjA5OjI5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxNjozNzoxOSIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImN1cnNvci5s
-dWEjMjYiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWUubHVhIzM3Iix3b3Jrc3Bh
-Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJiZWFkLmx1YSMxMDgiLHdvcmtzcGFjZV9pbmRleD0xfSx7
-bG9jYXRpb249ImZpZWxkLmx1YSM4NCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ibWFp
-bi5sdWEjMTQiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImluY2x1ZGUubHVhIzEiLHdv
-cmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImhlbHBlcnMubHVhIzQyIix3b3Jrc3BhY2VfaW5k
+Ni0xOSAxODozODo1NyIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdhbWUubHVh
+IzExIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJoZWxwZXJzLmx1YSMxNjAiLHdvcmtz
+cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImN1cnNvci5sdWEjMjYiLHdvcmtzcGFjZV9pbmRleD0x
+fSx7bG9jYXRpb249ImJlYWQubHVhIzEwOCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0i
+ZmllbGQubHVhIzMiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Im1haW4ubHVhIzE0Iix3
+b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpbmNsdWRlLmx1YSMxIix3b3Jrc3BhY2VfaW5k
 ZXg9MX0se2xvY2F0aW9uPSJpbnB1dC5sdWEjMTUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRp
 b249InBvaW50Lmx1YSM0MyIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4
 Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRl
