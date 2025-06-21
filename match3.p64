@@ -4,8 +4,8 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxODozODo0NyIscmV2aXNpb249NzU5XV1sejQAfwkAAAk9AADzIXtbMF09e2JtcD1weHUA
-QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgAynk9MCx6b29tPTh9LD4A-y_AHxjA
+Ni0yMSAxNjoyMjoxOCIscmV2aXNpb249ODgxXV1sejQAwQsAADE-AADzIXtbMF09e2JtcD1weHUA
+QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgAynk9MCx6b29tPTF9LD4A-y_AHxjA
 HsAusE6gToAOEE5gLhAOCC5QLhAOGC4wLiAOKC4gLgAeOC4QXkguEC54LiAeeB4wLlgeUC44HoBe
 QG0AHPMR8AYvG7AOIA6QDhALAB6ALhAewB6wTpBucI5QHhAeEB4GAP8DnlA_AE5QLiAucG6ADgAO
 AB5QaAAc9BVgTxCQbnAuIS5QLkEuMC5RLjAeEQ4RDhEeIC4BHhEeEQ4QLhEIAP8JDjEOEV6RTqFO
@@ -44,35 +44,50 @@ CyAOEA3wAA2gA-AFDtAO4A7wL4QPHvIIEC8coB8QEA4ADnAeUA6QAUAO4A8c4A0CABIOBwD-BhAO
 DZAOEC5wDQ4wHR4BIA4dYC5NMMUAHiEXILEC0A8XLg0OXQ4ADh0OLQ6nAiAQDqkD8BYdUB0ADQ6g
 DWANYA0QDUANUA3ADw4ADTANcC0OEA2AHQAOEA2Q3wL-Cg2gDE2gDQA9cA0QDgA9kA4AHRAMDRBN
 AA2RABz-MuAPGcAOcCcAJw4wFwAXGgAXEA4wBwAaB0AOgAcQBwAXAA7wAwfQDvAPB3AXDjAHcCcw
-J2AKB0AHGkAHCgdAFxogqQIiDzEA--------------------------------5f8tgBrAGsAqsEqg
-SoAKEEpgKhAKCypQKhAKGyowKiAKKyogKgAaOyoQWksqECp7KiAaexowKlsaUCo7GoBaThn-RbUF
-WIB4YJhAuCDYEAIAjyC4QJhgeIBYNyYgD6UB-01iKBI4EigQBgBR2BBYElgEAJ9oAlgguEAoIji1
-ASQPMQD-----------8RUG09OH19
+J2AKB0AHGkAHCgdAFxogqQJ-8MsgIAT-FQEE-g4E-g4UPgT_CQQ_BP4KBC4UXg8U-gMUDhQKBE4N
+-gQNFCoEHgQOHf4DHRQaDiQdBP4DDTQ6LQT_AQouNCoNJO4KFBoJRBok3goOBBoECVQKDhROBZ4E
+CikUGhgkbhU_Gg4EDhoJNAoNCggEHxh_FU4JBAopNAodCh2_BS4EOhQtCg0KHc4VDmQNJAoUHd4l
+DQQNhCnOCQQlDSQJNCkECb4ECRQlNAkkOQS_CQokBR40GSQNBK4ZCiQJLgQZBBokHQSeGiQJPgQK
+BAlEHQSeNAkKPjcA8AoEDQQJjjQOCj4EGQQqBCkECZ4EGQROGgQZKQD-Pg4pngQpBD50CR4JFY4E
+KQo_FBk0CS4VCV4SBDkiHiQZFAk_BTkuEgQ5Mg40ChQZAj4pLhIEDhkqIiQaJAkyHgk_EhQpGkIU
+GhQZIhVOdAELHjN0AfAGGwkK-g0KCQ4J-gsKCR4J-goKAgkKDQAwGQIOhwEhKRQFAPAtnhkEGZ4E
+GSSOCVQJfgQpDgR_GSQfFCR_BCmOClQtFG4EGQSOCQQZNC0UXhQJBI4EKUQdFF4UGQp_CklkCADy
+DY4ZGilEXhQpCk4KCQ4ECRo5FA0ETh8YJAkEGh4SAP9NSRQNBD4MHiQpBB4JBHlUbkSZlG6EGQQJ
+tG4MJC2EPTRuDB40LVQ9JA4MrjQ9NB0kDB4MnhwOxB4c-gAcRC4MPgy_Mj4MLiLeUk4MLkK_Ym5y
+rnI_Yu6y-gUy-iQWAQwPuwIdHzQxAP-------------------------------wL-LoAawBrAKrBK
+oEqAChBKYCoQCgsqUCoQChsqMCogCisqICoAGjsqEFpLKhAqeyogGnsaMCpbGlAqOxqAWkCdAB4P
+MQD-E7UFWIB4YJhAuCDYEAIAryC4QJhgeIBY8AV-AB4PpQH-TWIoEjgSKBAGAFHYEFgSWAQAn2gC
+WCC4QCgiOLUBJA8xAP-----------xFQbT00fX0=
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxODo0MzowOCJdXQ==
+Ni0yMSAxNjoyNTozMyJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxODozODo0NyIscmV2aXNpb249NjgwXV1sejQAngAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
-KCJpMTYiLDMyAwAvIjABAP------lB8xBAACDwEAVx8xBAACDwEAVx8xBAACDwEAVxcxBAAXMgwA
-DwEAVR8xBAACDwEAVx8xBAACDwEA---------7vxCCIpLGhpZGRlbj1mYWxzZSxwYW5feD0wCADS
-eT0wLHRpbGVfaD0xNgoAEHcKAIB6b29tPTF9fQ==
+Ni0yMSAxNjoyMjoxOCIscmV2aXNpb249NzkzXV1sejQAjQEAAJcBAADw1nt7Ym1wPXB4dQBDICAg
+BP8VAQT_DgT_DhQ_BP4JBD4E-goELhReDxT_AxQOFAoETg3_BA0UKgQeBA4d-gMdFBoOJB0E-gMN
+NDotBP4BCi40Kg0k7goUGglEGiTeCg4EGgQJVAoOFE4FngQKKRQaGCRuFT4aDgQOGgk0Cg0KCAQd
+fhVOCQQKKTQKHQodvgUuBDoULQoNCh3OFQ5kDSQKFB3eJQ0EDYQpzgkEJQ0kCTQpBAm_BAkUJTQJ
+JDkEvgkKJAUeNBkkDQSuGQokCS4EGQQaJB0EnhokCT4ECgQJRB0EnjQJCj43APAKBA0ECY40Dgo_
+BBkEKgQpBAmeBBkEThoEGSkA8U4OKZ4EKQQ_dAkeCRWOBCkKPhQZNAkuFQl_BDlOJBkUCT4FOU4E
+OU40ChQZTilOBA4ZKi4kGiQJXgleFCkaThQaFBkuFU4saGlkZGVuPWZhbHNlLHBhbl94PTMyLjUL
+AIV5PS03Mi4xNgEAsjcsdGlsZV9oPTE2CgAQdwoAgHpvb209OH19
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxODo0MzowOCJdXQ==
+Ni0yMSAxNjoyNTozMyJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxODozODo0NyIscmV2aXNpb249Njc0XV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
-Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
-Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
--70f-wEArM-ID0AADxBA--_w8P8BAP-qUP----8p
+Ni0yMSAxNjoyMjoxOCIscmV2aXNpb249Nzg3XV1sejQA3QAAAC0KAAD-MHB4dQADKAAABAAED0AQ
+Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-EDqgEQ
+Bg8gEAEgASAB8AAPEhACDgD5LQ8lD_YP-xEwD0CQAQggD1AgD1kQAg8r8KsPKA9rwAFwDxkQCvCs
+D-gKD-8PgA-3Dw0BcA9mD0kPUg9FwFIAQAIQAg5QAOghIAEwD0Dwww8oD--wxjkAb-AJARAGDjAA
+------_NH-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxODo0MzowOCJdXQ==
+Ni0yMSAxNjoyNTozMyJdXQ==
 :: bead.lua
---[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-19 18:38:47",revision=980]]
+--[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-21 16:22:18",revision=1096]]
 beadid=0
 
 function new_bead(offset,position)
@@ -233,7 +248,7 @@ calculate_shake = function(self)
 end
 }
 :: cursor.lua
---[[pod_format="raw",created="2025-06-19 02:43:31",modified="2025-06-19 18:38:47",revision=285]]
+--[[pod_format="raw",created="2025-06-19 02:43:31",modified="2025-06-21 16:22:18",revision=400]]
 function new_cursor(offset,position)
 	return{
 		sprites={8,16},
@@ -555,7 +570,7 @@ ICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfdXBkYXRlKQogIGVuZAplbmQKCmZ1bmN0aW9uIF9kcmF3
 ICgpCiAgaWYgZXJyb3JfdGhyZWFkIHRoZW4KICAgIGNhbGxfZXJyb3JfZXZlbnQgKGVycm9yX2Ry
 YXcpCiAgZWxzZQogICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfZHJhdykKICBlbmQKZW5k
 :: field.lua
---[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-19 18:38:47",revision=950]]
+--[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-21 16:22:18",revision=1075]]
 function new_field()
 	return {
 		position = new_point(200, 100),
@@ -643,7 +658,7 @@ function new_field()
 			end
 		end,
 		find_matches = function(self)
-			local matches=0
+			local matches={}
 			local y_start = self:match_start()
 			local y_end = self.total_height
 
@@ -660,7 +675,7 @@ function new_field()
 					else
 						if run_len >= 3 then
 							for i = run_start, run_start + run_len - 1 do
-								matches+=1
+								add(matches,self.cup[i][y].color)
 								self.cup[i][y].matched = true
 							end
 						end
@@ -684,7 +699,7 @@ function new_field()
 					else
 						if run_len >= 3 then
 							for i = run_start, run_start + run_len - 1 do
-								matches+=1
+								add(matches,self.cup[x][i].color)
 								self.cup[x][i].matched = true
 							end
 						end
@@ -728,7 +743,7 @@ function new_field()
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-19 18:38:47",revision=858]]
+--[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-21 16:22:18",revision=1009]]
 function new_game()
 	return{
 		field=nil,
@@ -740,15 +755,19 @@ function new_game()
 		moves=5,
 		movetimer=0,
 		movetimer_max=10*60,
+		stats=nil,
 		init=function(self)
 			self.field=new_field()
 			self.field:init()
 			self.cursor=new_cursor(self.field.position,new_point(3,7))
 			self.cursor:init()
+			self.stats=new_stats()
+			self.stats:init()
+			self.stats:update_stats()
 		end,
-		matches_to_points=function(m)
-			return m-2
-		end,
+--		matches_to_points=function(combo,chain)
+--			return (#combo-2)*chain
+--		end,
 		update=function(self)
 				self.cursor:update()	
 			--0=free 1=moving 2=check 3=remove 4=drop
@@ -770,15 +789,17 @@ function new_game()
 			if (self.state==2) then
 				if(self.field:update()==false) then
 					local matches=self.field:find_matches()
-					if(matches>0) then
+					if(#matches>0) then
 						self.state=3
-						local points=self.matches_to_points(matches*self.multiplier)
-						self.points+=points
-						self.points_hint=points.."x"..self.multiplier
-						self.multiplier+=1
+						self.stats:score_matches(matches)
+--						local points=self.matches_to_points(matches,self.multiplier)
+--						self.points+=points
+--						self.points_hint=points.."x"..self.multiplier
+--						self.multiplier+=1
 					else
 						self.state=0
-						self.multiplier=1
+						self.stats:reset_chain()
+--						self.multiplier=1
 					end
 				end
 			end
@@ -799,22 +820,84 @@ function new_game()
 			cls(5)
 			self.field:draw()
 			self.cursor:draw()
-			print_centered("points:"..self.points,10,7)
-			print_centered(self.points_hint,20,7)
-			print_centered("moves left:"..self.moves,30,7)
+			print_centered("points:"..self.stats.points,10,7)
+			for i=#self.stats.messages,1,-1 do
+				local message=self.stats.messages[i]
+				print_centered(message.text,20+(8*(#self.stats.messages-i)),message.color)				
+			end
+
+			print_centered("moves left:"..self.moves,130,7)
 			
 			draw_fill_bar(new_point(200, 150),
 								new_point(95,10),self.movetimer,self.movetimer_max,7,7)
 			
---			rect(screenWidth-101,0,screenWidth-1,10,31)
---			rectfill(screenWidth-101*fill ,0,screenWidth-1,10,31)
 		end,	
 
 	}
 end
+:: god.lua
+--[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-06-21 16:22:18",revision=176]]
+new_god=function(stats)
+	return {
+		stats=stats,
+		update_color_values=function(self) end,
+		update_combo_values=function(self) end,
+		update_chain_values=function(self) end,
+		reset_chain=function(self) end,
+		score_matches=function(self,matches) end,
+		update=function(self)
+			self:update_color_values()
+			self:update_combo_values()
+			self:update_chain_values()
+		end
+	}
+end
+
+new_base_god=function(stats)
+	ret= new_god(stats)
+	ret.chait_total=0
+	ret.score_matches=function(self,matches)
+		local combo_value=self.stats.combo_values[#matches-2]
+		--get average value	
+		local tile_value_sum=0
+		for _,color in  ipairs(matches) do			
+			tile_value_sum+=self.stats.color_values[color]
+		end	
+		local average=tile_value_sum/#matches
+		local points=flr(average*combo_value+.5)--round to nearest point
+		local chain_mult=self.stats.chain_values[self.stats.chain_counter]	
+		local chain_points= points*chain_mult
+		self.stats.points+=chain_points
+		self.stats.chain_counter+=1
+		self.stats:add_message(points.."x"..chain_mult.."="..chain_points)
+		self.chait_total+=chain_points
+	end
+	ret.reset_chain=function(self)
+		self.stats.chain_counter=1
+		self.stats:add_message("chain total:"..self.chait_total,colors.white)
+		self.chait_total=0
+	end
+	ret.update_color_values= function(self) --set values of all colors to 1
+		for i = 1,5 do
+			add(self.stats.color_values,1)
+		end
+	end
+	ret.update_combo_values= function(self) --set values of all combos to n
+		for i = 1,27 do --the first combo is 3
+			add(self.stats.combo_values,i)
+		end
+	end
+	ret.update_chain_values= function(self) --set values of all combos to n
+		for i = 1,20 do 
+			add(self.stats.chain_values,i)
+		end
+	end
+	return ret
+end
+
 :: helpers.lua
 b64$LS1bW3BvZF9mb3JtYXQ9InJhdyIsY3JlYXRlZD0iMjAyNS0wNi0xOCAxMjo1NTozNyIsbW9k
-aWZpZWQ9IjIwMjUtMDYtMTkgMTg6Mzg6NDciLHJldmlzaW9uPTY5M11dCmZ1bmN0aW9uIHNtKGEp
+aWZpZWQ9IjIwMjUtMDYtMjEgMTY6MjI6MTgiLHJldmlzaW9uPTgxNl1dCmZ1bmN0aW9uIHNtKGEp
 CglyZXR1cm4gc2V0bWV0YXRhYmxlKGEsYSkKZW5kCmZ1bmN0aW9uIHJhbmRvbShuKQoJaWYobj4w
 KSB0aGVuIAoJCXJldHVybiBybmQoKSpuCgllbHNlCgkJcmV0dXJuIC1uK3JuZCgpKm4qMiAKCWVu
 ZAplbmQKZnVuY3Rpb24gcGlja19yYW5kb20oYXJyKQoJaWYgYXJyPT1uaWxsIHRoZW4gcmV0dXJu
@@ -888,7 +971,7 @@ ZS54KihmaWxsL21heCkgLGxvd2VyX3JpZ2h0LnksZmlsbF9jb2xvcikKCXJlY3QodXBwZXJfbGVm
 dC54LHVwcGVyX2xlZnQueSxsb3dlcl9yaWdodC54LGxvd2VyX3JpZ2h0LnksYm9yZGVyX2NvbG9y
 KQoJCmVuZA==
 :: include.lua
---[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-19 18:38:47",revision=697]]
+--[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-21 16:22:18",revision=815]]
 include "lib.lua"
 include "helpers.lua"
 include "point.lua"
@@ -898,11 +981,14 @@ include "camera.lua"
 include "input.lua"
 include "game.lua"
 
+include "stats.lua"
 include "field.lua"
 include "bead.lua"
 include "cursor.lua"
+include "stats.lua"
+include "god.lua"
 :: input.lua
---[[pod_format="raw",created="2025-06-19 02:47:43",modified="2025-06-19 18:38:47",revision=219]]
+--[[pod_format="raw",created="2025-06-19 02:47:43",modified="2025-06-21 13:26:04",revision=253]]
 input_lookup = {
 	-- Define logical mappings for clarity
 	lpad = {
@@ -1044,7 +1130,7 @@ function qf(fmt,...)
 end
 function pqf(...) printh(qf(...)) end
 :: main.lua
---[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-19 18:38:47",revision=723]]
+--[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-21 16:22:18",revision=836]]
 include "include.lua"
 tileSize=16
 halfTileSize=tileSize/2
@@ -1199,7 +1285,7 @@ end
 	
 
 :: point.lua
---[[pod_format="raw",created="2025-06-18 12:59:13",modified="2025-06-19 18:38:47",revision=525]]
+--[[pod_format="raw",created="2025-06-18 12:59:13",modified="2025-06-21 13:26:04",revision=560]]
 function new_point(x,y)
 	return sm({
 		x=x,
@@ -1311,16 +1397,58 @@ function stop_sfx(sfx_id, channel)
 
 	end
 end
+:: stats.lua
+--[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-06-21 16:22:18",revision=191]]
+new_stats=function()
+	return {
+		points=0,
+		messages={},
+		chain_counter=1,
+		color_values={},
+		combo_values={},
+		chain_values={},
+		gods={},
+		init=function(self)
+			points=0
+			chain_multiplier=1
+			add(self.gods,new_base_god(self)) --add the initial stats in the base joker
+		end,
+		score_matches=function(self,matches)
+			for _, god in ipairs(self.gods) do
+				pq(god)
+				god:score_matches(matches)
+			end			
+		end,		
+		reset_chain=function(self)
+			for _, god in ipairs(self.gods) do
+				god:reset_chain()
+			end
+		end,
+		update_stats=function(self)
+			for _, god in ipairs(self.gods) do
+				god:update()
+			end
+		end,
+		add_message=function(self,message,color)
+			color = color or colors.light_gray
+			add(self.messages,{text=message,color=color})
+			if(#self.messages>10) then
+				del(self.messages,self.messages[1])
+			end
+		end,
+	}
+end
+
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEzOjA5OjI5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0xOSAxODo0MzowOCIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdhbWUubHVh
-IzExIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJoZWxwZXJzLmx1YSMxNjAiLHdvcmtz
-cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImN1cnNvci5sdWEjMjYiLHdvcmtzcGFjZV9pbmRleD0x
-fSx7bG9jYXRpb249ImJlYWQubHVhIzEwOCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0i
-ZmllbGQubHVhIzMiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Im1haW4ubHVhIzE0Iix3
-b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpbmNsdWRlLmx1YSMxIix3b3Jrc3BhY2VfaW5k
-ZXg9MX0se2xvY2F0aW9uPSJpbnB1dC5sdWEjMTUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRp
-b249InBvaW50Lmx1YSM0MyIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4
-Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRl
-eD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2luZGV4PTR9fV1d
+Ni0yMSAxNjoyNTozMyIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdvZC5sdWEj
+MzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InN0YXRzLmx1YSMzMyIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0iZ2FtZS5sdWEjNzUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9j
+YXRpb249ImZpZWxkLmx1YSMxMjkiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImN1cnNv
+ci5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iYmVhZC5sdWEjNiIsd29ya3Nw
+YWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ibWFpbi5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0iaGVscGVycy5sdWEjNzYiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlu
+Y2x1ZGUubHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29y
+a3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30s
+e2xvY2F0aW9uPSJzZngvMC5zZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]
