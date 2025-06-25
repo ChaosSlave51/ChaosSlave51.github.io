@@ -4,90 +4,549 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yMSAxNjoyMjoxOCIscmV2aXNpb249ODgxXV1sejQAwQsAADE-AADzIXtbMF09e2JtcD1weHUA
-QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgAynk9MCx6b29tPTF9LD4A-y_AHxjA
-HsAusE6gToAOEE5gLhAOCC5QLhAOGC4wLiAOKC4gLgAeOC4QXkguEC54LiAeeB4wLlgeUC44HoBe
-QG0AHPMR8AYvG7AOIA6QDhALAB6ALhAewB6wTpBucI5QHhAeEB4GAP8DnlA_AE5QLiAucG6ADgAO
-AB5QaAAc9BVgTxCQbnAuIS5QLkEuMC5RLjAeEQ4RDhEeIC4BHhEeEQ4QLhEIAP8JDjEOEV6RTqFO
-kW5xLhA_US5ALjEuYH4wcwAc8wtQTx6AjlCuQC4PEi4NLjAuLQ4tLiAePQ49HgYA-w4uHS4dLiDO
-MK5ArkA_LT5QLi0uYC4tLnAuDS6gLuEAHf8p8A0PGbA_oB4gDkB_AA5QPho_UD4aLmBeEA5AHhpu
-UA4aXmAOGi4aLkAeEB4aHmBOCg6QXpBO8AZnAB21BVqAemCaQLog2hACAK8gukCaYHqAWvAFTgAe
-tV8XgH5gnkC_IN4QAgCPIL5AnmB_gF5PAB5f-w8B0B4CAAYv-gFPABxwYA8YAA7ALgsD4HAeAB4I
-HmAuEB4IHlA_EQNBQA4IHhMDPQ4IDhUDLx4wFQMr_wYFPxugDjAOgA5AHnAOAA4LEB6ADiAYAyAD
-AAMABBoDLwMQGwNSTwwOEQwdA1RoDw4NLgwNIAOfHk0eYC4NDxYNIwMk8BigDxnQHsAe0B6AfhAO
-QK4wXhoeUA4qHhoADkAeKl4wLhouCh5gTiojA58qTkAeAD4gDlAkA75P9wHQFwIABh-3IwMg4LAO
-EC6AHhAucB4QTlA_JwNAUB4IDikDQEAOGB4rAycwTjwGMQ4IDikDbx4ILkgeICsDPDBAHmAIACML
-ICoDAyQDQR4THhMqA28DTlAuEwAqA0oCIgMACgA-HBEcKgNNrw8OLQ4MLR4gLgwsAwFvHh0PFh0e
-LAMoINAOLAP-EwAuMK5ADipOUB4qDhoeQG4aHlBuCg5gLhpeQB4qbkAeEC4oA3Mf8DEATYAgHxgQ
-DqAeEKcIBO8CgU5AThBOMB4IJQkxIA4YJwkwEA4oFAYQHggA3wAeOB4QHigeSB4gHojtAjhRYA5Q
-HlAEAFFATkALMO8CAecCMB4LAwMABO8CLwsT7wJUbw8cDBENDPICTWwfDh0OHB3yAjIuTS7yAl8N
-LxYNHkEJKSOwDkEJIC4a8QLwAD5gjkCuUB4KLhoOYB4aHj8JnxoeCi5gHgA_kPMC0fAIoA8Y0B7w
-Dg7QHtAusE5QDjBeMB4wHhjuCNA_GC4QfiguEC4ILhgP-QKvHigtGB4wLgg9CN8CJdADDxsQLoAO
-UA5gDmAeqwcwYA4w3QLQHhMuMAsgPhMOAw5QM_QCQA4DKw7kAo8_Ky5QHgMrPucCRUAcDhEc3QKQ
-DA8cHAEMDRwBDAAwHQwBBABvXgEcIRwR7QI04R4fDm5ATQ4tHjAOnR4gBADwCw0fFw0PEg0fFx0e
-IA4dDA0eDQwdHiAeLR4tkAX-BY4NDkAefQ5QDm0OYA4dLB0OcA5d9AIlIIAq9QIwLjoO9wLwDQoX
-Ci5QOhcKHlA6DioADkAOGgcKXlAKFwoOOmAGAGAKFwoeQDoHAJ8OYD4KFwqALioIAyEf8DEAfvAS
-sB8YMA5wHkAOcB7wLw7APjAOQG4QHgAOAI4QDjAuCE5Q5wLfPiA_GB0YHjAeKB0PF_gCJfASEA8b
-MB5wDmAO8AIOIA6gDvALHrA_ExAOUB4zDiAOMA5L6ALxCxMLLxobHjANAA4DCw0AHQseIA0QDgML
-LQsDCgD-AhMrDhMOUA4TCyMOE2ADPgMO-AI1-yAOHxwBDgEdER4gDj0OAR0MEQ4QHg0AHQwBPQEO
-EB4dAB0BDRAdXj0BTU4RHSEtAf4CPfIALxcdPA0eIA4MEAwNHBAMCgBQDxINEBwTA0QsHiwNBAP-
-Di4NbkAOnUAtXB0wHSwgHB0wHRxADB1APUwNcH0gCAMn-zQwOhcqAA5QKgcQBwoeUCogBwoOUAoH
-GjcaQA4nanAXCicKYAcABwoHIAceQCcKFxAHClAKBwoOCjcKUFoXGnBqwBpA2wIeDzEAf7ALHxjQ
-HuAO8CAO8N8OQPABDlCBDv8BXmA_Pw4eUB4dLxc_UC4cHf0CIPAODxtgHjAOAA7wNx5ADlAOKx8a
-gA0bLQ4wDiAOPQD5Av8jAx0gDStQCw0gHQseUAsdAA0AKw5QXQATDjAOAA0TDQMdGwMgDiADDg0e
-Cw5ADiAOAA33Ai3QLxwxLR4gPQEOAQ0QDV4DxB0OAQ0gDQ4QDTANDAoA-w09IB0eHSAdAQ0wDS4d
-AE0wDS49ES0gDT4tIU0OAAMq8AAgDiA_DxdeDQ4APi0uPRDQAHANAE0ADQ4gAwCSQB0OEB0gHTAt
-BgD-JFAdEA0QDw4NDjANEH0eEL0ADhC9IC0APSANDB0ALWA9EE1QHQAOAD0QPQAdAA5ADH0ADgsD
-KUIHABcKDQP-IBceUBcwFw5QJzAHGkAOhwpwFxAHcAcQFzAHHjAHEAdABwpAN1AKUCoARwpwGica
-BgOyQCAPGHD6CACqBf8BSg7wKQ7ADxcuoF2QDQgOLfQFIf8ZHxrwAA8bcA8agB4QDxugDfAFDvAE
-CyAOEA3wAA2gA-AFDtAO4A7wL4QPHvIIEC8coB8QEA4ADnAeUA6QAUAO4A8c4A0CABIOBwD-BhAO
-DZAOEC5wDQ4wHR4BIA4dYC5NMMUAHiEXILEC0A8XLg0OXQ4ADh0OLQ6nAiAQDqkD8BYdUB0ADQ6g
-DWANYA0QDUANUA3ADw4ADTANcC0OEA2AHQAOEA2Q3wL-Cg2gDE2gDQA9cA0QDgA9kA4AHRAMDRBN
-AA2RABz-MuAPGcAOcCcAJw4wFwAXGgAXEA4wBwAaB0AOgAcQBwAXAA7wAwfQDvAPB3AXDjAHcCcw
-J2AKB0AHGkAHCgdAFxogqQJ-8MsgIAT-FQEE-g4E-g4UPgT_CQQ_BP4KBC4UXg8U-gMUDhQKBE4N
--gQNFCoEHgQOHf4DHRQaDiQdBP4DDTQ6LQT_AQouNCoNJO4KFBoJRBok3goOBBoECVQKDhROBZ4E
-CikUGhgkbhU_Gg4EDhoJNAoNCggEHxh_FU4JBAopNAodCh2_BS4EOhQtCg0KHc4VDmQNJAoUHd4l
-DQQNhCnOCQQlDSQJNCkECb4ECRQlNAkkOQS_CQokBR40GSQNBK4ZCiQJLgQZBBokHQSeGiQJPgQK
-BAlEHQSeNAkKPjcA8AoEDQQJjjQOCj4EGQQqBCkECZ4EGQROGgQZKQD-Pg4pngQpBD50CR4JFY4E
-KQo_FBk0CS4VCV4SBDkiHiQZFAk_BTkuEgQ5Mg40ChQZAj4pLhIEDhkqIiQaJAkyHgk_EhQpGkIU
-GhQZIhVOdAELHjN0AfAGGwkK-g0KCQ4J-gsKCR4J-goKAgkKDQAwGQIOhwEhKRQFAPAtnhkEGZ4E
-GSSOCVQJfgQpDgR_GSQfFCR_BCmOClQtFG4EGQSOCQQZNC0UXhQJBI4EKUQdFF4UGQp_CklkCADy
-DY4ZGilEXhQpCk4KCQ4ECRo5FA0ETh8YJAkEGh4SAP9NSRQNBD4MHiQpBB4JBHlUbkSZlG6EGQQJ
-tG4MJC2EPTRuDB40LVQ9JA4MrjQ9NB0kDB4MnhwOxB4c-gAcRC4MPgy_Mj4MLiLeUk4MLkK_Ym5y
-rnI_Yu6y-gUy-iQWAQwPuwIdHzQxAP-------------------------------wL-LoAawBrAKrBK
-oEqAChBKYCoQCgsqUCoQChsqMCogCisqICoAGjsqEFpLKhAqeyogGnsaMCpbGlAqOxqAWkCdAB4P
-MQD-E7UFWIB4YJhAuCDYEAIAryC4QJhgeIBY8AV-AB4PpQH-TWIoEjgSKBAGAFHYEFgSWAQAn2gC
-WCC4QCgiOLUBJA8xAP-----------xFQbT00fX0=
+Ni0yNSAwMzozNTo1MiIscmV2aXNpb249MTQ2M11dbHo0AEUPAAAESwAA8yF7WzBdPXtibXA9cHh1
+AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIAMp5PTAsem9vbT0xfSw_AP8vgB8Y
+wB7ALrBOoE6ADhBOYC4QDgguUC4QDhguMC4gDiguIC4AHjguEF5ILhAueC4gHngeMC5YHlAuOB6A
+XkBtABzzEfAGLxuwDiAOkA4QCwAegC4QHsAesE6QbnCOUB4QHhAeBgD-A55QPgBOUC4gLnBugA4A
+DgAeUGgAHPQVYE8QkG5wLiEuUC5BLjAuUS4wHhEOEQ4RHiAuAR4RHhEOEC4RCAD-CQ4xDhFekU6h
+TpFucS4QPlEuQC4xLmB_MHMAHPMLUE8egI5QrkAuDxIuDS4wLi0OLS4gHj0OPR4GAP8OLh0uHS4g
+zjCuQK5APi0_UC4tLmAuLS5wLg0uoC7hAB3-KfANDxmwPqAeIA5AfgAOUD4aPlA_Gi5gXhAOQB4a
+blAOGl5gDhouGi5AHhAeGh5gTgoOkF6QTvAGZwAdtQVagHpgmkC6INoQAgCvILpAmmB6gFrwBU4A
+HrVfF4B_YJ5AviDeEAIAjyC_QJ5gfoBeTwAeX-8PAdAeAgAGL-4BTwAccGAPGAAOwC4LA_BwHgAe
+CB5gLhAeCB5QPhEDQUAOCB4TAz0OCA4VAy8eMBUDK-sGBT8boA4wDoAOQB5wDgAOCxAegA4gGAMg
+AwADAAQaAy8DEBsDUk8MDhEMHQNUaA8ODS4MDSADnx5NHmAuDQ8WDSMDJPAYoA8Z0B7AHtAegH4Q
+DkCuMF4aHlAOKh4aAA5AHipeMC4aLgoeYE4qIwOfKk5AHgA_IA5QJAO_T-cB0BcCAAYf9yMDIOCw
+DhAugB4QLnAeEE5QPicDQFAeCA4pA0BADhgeKwMnME48BjEOCA4pA28eCC5IHiArAzwwQB5gCAAj
+CyAqAwMkA0EeEx4TKgNvA05QLhMAKgNKAiIDAAoAPxwRHCoDTa8PDi0ODC0eIC4MLAMBbx4dDxYd
+HiwDKCDQDiwD-xMALjCuQA4qTlAeKg4aHkBuGh5QbgoOYC4aXkAeKm5AHhAuKANzH-AxAE2AIB8Y
+EA6gHhCnCATvAoFOQE4QTjAeCCUJMSAOGCcJMBAOKBQGEB4IAN8AHjgeEB4oHkgeIB6I7QI4UWAO
+UB5QBABRQE5ACzDvAgHnAjAeCwMDAATvAi8LE_8CVG8PHAwRDQzyAk1sHw4dDhwd8gIyLk0u8gJf
+DS8WDR5BCSkjsA5BCSAuGvEC8AA_YI5ArlAeCi4aDmAeGh4-CZ8aHgouYB4APpDzAtHwCKAPGNAe
+8A4O0B7QLrBOUA4wXjAeMB4Y7gjQPhguEH4oLhAuCC4YD-0Crx4oLRgeMC4IPQjfAiXQAw8bEC6A
+DlAOYA5gHqsHMGAOMN0C0B4TLjALID4TDgMOUDPkAkAOAysO5AKPPisuUB4DKz7nAkVAHA4RHN0C
+kAwPHBwBDA0cAQwAMB0MAQQAb14BHCEcEe0CNOEeHw5uQE0OLR4wDp0eIAQA8AsNHxcNDxINHxcd
+HiAOHQwNHg0MHR4gHi0eLZAF-wWODQ5AHn0OUA5tDmAOHSwdDnAOXfQCJSCAKvUCMC46DvcC8A0K
+FwouUDoXCh5QOg4qAA5ADhoHCl5QChcKDjpgBgBgChcKHkA6BwCfDmA_ChcKgC4qCAMhH-AxAH7w
+ErAfGDAOcB5ADnAe8C8OwD4wDkBuEB4ADgCOEA4wLghOUOcC3z4gPhgdGB4wHigdDxfoAiXwEhAP
+GzAecA5gDvACDiAOoA7wCx6wPhMQDlAeMw4gDjAOS_gC8QsTCy8aGx4wDQAOAwsNAB0LHiANEA4D
+Cy0LAwoA-wITKw4TDlAOEwsjDhNgAz4DDvwCNf8gDh8cAQ4BHREeIA49DgEdDBEOEB4NAB0MAT0B
+DhAeHQAdAQ0QHV49AU1OER0hLQH_Aj3yAC8XHTwNHiAODBAMDRwQDAoAUA8SDRAcEwNELB4sDQQD
+-w4uDW5ADp1ALVwdMB0sIBwdMB0cQAwdQD1MDXB9IAgDJ-80MDoXKgAOUCoHEAcKHlAqIAcKDlAK
+Bxo3GkAOJ2pwFwonCmAHAAcKByAHHkAnChcQBwpQCgcKDgo3ClBaFxpwasAaQNsCHg8xAH_wCx8Y
+0B7gDvAgDvDfDkDwAQ5QgQ7-AV5gPj8OHlAeHS8XPlAuHB39AiDwDg8bYB4wDgAO8DceQA5QDisf
+GoANGy0OMA4gDj0A_QL-IwMdIA0rUAsNIB0LHlALHQANACsOUF0AEw4wDgANEw0DHRsDIA4gAw4N
+HgsOQA4gDgAN9wIt0C8cMS0eID0BDgENEA1eA8QdDgENIA0OEA0wDQwKAP8NPSAdHh0gHQENMA0u
+HQBNMA0uPREtIA0_LSFNDgADKvAAIA4gPg8XXg0OAD4tLj0Q0ABwDQBNAA0OIAMAkkAdDhAdIB0w
+LQYA-yRQHRANEA8ODQ4wDRB9HhC9AA4QvSAtAD0gDQwdAC1gPRBNUB0ADgA9ED0AHQAOQAx9AA4L
+AylCBwAXCg0D-yAXHlAXMBcOUCcwBxpADocKcBcQB3AHEBcwBx4wBxAHQAcKQDdQClAqAEcKcBon
+GgYDskAgDxhw_ggAqgX-AUoO8CkOwA8XLqBdkA0IDi30BSH-GR8a8AAPG3APGoAeEA8boA3wBQ7w
+BAsgDhAN8AANoAPwBQ7QDuAO8C_EDx7yCBAvHKAfEBAOAA5wHlAOkAFADuAPHOANAgASDgcA-wYQ
+Dg2QDhAucA0OMB0eASAOHWAuTTDFAB4hFyCxAtAPFy4NDl0OAA4dDi0OpwIgEA6pA-AWHVAdAA0O
+oA1gDWANEA1ADVANwA8OAA0wDXAtDhANgB0ADhANkN8C-woNoAxNoA0APXANEA4APZAOAB0QDA0Q
+TQANkQAc-zLgDxnADnAnACcOMBcAFxoAFxAOMAcAGgdADoAHEAcAFwAO8AMH0A7wDwdwFw4wB3An
+MCdgCgdABxpABwoHQBcaIKkCf-DLICAE-xUBBP4OBP4OFD4E-gkEPgT_CgQuFF4PFP4DFA4UCgRO
+Df4EDRQqBB4EDh3_Ax0UGg4kHQT_Aw00Oi0E-gEKLjQqDSTuChQaCUQaJN4KDgQaBAlUCg4UTgWe
+BAopFBoYJG4VPhoOBA4aCTQKDQoIBB8YfhVOCQQKKTQKHQodniUuBDoULQoNCh2_JQ5kDSQKFB3e
+JQ0EDYQpzgkEJQ0kCTQpBAm_BAkUJTQJJDkEvgkKJAUeNBkkDQSuGQokCS4EGQQaJB0EnhokCT4E
+CgQJRB0EnjQJCj43APAKBA0ECY40Dgo_BBkEKgQpBAmeBBkEThoEGSkA-0AOKZ4EKQQ_dAkeCRWO
+BCkKPhQZNAkuFQleEgQ5Ih4kGRQJPgU5LhIEOTIONAoUGQIeFSkuEgQOGSoiJBokCTIFDgk_EhQp
+GkIUGhQZIhVOdgELHDR2AbGfFS8U-xUNHxQKDwoAEQkKAIAfFAr-FQgZHg4A8QH_BwoZFAn_CgoZ
+JP4JBCkUBQDwLJ4ZBBmeBBkkjglUCX4EKQ4EfhkkHSR_BCmOClQtFG4EGQSOCQQZNC0UXhQJBI4E
+KUQdFF4UGQp_CklkCADyDY4ZGilEXhQpCk4KCQ4ECRo5FA0ETh8YJAkEGh4SAP9NSRQNBD4MHiQp
+BB4JBHlUbkSZlG6EGQQJtG4MJC2EPTRuDB40LVQ9JA4MrjQ9NB0kDB4MnhwOxB4c-gAcRC4MPgy_
+Mj4MLiLeUk4MLkK_Ym5yrnI_Yu6y-gUy-iQjARz5G-B2_AXwuVhAODAogBiAGBAYIAgAGGAYgBhA
+CBAIEAhgCJAIUAgQCCAIUAoAIkAYCgBxMCggCEAIIAwAYVAYEAgwGAwAERggAP8JGDAIIAhgaCBI
+QAgAKPACGGAo8Lr4CPBUowAe_RnzBfC5U0AzMCOAE4ATEBMgAwATYBOAE0ADEAMQA2ADkANQAxAD
+IANQCgAiQBMKAHEwIyADQAMgDABhUBMQAzATDAAREyAA-wYTMAMgA2BjIENAAwAj8AITYCPwuvOj
+ACH5Gv8QBfC5XkA_MC6AHoAeEB4gDgAeYB6AHkAOEA4QDmAOkA5QDhAOIA5QCgAiQB4KAABJFQD5
+CAAMAGFQHhAOMB4MABEeIAAQHkkJ-wFgbiBOQA4ALvACHmAu8Lr_pAAPDrQEDzEA------------
+--8_8RJkEATw-yNfEUAuEF4gPoAuQC4gPgAeQD4wPkBe0A4wHjD5FAACDCCADrsgESDUHVBgDiAO
+0A4AIA4w8AsEHAAQLjEVMAAOUDgYIVAOHQAiHsAbABAOqhkAPwwCHQAAFgxkDhAOMD6QHwAgHjAf
+AAFiDBLgIAAzPmAeWAABgAAARgw1QD7gPAAGHgARIBIAIzAOPAABeQASoJQAABgAYB4ADjBuMHcA
+IUAelAA0DiAeHQBhQC4gHkAOHQAF7AABHwAAKQAArAwxUB4gBABDIA7AXiQBQF5ALkCDI3suMD4A
+XvC-bgFGMTguNgEAEzd8AR81aw0E8xSwPyA28AVuZvAAjobAnpagrqaAvrZgzsZA3tYw3tYg3vYA
+EAQATwDu9gEDAAIUACUAMe7mIDYA-wlAzsZgvraArqagnpbAjobwAH5W8AVOJrB5Ah4PPQP-Fh8Z
+PQP-Nw_aEA3xEbB-IPAF3vAA-gLA-gSg-gaA-ghg-gpA-gww-gwg-g4QAwBEAP7wAAwAESAbAP8G
+QP4KYP4IgP4GoP4EwP4C8ADe8AV_EAP--7TzEzY-IPAFZm7wAIaOwJaeoKaugLa_YMbOQNbeMNbe
+IPYA3hAEABQALwYMAwAUACUAMebuIDYA-whAxs5gtr6Apq6glp7Aho7wAFZ_8AUmTi8D--_08Q92
+8AXW8AD2AsD2BKD2BoD2CGD2CkD2DDD2DCD2DhADAEQA9vAADAARIBsA-wZA9gpg9giA9gag9gTA
+9gLwANbwBXYPA---tC9-GU4J---5DtABD8UC----_g8xAP95-y6AGsAawCqwSqBKgAoQSmAqEAoL
+KlAqEAobKjAqIAorKiAqABo7KhBaSyoQKnsqIBp7GjAqWxpQKjsagFpAnQAeDzEA-xO1BViAeGCY
+QLgg2BACAK8guECYYHiAWPAFfwAeD6UB-01iKBI4EigQBgBR2BBYElgEAJ9oAlgguEAoIji1ASQP
+MQD-----------8RUG09NH19
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yMSAxNjoyNTozMyJdXQ==
+Ni0yNSAwMzozNzowOSJdXQ==
+:: gods/
+:: gods/blue_gods.lua
+--[[pod_format="raw",created="2025-06-24 17:53:59",modified="2025-06-25 03:35:52",revision=93]]
+blue1_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Blue 1"
+	ret.title="The blue"
+	ret.sprite=66
+	ret.description="+3 to all shades"
+	ret.flavor="He is blue"
+	ret.color=colors.blue
+	ret.update_color_values= function(self)
+		self.stats.color_values[3]+=3
+	end
+	return ret
+end
+blue2_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Blue 2"
+	ret.title="The blue"
+	ret.sprite=66
+	ret.description="Adds 5 seconds to the move timer"
+	ret.flavor="He is blue"
+	ret.color=colors.blue
+	ret.update_color_values= function(self)
+		self.stats.color_values[3]+=1
+	end
+	ret.update_other_values= function(self)
+
+		self.stats.movetimer_max+=5*60
+	end
+	return ret
+end
+blue3_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Blue 3"
+	ret.title="The blue"
+	ret.sprite=66
+	ret.description="Adds 1 turn per trial"
+	ret.flavor="He is blue"
+	ret.color=colors.blue
+	ret.update_color_values= function(self)
+		self.stats.color_values[3]+=1
+	end
+	ret.update_other_values= function(self)
+		self.stats.moves_max+=1
+	end
+	return ret
+end
+
+blue4_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Blue 4"
+	ret.title="The blue"
+	ret.sprite=66
+	ret.description="Allows one free move without creating matches."
+	ret.flavor="He is blue"
+	ret.color=colors.blue
+	ret.uses=1
+	ret.update_color_values= function(self)
+		self.stats.color_values[3]+=1
+	end
+	ret.base_score_matches=ret.score_matches
+	ret.score_matches=function(self,matches)
+		self:base_score_matches(matches)
+		if(self.uses>0 and  #matches==0 and self.stats.chain_counter==1 ) then
+			self.stats:add_message(self.name..":Free move granted")
+			game.moves-=1
+			self.uses-=1
+		end
+	end	
+	ret.reset_trial=function(self) 
+		self.uses=1
+	end
+	return ret
+end
+blue5_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Blue 5"
+	ret.title="The blue"
+	ret.sprite=66
+	ret.description="match squares"
+	ret.flavor="He is blue"
+	ret.color=colors.blue
+	ret.update_color_values= function(self)
+		self.stats.color_values[3]+=1
+	end
+	ret.update_other_values= function(self)
+		self.stats.match_square=true
+	end
+	return ret
+end
+:: gods/god.lua
+--[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-06-25 03:35:52",revision=880]]
+new_god=function(stats)
+	return {
+		name,
+		title,
+		sprite,
+		description="",
+		flavor="",
+		color=0,
+		stats=stats,
+		update_color_values=function(self) end,
+		update_combo_values=function(self) end,
+		update_chain_values=function(self) end,
+		update_other_values=function(self) end,
+		reset_chain=function(self) end,
+		reset_trial=function(self) end,
+		score_matches=function(self,matches) end,
+		update=function(self)
+			self:update_color_values()
+			self:update_combo_values()
+			self:update_chain_values()
+			self:update_other_values()
+		end,
+		match_length=function(self,n,matches)
+			return n
+		end,
+		draw=function(self,offset)
+			rectfill(offset.x,offset.y,offset.x+42,offset.y+48,32)
+			if(self.color!=0) then 
+				rect(offset.x+1,offset.y+1,offset.x+42-1,offset.y+48-1,self.color)
+			end
+			spr(self.sprite,offset.x+5,offset.y+12)
+			print(self.name,offset.x+3,offset.y+3,6)
+		end,
+		draw_modal=function(self)
+			rectfill(174,20,174+150,20+184,32)
+			print_centered(self.name,24)
+			print_centered(self.title,36)
+			spr(self.sprite, 235,54)
+			local height=print_wrapped(self.description,new_point(180,100),140,7)
+			print_wrapped(self.flavor,new_point(180,100+height+20),140,6)
+		end,
+	}
+end
+
+new_base_god=function(stats)
+	ret= new_god(stats)
+	ret.chait_total=0
+	ret.match_length=function(self,n,matches)
+			return #matches-2
+	end
+	ret.score_matches=function(self,matches)
+		if(#matches==0) then
+			return
+		end
+		
+		local match_length=self.stats:match_length(matches)
+		local combo_value=self.stats.combo_values[match_length]
+		--get average value	
+		local tile_value_sum=0
+		for _,match in  ipairs(matches) do		
+			tile_value_sum+=self.stats.color_values[match.color]
+		end	
+		local average=tile_value_sum/#matches
+		local points=flr(average*combo_value+.5)--round to nearest point
+		local chain_mult=self.stats.chain_values[self.stats.chain_counter]	
+		local chain_points= points*chain_mult
+		self.stats.points+=chain_points
+		self.stats.chain_counter+=1 
+		self.stats:add_message(
+			"value:"..flr(average).." x combo:"..combo_value.." x chain:"..chain_mult.." = "..chain_points)
+		self.chait_total+=chain_points
+	end
+	ret.reset_chain=function(self)
+		self.stats.chain_counter=1
+		self.stats:add_message("chain total:"..self.chait_total,colors.white)
+		self.chait_total=0
+	end
+	ret.update_color_values= function(self) --set values of all colors to 1
+		self.stats.color_values={}
+		for i = 1,5 do
+			add(self.stats.color_values,1)
+		end
+	end
+	ret.update_combo_values= function(self) --set values of all combos to n
+		for i = 1,27 do --the first combo is 3
+			add(self.stats.combo_values,i)
+		end
+	end
+	ret.update_chain_values= function(self) --set values of all combos to n
+		for i = 1,20 do 
+			add(self.stats.chain_values,i)
+		end
+	end
+	ret.update_other_values= function(self)
+		self.stats.moves_max=5
+		self.stats.movetimer_max=6*60
+		self.stats.match_vertical=true
+		self.stats.match_horizontal=true
+	end
+	return ret
+end
+
+:: gods/green_gods.lua
+--[[pod_format="raw",created="2025-06-23 14:05:19",modified="2025-06-25 03:35:52",revision=243]]
+vireth_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Vireth"
+	ret.title="The Emissary of Rot"
+	ret.sprite=64
+	ret.description="+3 to all rots"
+	ret.flavor="The scent is the first thing you will sense, and the last thing you will forget"
+	ret.color=colors.green
+	ret.update_color_values= function(self)
+		self.stats.color_values[2]+=3
+	end
+	return ret
+end
+
+egru_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Egru"
+	ret.title="The The Mold Father"
+	ret.sprite=67
+	ret.description="+2 chain for chains above 3."
+	ret.flavor="His children crumble stone, what are you made of?"
+	ret.color=colors.green
+	ret.update_color_values= function(self)
+		self.stats.color_values[2]+=1
+	end
+	ret.update_chain_values= function(self) --set values of all combos to n
+		for i = 4,20 do 
+			self.stats.combo_values[i]+=2
+		end
+	end
+	return ret
+end 
+myru_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Myru"
+	ret.title="The Blooming Husk"
+	ret.sprite=67
+	ret.description="+3 chain for chains above 4."
+	ret.flavor="Death feeds life, life feeds death"
+	ret.color=colors.green
+	ret.update_color_values= function(self)
+		self.stats.color_values[2]+=1
+	end
+	ret.update_chain_values= function(self) --set values of all combos to n
+		for i = 5,20 do 
+			self.stats.combo_values[i]+=3
+		end
+	end
+	return ret
+end 
+
+beloth_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Beloth"
+	ret.title="The Allroot"
+	ret.sprite=67
+	ret.description="Gain 2 combo size for every additional color"
+	ret.flavor="What you see is a fraction of a fraction of a fraction"
+	ret.color=colors.green
+	ret.update_color_values= function(self)
+		self.stats.color_values[2]+=1
+	end
+	ret.match_length=function(self,n,matches)
+		local seen = {}
+		for _, match in ipairs(matches) do
+			seen[match.color] = true
+		end
+	
+		local count = 0
+		for _, used in pairs(seen) do
+			if used then count += 1 end
+		end
+		if(count>1) then
+			self.stats:add_message(self.name..":Combo extended by "..(count-1)*2)
+			return n+(count-1)*2
+		else
+			return n
+		end
+	end
+	return ret
+end
+
+grask_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Green 4"
+	ret.title="The Fattened Leech"
+	ret.sprite=67
+	ret.description="Double the size of mono combos 4 or greater"
+	ret.flavor="He is green"
+	ret.color=colors.green
+	ret.update_color_values= function(self)
+		self.stats.color_values[2]+=1
+	end
+	ret.match_length=function(self,n,matches)
+		if(#matches<2) then
+			return n
+		end
+		local c =matches[1].color
+		for i=2, #matches do
+			if(matches[i].color!=c) then
+				return n
+			end
+		end
+		self.stats:add_message(self.name..":Combo doubled")
+		return (n+2)*2-2
+	end
+	return ret
+end
+
+
+:: gods/red_gods.lua
+--[[pod_format="raw",created="2025-06-21 17:20:58",modified="2025-06-25 03:35:52",revision=658]]
+malvex_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Malvex"
+	ret.title="The Wraith in Chains"
+	ret.sprite=64
+	ret.description="+3 to all wraiths"
+	ret.flavor="No one knows who chained him. No one knows what will be when he is freed"
+	ret.color=colors.red
+	ret.update_color_values= function(self)
+		self.stats.color_values[1]+=3
+	end
+	return ret
+end
+
+dravak_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Dravak"
+	ret.title="The Fire that Crawls"
+	ret.sprite=65
+	ret.description="Every time you achieve an x2, you have +1x for the rest of the trial"
+	ret.flavor="All flame spreads. He may be slow, but he is inevitable"
+	ret.color=colors.red
+	ret.base_score_matches=ret.score_matches
+	ret.upgrades=0
+	ret.score_matches=function(self,matches)
+		self:base_score_matches(matches)
+		if(self.stats.chain_counter==3)then	--one more than shown
+			self.upgrades+=1
+			self.stats:add_message(self.name..":All values increased")
+		end
+	end
+	ret.update_color_values= function(self)
+		self.stats.color_values[1]+=1
+		for i = 1,5 do
+			self.stats.color_values[i]+=self.upgrades
+		end
+	end
+	ret.reset_trial=function(self) 
+		self.upgrades=0
+	end
+	return ret
+end 
+skarn_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Skarn"
+	ret.title="The Red Maw"
+	ret.sprite=66
+	ret.description="+2 combo for combos above 3."
+	ret.flavor="He is a reflection of all fires. All fires are a reflection of him"
+	ret.color=colors.red
+	ret.update_color_values= function(self)
+		self.stats.color_values[1]+=1
+	end
+	ret.update_chain_values= function(self) --set values of all combos to n
+		for i = 4,20 do 
+			self.stats.chain_values[i]+=2
+		end
+	end
+	return ret
+end 
+
+
+flarim_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Flarim"
+	ret.title="The Burning Echo"
+	ret.sprite=66
+	ret.description="+1 combo for combos above 2."
+	ret.flavor="He is a reflection of all fires. All fires are a reflection of him"
+	ret.color=colors.red
+	ret.update_color_values= function(self)
+		self.stats.color_values[1]+=1
+	end
+	ret.update_chain_values= function(self) --set values of all combos to n
+		for i = 3,20 do 
+			self.stats.chain_values[i]+=1
+		end
+	end
+	return ret
+end
+velcrith_god=function(stats)
+	ret= new_god(stats)
+	ret.name="Velcrith"
+	ret.title="The Crimson Oath "
+	ret.sprite=65
+	ret.description="Increases the chain counter for combos of exactly 3"
+	ret.flavor="Liar liar, soul's on fire"
+	ret.color=colors.red
+	ret.base_score_matches=ret.score_matches
+	ret.score_matches=function(self,matches)
+		self:base_score_matches(matches)
+		if(#matches==3) then
+			self.stats.chain_counter+=1 
+			self.stats:add_message(self.name..":The chain grows stronger")
+		end
+	end
+	ret.update_color_values= function(self)
+		self.stats.color_values[1]+=1
+	end
+	return ret
+end 	
+
+
+--velcrith_god=function(stats)
+--	ret= new_god(stats)
+--	ret.name="Velcrith"
+--	ret.title="The Crimson Oath "
+--	ret.sprite=65
+--	ret.description="Destroy tiles near combos"
+--	ret.flavor="Liar liar, soul's on fire"
+--	ret.color=colors.red
+--	ret.base_score_matches=ret.score_matches
+--	ret.upgrades=0
+--	ret.score_matches=function(self,matches)
+--		self:base_score_matches(matches)
+--		if(self.stats.chain_counter>1)then	--one more than shown
+--			for i =1 ,#matches do
+--				local match=matches[i]
+--				local bead=game.field.cup[match.position.x][match.position.y-1]
+--				if(bead!=nil and bead.position.y>game.field.visible_rows + 1 and bead.matched==false) then
+--					del(game.field.cup[match.position.x],bead)
+--				end
+--				
+--			end
+--		end
+--	end
+--	ret.update_color_values= function(self)
+--		self.stats.color_values[1]+=1
+--	end
+--	return ret
+--end 
+
+
+
+:: gods/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTIxIDE3OjAyOjMyIixtb2RpZmllZD0iMjAyNS0w
+Ni0yNSAwMzozNzowOSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yMSAxNjoyMjoxOCIscmV2aXNpb249NzkzXV1sejQAjQEAAJcBAADw1nt7Ym1wPXB4dQBDICAg
-BP8VAQT_DgT_DhQ_BP4JBD4E-goELhReDxT_AxQOFAoETg3_BA0UKgQeBA4d-gMdFBoOJB0E-gMN
-NDotBP4BCi40Kg0k7goUGglEGiTeCg4EGgQJVAoOFE4FngQKKRQaGCRuFT4aDgQOGgk0Cg0KCAQd
-fhVOCQQKKTQKHQodvgUuBDoULQoNCh3OFQ5kDSQKFB3eJQ0EDYQpzgkEJQ0kCTQpBAm_BAkUJTQJ
-JDkEvgkKJAUeNBkkDQSuGQokCS4EGQQaJB0EnhokCT4ECgQJRB0EnjQJCj43APAKBA0ECY40Dgo_
-BBkEKgQpBAmeBBkEThoEGSkA8U4OKZ4EKQQ_dAkeCRWOBCkKPhQZNAkuFQl_BDlOJBkUCT4FOU4E
-OU40ChQZTilOBA4ZKi4kGiQJXgleFCkaThQaFBkuFU4saGlkZGVuPWZhbHNlLHBhbl94PTMyLjUL
-AIV5PS03Mi4xNgEAsjcsdGlsZV9oPTE2CgAQdwoAgHpvb209OH19
+Ni0yNSAwMzozNTo1MiIscmV2aXNpb249MTMzNV1dbHo0AIsAAABqBAAA8Ah7e2JtcD11c2VyZGF0
+YSgiaTE2IiwxNgMALyIwAQCLLzEwAQArLzIwAQArLzMwAQArLzQwAQADLzUwAQATLzUwAQD--07x
+CyIpLGhpZGRlbj1mYWxzZSxwYW5feD0zMi41CwCFeT0tNzIuMTYBALI3LHRpbGVfaD0xNgoAEHcK
+AIB6b29tPTJ9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yMSAxNjoyNTozMyJdXQ==
+Ni0yNSAwMzozNzowOSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yMSAxNjoyMjoxOCIscmV2aXNpb249Nzg3XV1sejQA3QAAAC0KAAD-MHB4dQADKAAABAAED0AQ
-Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-EDqgEQ
-Bg8gEAEgASAB8AAPEhACDgD5LQ8lD_YP-xEwD0CQAQggD1AgD1kQAg8r8KsPKA9rwAFwDxkQCvCs
-D-gKD-8PgA-3Dw0BcA9mD0kPUg9FwFIAQAIQAg5QAOghIAEwD0Dwww8oD--wxjkAb-AJARAGDjAA
-------_NH-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
+Ni0yNSAwMzozNTo1MiIscmV2aXNpb249MTMxOF1dbHo0AN0AAAAtCgAA-zBweHUAAygAAAQABA9A
+EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOvxA6oB
+EAYPIBABIAEgAfAADxIQAg4A_S0PJQ-mD-8RMA9AkAEIIA9QIA9ZEAIPK-CrDygPa8ABcA8ZEArw
+rA-4Cg--D4AP9w8NAXAPZg9JD1IPRcBSAEACEAIOUADoISABMA9A8MMPKA--8MY5AG-wCQEQBg4w
+AP------jR--AQCsz8gPQAAPEED--7Dw-wEA-_pQ-----yk=
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yMSAxNjoyNTozMyJdXQ==
+Ni0yNSAwMzozNzowOSJdXQ==
 :: bead.lua
---[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-21 16:22:18",revision=1096]]
+--[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-25 03:35:52",revision=1636]]
 beadid=0
 
 function new_bead(offset,position)
@@ -248,7 +707,7 @@ calculate_shake = function(self)
 end
 }
 :: cursor.lua
---[[pod_format="raw",created="2025-06-19 02:43:31",modified="2025-06-21 16:22:18",revision=400]]
+--[[pod_format="raw",created="2025-06-19 02:43:31",modified="2025-06-23 17:21:40",revision=774]]
 function new_cursor(offset,position)
 	return{
 		sprites={8,16},
@@ -570,7 +1029,7 @@ ICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfdXBkYXRlKQogIGVuZAplbmQKCmZ1bmN0aW9uIF9kcmF3
 ICgpCiAgaWYgZXJyb3JfdGhyZWFkIHRoZW4KICAgIGNhbGxfZXJyb3JfZXZlbnQgKGVycm9yX2Ry
 YXcpCiAgZWxzZQogICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfZHJhdykKICBlbmQKZW5k
 :: field.lua
---[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-21 16:22:18",revision=1075]]
+--[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-25 03:35:52",revision=1621]]
 function new_field()
 	return {
 		position = new_point(200, 100),
@@ -604,8 +1063,11 @@ function new_field()
 			local ret=false
 			for i = 1, self.width do
 				for j = 1, self.total_height do
-					if(self.cup[i][j]:update()) then
-						ret=true
+					local bead=self.cup[i][j]
+					if(bead!=nil) then
+						if(bead:update()) then 
+							ret=true
+						end							
 					end
 				end
 			end
@@ -617,7 +1079,10 @@ function new_field()
 			local y1 = self.total_height
 			for i = 1, self.width do
 				for j = y0, y1 do
-					self.cup[i][j]:draw()
+					local bead=self.cup[i][j]
+					if(bead!=nil) then
+						bead:draw()
+					end
 				end
 			end
 
@@ -661,51 +1126,78 @@ function new_field()
 			local matches={}
 			local y_start = self:match_start()
 			local y_end = self.total_height
-
 			-- horizontal
-			for y = y_start, y_end do
-				local run_type = self.cup[1][y].color
-				local run_start = 1
-				local run_len = 1
-
-				for x = 2, self.width + 1 do
-					local next_type = (x <= self.width) and self.cup[x][y].color or nil
-					if next_type == run_type then
-						run_len += 1
-					else
-						if run_len >= 3 then
-							for i = run_start, run_start + run_len - 1 do
-								add(matches,self.cup[i][y].color)
-								self.cup[i][y].matched = true
+			if(game.stats.match_horizontal) then
+				for y = y_start, y_end do
+					local run_type = self.cup[1][y].color
+					local run_start = 1
+					local run_len = 1
+	
+					for x = 2, self.width + 1 do
+						local next_type = (x <= self.width) and self.cup[x][y].color or nil
+						if next_type == run_type then
+							run_len += 1
+						else
+							if run_len >= 3 then
+								for i = run_start, run_start + run_len - 1 do
+									add(matches,self.cup[i][y])
+									self.cup[i][y].matched = true
+								end
 							end
+							run_type = next_type
+							run_start = x
+							run_len = 1
 						end
-						run_type = next_type
-						run_start = x
-						run_len = 1
 					end
 				end
 			end
-
 			-- vertical
-			for x = 1, self.width do
-				local run_type = self.cup[x][self:match_start()].color
-				local run_start = self:match_start()
-				local run_len = 1
-
-				for y = self:match_start() + 1, self.total_height + 1 do
-					local next_type = (y <= self.total_height) and self.cup[x][y].color or nil
-					if next_type == run_type then
-						run_len += 1
-					else
-						if run_len >= 3 then
-							for i = run_start, run_start + run_len - 1 do
-								add(matches,self.cup[x][i].color)
-								self.cup[x][i].matched = true
+			if(game.stats.match_vertical) then
+				for x = 1, self.width do
+					local run_type = self.cup[x][self:match_start()].color
+					local run_start = self:match_start()
+					local run_len = 1
+	
+					for y = self:match_start() + 1, self.total_height + 1 do
+						local next_type = (y <= self.total_height) and self.cup[x][y].color or nil
+						if next_type == run_type then
+							run_len += 1
+						else
+							if run_len >= 3 then
+								for i = run_start, run_start + run_len - 1 do
+									add(matches,self.cup[x][i])
+									self.cup[x][i].matched = true
+								end
+							end
+							run_type = next_type
+							run_start = y
+							run_len = 1
+						end
+					end
+				end
+			end
+			--square
+			if(game.stats.match_square) then
+				for x = 1, self.width - 1 do
+					for y = self:match_start(), self.total_height - 1 do
+						local a = self.cup[x][y]
+						local b = self.cup[x + 1][y]
+						local c = self.cup[x][y + 1]
+						local d = self.cup[x + 1][y + 1]
+				
+						if a and b and c and d and
+						   a.color == b.color and
+						   a.color == c.color and
+						   a.color == d.color then
+				
+							local square = {a, b, c, d}
+							for _, bead in ipairs(square) do
+								if not bead.matched then
+									add(matches, bead)
+									bead.matched = true
+								end
 							end
 						end
-						run_type = next_type
-						run_start = y
-						run_len = 1
 					end
 				end
 			end
@@ -743,40 +1235,57 @@ function new_field()
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-21 16:22:18",revision=1009]]
+--[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-25 03:35:52",revision=1670]]
 function new_game()
 	return{
 		field=nil,
 		state=0, 
 		cursor=nil,
+		god_cursor=nil, 
+		goal=100,
 		points=0,
 		points_hint="",
 		multiplier=1,
-		moves=5,
+		moves=0,
+		
 		movetimer=0,
-		movetimer_max=10*60,
+--		moves_max=5,
+--		movetimer_max=10*60,
 		stats=nil,
+		
 		init=function(self)
 			self.field=new_field()
 			self.field:init()
-			self.cursor=new_cursor(self.field.position,new_point(3,7))
-			self.cursor:init()
 			self.stats=new_stats()
 			self.stats:init()
+--			add(self.stats.gods,blue1_god(self.stats))
+--			add(self.stats.gods,blue2_god(self.stats))
+--			add(self.stats.gods,blue3_god(self.stats))
+			add(self.stats.gods,blue5_god(self.stats))
 			self.stats:update_stats()
+			self.cursor=new_cursor(self.field.position,new_point(3,7))
+			self.cursor:init()
+			self.god_cursor=new_god_cursor(self.stats)
+			self.god_cursor:init()
+
 		end,
---		matches_to_points=function(combo,chain)
---			return (#combo-2)*chain
---		end,
 		update=function(self)
-				self.cursor:update()	
-			--0=free 1=moving 2=check 3=remove 4=drop
-			if(self.state==0 and self.moves>0) then
+			if(self.state!=5) then
+				self.cursor:update()
+			else
+				self.god_cursor:update()
+			end
+			
+			--0=free 1=moving 2=check 3=remove 4=drop 5=menu
+			if(self.state==0 and self.moves<self.stats.moves_max) then
 				if(input:button_press(input_lookup.buttons.o)) then
 					self.state=1
-					self.moves-=1
-					self.movetimer=self.movetimer_max
-				end				
+					self.moves+=1
+					self.movetimer=self.stats.movetimer_max
+				elseif(input:button_press(input_lookup.buttons.x)) then
+					self.state=5
+					self.stats.selected_god=2
+				end		
 			elseif (self.state==1) then
 				if(input:button_press(input_lookup.buttons.o)or self.movetimer<=0) then
 					self.state=2
@@ -785,60 +1294,75 @@ function new_game()
 					self.field:update()
 					self.movetimer-=1
 				end
-			end
-			if (self.state==2) then
+			elseif (self.state==2) then
 				if(self.field:update()==false) then
 					local matches=self.field:find_matches()
 					if(#matches>0) then
 						self.state=3
 						self.stats:score_matches(matches)
---						local points=self.matches_to_points(matches,self.multiplier)
---						self.points+=points
---						self.points_hint=points.."x"..self.multiplier
---						self.multiplier+=1
 					else
+						self.stats:score_matches(matches)
 						self.state=0
 						self.stats:reset_chain()
---						self.multiplier=1
+						
 					end
 				end
-			end
-			if (self.state==3) then
+			elseif (self.state==3) then
 				if(self.field:update()==false) then
 					self.state=4
 					self.field:remove_matched()
 				end	
-			end		
-			if (self.state==4) then
+			elseif (self.state==4) then
 				if(self.field:update()==false) then
 					self.state=2
 				end
+			elseif(self.state==5) then
+				if(input:button_press(input_lookup.buttons.x)) then
+					self.state=0
+					self.stats.selected_god=0
+				end
 			end
+			
+			
 		end,
 		draw=function(self)
-
 			cls(5)
 			self.field:draw()
 			self.cursor:draw()
-			print_centered("points:"..self.stats.points,10,7)
+			--print_centered("points:"..self.stats.points,10,7)
 			for i=#self.stats.messages,1,-1 do
 				local message=self.stats.messages[i]
 				print_centered(message.text,20+(8*(#self.stats.messages-i)),message.color)				
 			end
-
-			print_centered("moves left:"..self.moves,130,7)
 			
-			draw_fill_bar(new_point(200, 150),
-								new_point(95,10),self.movetimer,self.movetimer_max,7,7)
+			--print_centered("moves left:"..self.moves,130,7)
 			
+			draw_fill_bar_h(new_point(200, 150),
+								new_point(95,10),self.movetimer,self.stats.movetimer_max,7,7)
+			print(self.stats.moves_max-self.moves.."/"..self.stats.moves_max,175,156)					
+			draw_fill_bar_v(new_point(180, 166),
+					new_point(10,95),self.stats.moves_max-self.moves,self.stats.moves_max,7,7)
+			print(self.stats.points.."/"..self.goal,306,156)
+			draw_fill_bar_v(new_point(306, 166),
+					new_point(10,95),self.stats.points,self.goal,7,7)
+			--day of week	
+			spr(128,200,2)
+			
+			spr(129,352,2)
+			self.stats:draw()
+			self.god_cursor:draw()
 		end,	
 
 	}
 end
 :: god.lua
---[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-06-21 16:22:18",revision=176]]
+--[[pod_format="raw",created="2025-06-21 17:03:03",modified="2025-06-21 17:38:34",revision=37]]
 new_god=function(stats)
 	return {
+		name,
+		title,
+		sprite,
+		description,
 		stats=stats,
 		update_color_values=function(self) end,
 		update_combo_values=function(self) end,
@@ -868,8 +1392,8 @@ new_base_god=function(stats)
 		local chain_mult=self.stats.chain_values[self.stats.chain_counter]	
 		local chain_points= points*chain_mult
 		self.stats.points+=chain_points
-		self.stats.chain_counter+=1
-		self.stats:add_message(points.."x"..chain_mult.."="..chain_points)
+		self.stats.chain_counter+=1 
+		self.stats:add_message("you:"average.."x"..combo_value.."x"..chain_mult.."="..chain_points)
 		self.chait_total+=chain_points
 	end
 	ret.reset_chain=function(self)
@@ -895,83 +1419,139 @@ new_base_god=function(stats)
 	return ret
 end
 
+:: god_cursor.lua
+--[[pod_format="raw",created="2025-06-23 12:58:19",modified="2025-06-23 17:21:40",revision=99]]
+function new_god_cursor(stats)
+	return{
+		stats=stats,
+		init=function(self)			
+		end,
+		update=function(self)
+			if(self.stats.selected_god!=0) then
+				local id =self.stats.selected_god-2
+				if input:button_press(input_lookup.lpad.left) then 
+					id-=1				
+				elseif input:button_press(input_lookup.lpad.right) then 
+					id+=1
+				elseif input:button_press(input_lookup.lpad.up) then 
+					id-=3
+				elseif input:button_press(input_lookup.lpad.down) then 
+					id+=3
+				end
+				if((id+1)>0 and (id+1)<#self.stats.gods) then
+					self.stats.selected_god=id+2
+				end
+			end
+			
+		end,
+		draw=function(self)
+			if(self.stats.selected_god!=0) then
+				local id =self.stats.selected_god-2
+				local i = flr(id/3)
+				local j = id%3
+				local offset=new_point(2+(j)*46,(i)*52+2)
+				rect(offset.x,offset.y,offset.x+42,offset.y+48,7)				
+			end
+		end
+	}
+end
 :: helpers.lua
 b64$LS1bW3BvZF9mb3JtYXQ9InJhdyIsY3JlYXRlZD0iMjAyNS0wNi0xOCAxMjo1NTozNyIsbW9k
-aWZpZWQ9IjIwMjUtMDYtMjEgMTY6MjI6MTgiLHJldmlzaW9uPTgxNl1dCmZ1bmN0aW9uIHNtKGEp
-CglyZXR1cm4gc2V0bWV0YXRhYmxlKGEsYSkKZW5kCmZ1bmN0aW9uIHJhbmRvbShuKQoJaWYobj4w
-KSB0aGVuIAoJCXJldHVybiBybmQoKSpuCgllbHNlCgkJcmV0dXJuIC1uK3JuZCgpKm4qMiAKCWVu
-ZAplbmQKZnVuY3Rpb24gcGlja19yYW5kb20oYXJyKQoJaWYgYXJyPT1uaWxsIHRoZW4gcmV0dXJu
-IG5pbCBlbmQKCWlmICNhcnIgPT0gMCB0aGVuIHJldHVybiBuaWwgZW5kCglyZXR1cm4gYXJyW2Zs
-cihybmQoI2FycikpICsgMV0KZW5kCmZ1bmN0aW9uIGJsb2NrX2NvbGxpc2lvbihwb2ludEEsIHNp
-emVBLCBwb2ludEIsIHNpemVCKQoJbG9jYWwgYXgxLCBheTEgPSBwb2ludEEueCwgcG9pbnRBLnkK
-CWxvY2FsIGF4MiwgYXkyID0gYXgxICsgc2l6ZUEueCwgYXkxICsgc2l6ZUEueQoKCWxvY2FsIGJ4
-MSwgYnkxID0gcG9pbnRCLngsIHBvaW50Qi55Cglsb2NhbCBieDIsIGJ5MiA9IGJ4MSArIHNpemVC
-LngsIGJ5MSArIHNpemVCLnkKCglpZiBheDEgPCBieDIgYW5kIGF4MiA_IGJ4MSBhbmQgYXkxIDwg
-YnkyIGFuZCBheTIgPiBieTEgdGhlbgoJCXJldHVybiBwb2ludEEtcG9pbnRCCgllbmQKCglyZXR1
-cm4gbmlsCmVuZApmdW5jdGlvbiBjYXJkaW5hbF9kaXJlY3Rpb24odiwgdGhyZXNob2xkKQoJdGhy
-ZXNob2xkID0gdGhyZXNob2xkIG9yIDEgIC0tIG1pbmltdW0gZGlmZmVyZW5jZSBiZXR3ZWVuIGF4
-ZXMKCglsb2NhbCBhYnNfeCA9IGFicyh2LngpCglsb2NhbCBhYnNfeSA9IGFicyh2LnkpCglpZiBh
-YnNfeCA_IGFic195ICsgdGhyZXNob2xkIHRoZW4KCQlyZXR1cm4gbmV3X3BvaW50KHNpZ24odi54
-KSwgMCkKCWVsc2VpZiBhYnNfeSA_IGFic194ICsgdGhyZXNob2xkIHRoZW4KCQlyZXR1cm4gbmV3
-X3BvaW50KDAsIHNpZ24odi55KSkKCWVsc2UKCQlyZXR1cm4gbmlsICAtLSB0b28gZGlhZ29uYWws
-IGRvbid0IGF0dGFjaAoJZW5kCmVuZApmdW5jdGlvbiBzaWduKG4pCglpZiBuID4gMCB0aGVuIHJl
-dHVybiAxCgllbHNlaWYgbiA8IDAgdGhlbiByZXR1cm4gLTEKCWVsc2UgcmV0dXJuIDAKCWVuZApl
-bmQKZnVuY3Rpb24gZ2V0X3N0cmluZ193aWR0aChzKQoJbG9jYWwgd2lkdGg9cHJpbnQocywtMTAw
-MCwwKQoJcHJpbnQoIiIsMCwwKQoJcmV0dXJuIHdpZHRoKzEwMDAKZW5kCmZ1bmN0aW9uIHByaW50
-X2NlbnRlcmVkKHRleHQsIHksIGNvbCkKCWNvbCA9IGNvbCBvciBjb2xvcnMud2hpdGUKCWxvY2Fs
-IHRleHRfd2lkdGggPWdldF9zdHJpbmdfd2lkdGgodGV4dCkKCWxvY2FsIHggPSAoc2NyZWVuV2lk
-dGggLSB0ZXh0X3dpZHRoKSBcIDIKCXByaW50KHRleHQseCtjYW1lcmFfaGVscGVyOmdldF9jYW1l
-cmEoKS54LCB5K2NhbWVyYV9oZWxwZXI6Z2V0X2NhbWVyYSgpLnksIGNvbCkKZW5kCmZ1bmN0aW9u
-IHByaW50X3JpZ2h0KHRleHQsIHksIGNvbCkKCWNvbCA9IGNvbCBvciAgY29sb3JzLndoaXRlCgls
-b2NhbCB0ZXh0X3dpZHRoID1nZXRfc3RyaW5nX3dpZHRoKHRleHQpCglsb2NhbCB4ID0gc2NyZWVu
-V2lkdGggLSB0ZXh0X3dpZHRoCglwcmludCh0ZXh0LCB4K2NhbWVyYV9oZWxwZXI6Z2V0X2NhbWVy
-YSgpLngsIHksIGNvbCkKZW5kCmZ1bmN0aW9uIGlzX3BvaW50X29uX3NjcmVlbihwb2ludCkKCQoJ
-bG9jYWwgY2FtZXJhX3Bvcz1jYW1lcmFfaGVscGVyOmdldF9jYW1lcmEoKQoJCglyZXR1cm4gKAoJ
-CXBvaW50LnggPj0gY2FtZXJhX3Bvcy54IC0gdGlsZVNpemUgYW5kIHBvaW50LnggPCBjYW1lcmFf
-cG9zLnggKyBzY3JlZW5XaWR0aCBhbmQKCQlwb2ludC55ID49IGNhbWVyYV9wb3MueSAtIHRpbGVT
-aXplIGFuZCBwb2ludC55IDwgY2FtZXJhX3Bvcy55ICsgc2NyZWVuSGVpZ2h0CgkpCmVuZApjb2xv
-cnMgPSB7CglibGFjayAgICAgICAgPSAwLAoJZGFya19ibHVlICAgID0gMSwKCWRhcmtfcHVycGxl
-ICA9IDIsCglkYXJrX2dyZWVuICAgPSAzLAoJYnJvd24gICAgICAgID0gNCwKCWRhcmtfZ3JheSAg
-ICA9IDUsCglsaWdodF9ncmF5ICAgPSA2LAoJd2hpdGUgICAgICAgID0gNywKCXJlZCAgICAgICAg
-ICA9IDgsCglvcmFuZ2UgICAgICAgPSA5LAoJeWVsbG93ICAgICAgID0gMTAsCglncmVlbiAgICAg
-ICAgPSAxMSwKCWJsdWUgICAgICAgICA9IDEyLAoJaW5kaWdvICAgICAgID0gMTMsCglwaW5rICAg
-ICAgICAgPSAxNCwKCXBlYWNoICAgICAgICA9IDE1LAoKCS0tIEV4dGVuZGVkIGNvbG9ycyAoMTbi
-gJM2MykgbWF5IHZhcnkgYnkgcGFsZXR0ZSBzZXR1cCwgYnV0IGhlcmUncyBhIHVzZWZ1bCBkZWZh
-dWx0IHNldDoKCXJvc2UgICAgICAgICA9IDE2LAoJc2FsbW9uICAgICAgID0gMTcsCgliZWlnZSAg
-ICAgICAgPSAxOCwKCWxpZ2h0X3llbGxvdyA9IDE5LAoJbGlnaHRfZ3JlZW4gID0gMjAsCglzZWFm
-b2FtICAgICAgPSAyMSwKCXNreV9ibHVlICAgICA9IDIyLAoJcGVyaXdpbmtsZSAgID0gMjMsCgls
-YXZlbmRlciAgICAgPSAyNCwKCWxpZ2h0X3BpbmsgICA9IDI1LAoJZGFya19icm93biA9MjgKCS0t
-IC4uLnlvdSBjYW4gY29udGludWUgYWRkaW5nIGFzIG5lZWRlZAp9Cm5ld190aW1lcj1mdW5jdGlv
-bihzcGF3bl9yYXRlLHN0YXJ0LGFjdGlvbikKCXJldHVybnsKCXNwYXduX3JhdGU9c3Bhd25fcmF0
-ZSwKCXRpbWVyPXN0YXJ0LAoJYWN0aW9uPWFjdGlvbiwKCXVwZGF0ZT1mdW5jdGlvbihzZWxmLG90
-aGVyKQoJCWlmKAlzZWxmLmFjdGlvbj09bmlsKSB0aGVuCgkJCXJldHVybgoJCWVuZAoKCQlpZihz
-ZWxmLnNwYXduX3JhdGU9PTApIHRoZW4KCQkJcmV0dXJuCgkJZWxzZWlmKHNlbGYuc3Bhd25fcmF0
-ZT4xKQl0aGVuCQoJCQlpZihzZWxmLnRpbWVyPnNlbGYuc3Bhd25fcmF0ZSkgdGhlbgoJCQkJc2Vs
-Zi5hY3Rpb24ob3RoZXIpCgkJCQlzZWxmLnRpbWVyPTAKCQkJZWxzZQoJCQkJc2VsZi50aW1lcis9
-MQoJCQllbmQKCQllbHNlCgkJCWZvciBpPTEsMS9zZWxmLnNwYXduX3JhdGUsMSBkbwoJCQkJc2Vs
-Zi5hY3Rpb24ob3RoZXIpCgkJCWVuZAoJCWVuZAoJZW5kCgl9CmVuZAoKZnVuY3Rpb24gcmFuZG9t
-X29mZnNjcmVlbl9wb2ludCgpCglsb2NhbCBzaWRlID0gZmxyKHJuZCg0KSkgIC0tIHBpY2sgYSBy
-YW5kb20gc2lkZTogMD10b3AsIDE9Ym90dG9tLCAyPWxlZnQsIDM9cmlnaHQKCWlmIHNpZGUgPT0g
-MCB0aGVuCgkJLS0gVG9wOiB5ID0gLXRpbGVTaXplCgkJcmV0dXJuIG5ld19wb2ludChmbHIocm5k
-KHNjcmVlbldpZHRoIC8gdGlsZVNpemUpKSAqIHRpbGVTaXplLCAtdGlsZVNpemUpCgllbHNlaWYg
-c2lkZSA9PSAxIHRoZW4KCQktLSBCb3R0b206IHkgPSBzY3JlZW5IZWlnaHQKCQlyZXR1cm4gbmV3
-X3BvaW50KGZscihybmQoc2NyZWVuV2lkdGggLyB0aWxlU2l6ZSkpICogdGlsZVNpemUsIHNjcmVl
-bkhlaWdodCkKCWVsc2VpZiBzaWRlID09IDIgdGhlbgoJCS0tIExlZnQ6IHggPSAtdGlsZVNpemUK
-CQlyZXR1cm4gbmV3X3BvaW50KC10aWxlU2l6ZSwgZmxyKHJuZChzY3JlZW5IZWlnaHQgLyB0aWxl
-U2l6ZSkpICogdGlsZVNpemUpCgllbHNlCgkJLS0gUmlnaHQ6IHggPSBzY3JlZW5XaWR0aAoJCXJl
-dHVybiBuZXdfcG9pbnQoc2NyZWVuV2lkdGgsIGZscihybmQoc2NyZWVuSGVpZ2h0IC8gdGlsZVNp
-emUpKSAqIHRpbGVTaXplKQoJZW5kCmVuZApmdW5jdGlvbiByYW5kb21fb25zY3JlZW5fcG9pbnQo
-KQoJbG9jYWwgeCA9IGZscihybmQoc2NyZWVuV2lkdGgpKSAKCWxvY2FsIHkgPSBmbHIocm5kKHNj
-cmVlbkhlaWdodCkpCglyZXR1cm4gbmV3X3BvaW50KHgsIHkpCmVuZAoKZnVuY3Rpb24gZ2V0X2Zy
-YW1lKGFycixzcGVlZCkJCglyZXR1cm4gYXJyWyhmbHIodCgpKjYwLyhzcGVlZCBvciAxKSklI2Fy
-cisxKV0KZW5kCgpmdW5jdGlvbiBkcmF3X2ZpbGxfYmFyKHVwcGVyX2xlZnQsc2l6ZSxmaWxsLG1h
-eCxib3JkZXJfY29sb3IsZmlsbF9jb2xvcikKCWxvY2FsIGxvd2VyX3JpZ2h0PXVwcGVyX2xlZnQr
-c2l6ZQoJcmVjdGZpbGwodXBwZXJfbGVmdC54LHVwcGVyX2xlZnQueSx1cHBlcl9sZWZ0Lngrc2l6
-ZS54KihmaWxsL21heCkgLGxvd2VyX3JpZ2h0LnksZmlsbF9jb2xvcikKCXJlY3QodXBwZXJfbGVm
-dC54LHVwcGVyX2xlZnQueSxsb3dlcl9yaWdodC54LGxvd2VyX3JpZ2h0LnksYm9yZGVyX2NvbG9y
-KQoJCmVuZA==
+aWZpZWQ9IjIwMjUtMDYtMjUgMDM6MzU6NTIiLHJldmlzaW9uPTE0MTNdXQpmdW5jdGlvbiBzbShh
+KQoJcmV0dXJuIHNldG1ldGF0YWJsZShhLGEpCmVuZApmdW5jdGlvbiByYW5kb20obikKCWlmKG4_
+MCkgdGhlbiAKCQlyZXR1cm4gcm5kKCkqbgoJZWxzZQoJCXJldHVybiAtbitybmQoKSpuKjIgCgll
+bmQKZW5kCmZ1bmN0aW9uIHBpY2tfcmFuZG9tKGFycikKCWlmIGFycj09bmlsbCB0aGVuIHJldHVy
+biBuaWwgZW5kCglpZiAjYXJyID09IDAgdGhlbiByZXR1cm4gbmlsIGVuZAoJcmV0dXJuIGFycltm
+bHIocm5kKCNhcnIpKSArIDFdCmVuZApmdW5jdGlvbiBibG9ja19jb2xsaXNpb24ocG9pbnRBLCBz
+aXplQSwgcG9pbnRCLCBzaXplQikKCWxvY2FsIGF4MSwgYXkxID0gcG9pbnRBLngsIHBvaW50QS55
+Cglsb2NhbCBheDIsIGF5MiA9IGF4MSArIHNpemVBLngsIGF5MSArIHNpemVBLnkKCglsb2NhbCBi
+eDEsIGJ5MSA9IHBvaW50Qi54LCBwb2ludEIueQoJbG9jYWwgYngyLCBieTIgPSBieDEgKyBzaXpl
+Qi54LCBieTEgKyBzaXplQi55CgoJaWYgYXgxIDwgYngyIGFuZCBheDIgPiBieDEgYW5kIGF5MSA8
+IGJ5MiBhbmQgYXkyID4gYnkxIHRoZW4KCQlyZXR1cm4gcG9pbnRBLXBvaW50QgoJZW5kCgoJcmV0
+dXJuIG5pbAplbmQKZnVuY3Rpb24gY2FyZGluYWxfZGlyZWN0aW9uKHYsIHRocmVzaG9sZCkKCXRo
+cmVzaG9sZCA9IHRocmVzaG9sZCBvciAxICAtLSBtaW5pbXVtIGRpZmZlcmVuY2UgYmV0d2VlbiBh
+eGVzCgoJbG9jYWwgYWJzX3ggPSBhYnModi54KQoJbG9jYWwgYWJzX3kgPSBhYnModi55KQoJaWYg
+YWJzX3ggPiBhYnNfeSArIHRocmVzaG9sZCB0aGVuCgkJcmV0dXJuIG5ld19wb2ludChzaWduKHYu
+eCksIDApCgllbHNlaWYgYWJzX3kgPiBhYnNfeCArIHRocmVzaG9sZCB0aGVuCgkJcmV0dXJuIG5l
+d19wb2ludCgwLCBzaWduKHYueSkpCgllbHNlCgkJcmV0dXJuIG5pbCAgLS0gdG9vIGRpYWdvbmFs
+LCBkb24ndCBhdHRhY2gKCWVuZAplbmQKZnVuY3Rpb24gc2lnbihuKQoJaWYgbiA_IDAgdGhlbiBy
+ZXR1cm4gMQoJZWxzZWlmIG4gPCAwIHRoZW4gcmV0dXJuIC0xCgllbHNlIHJldHVybiAwCgllbmQK
+ZW5kCmZ1bmN0aW9uIGdldF9zdHJpbmdfd2lkdGgocykKCWxvY2FsIHdpZHRoPXByaW50KHMsLTEw
+MDAsMCkKCXByaW50KCIiLDAsMCkKCXJldHVybiB3aWR0aCsxMDAwCmVuZApmdW5jdGlvbiBwcmlu
+dF9jZW50ZXJlZCh0ZXh0LCB5LCBjb2wpCgljb2wgPSBjb2wgb3IgY29sb3JzLndoaXRlCglsb2Nh
+bCB0ZXh0X3dpZHRoID1nZXRfc3RyaW5nX3dpZHRoKHRleHQpCglsb2NhbCB4ID0gKHNjcmVlbldp
+ZHRoIC0gdGV4dF93aWR0aCkgXCAyCglwcmludCh0ZXh0LHgrY2FtZXJhX2hlbHBlcjpnZXRfY2Ft
+ZXJhKCkueCwgeStjYW1lcmFfaGVscGVyOmdldF9jYW1lcmEoKS55LCBjb2wpCmVuZApmdW5jdGlv
+biBwcmludF9yaWdodCh0ZXh0LCB5LCBjb2wpCgljb2wgPSBjb2wgb3IgIGNvbG9ycy53aGl0ZQoJ
+bG9jYWwgdGV4dF93aWR0aCA9Z2V0X3N0cmluZ193aWR0aCh0ZXh0KQoJbG9jYWwgeCA9IHNjcmVl
+bldpZHRoIC0gdGV4dF93aWR0aAoJcHJpbnQodGV4dCwgeCtjYW1lcmFfaGVscGVyOmdldF9jYW1l
+cmEoKS54LCB5LCBjb2wpCmVuZApmdW5jdGlvbiBwcmludF93cmFwcGVkKHRleHQsIHBvc2l0aW9u
+LCB3aWR0aCwgY29sb3IpCglsb2NhbCB3b3JkcyA9IHt9Cglmb3Igd29yZCBpbiBhbGwoc3BsaXQo
+dGV4dCwgIiAiLCBmYWxzZSkpIGRvCgkJYWRkKHdvcmRzLCB0b3N0cmluZyh3b3JkKSkKCWVuZAoK
+CWxvY2FsIHggPSBwb3NpdGlvbi54Cglsb2NhbCB5ID0gcG9zaXRpb24ueQoJbG9jYWwgbGluZSA9
+ICIiCglsb2NhbCBsaW5lX2hlaWdodCA9IDggIC0tIGZvbnQgbGluZSBoZWlnaHQKCglmb3IgaSwg
+d29yZCBpbiBpcGFpcnMod29yZHMpIGRvCgkJbG9jYWwgdGVzdF9saW5lID0gKCNsaW5lID4gMCkg
+YW5kIChsaW5lIC4uICIgIiAuLiB3b3JkKSBvciB3b3JkCgkJaWYgZ2V0X3N0cmluZ193aWR0aCh0
+ZXN0X2xpbmUpID4gd2lkdGggdGhlbgoJCQlwcmludChsaW5lLCB4LCB5LCBjb2xvcikKCQkJeSAr
+PSBsaW5lX2hlaWdodAoJCQlsaW5lID0gd29yZAoJCWVsc2UKCQkJbGluZSA9IHRlc3RfbGluZQoJ
+CWVuZAoJZW5kCgoJaWYgI2xpbmUgPiAwIHRoZW4KCQlwcmludChsaW5lLCB4LCB5LCBjb2xvcikK
+CQl5ICs9IGxpbmVfaGVpZ2h0CgllbmQKCglyZXR1cm4geSAtIHBvc2l0aW9uLnkKZW5kCmZ1bmN0
+aW9uIHBhZF9udW1iZXIobiwgd2lkdGgsY2hhcikKCWNoYXI9Y2hhciBvciAiICIKCWxvY2FsIHMg
+PSB0b3N0cmluZyhuKQoJd2hpbGUgI3MgPCB3aWR0aCBkbwoJCXMgPSBjaGFyIC4uIHMKCWVuZAoJ
+cmV0dXJuIHMKZW5kCmZ1bmN0aW9uIGlzX3BvaW50X29uX3NjcmVlbihwb2ludCkKCQoJbG9jYWwg
+Y2FtZXJhX3Bvcz1jYW1lcmFfaGVscGVyOmdldF9jYW1lcmEoKQoJCglyZXR1cm4gKAoJCXBvaW50
+LnggPj0gY2FtZXJhX3Bvcy54IC0gdGlsZVNpemUgYW5kIHBvaW50LnggPCBjYW1lcmFfcG9zLngg
+KyBzY3JlZW5XaWR0aCBhbmQKCQlwb2ludC55ID49IGNhbWVyYV9wb3MueSAtIHRpbGVTaXplIGFu
+ZCBwb2ludC55IDwgY2FtZXJhX3Bvcy55ICsgc2NyZWVuSGVpZ2h0CgkpCmVuZApjb2xvcnMgPSB7
+CglibGFjayAgICAgICAgPSAwLAoJZGFya19ibHVlICAgID0gMSwKCWRhcmtfcHVycGxlICA9IDIs
+CglkYXJrX2dyZWVuICAgPSAzLAoJYnJvd24gICAgICAgID0gNCwKCWRhcmtfZ3JheSAgICA9IDUs
+CglsaWdodF9ncmF5ICAgPSA2LAoJd2hpdGUgICAgICAgID0gNywKCXJlZCAgICAgICAgICA9IDgs
+CglvcmFuZ2UgICAgICAgPSA5LAoJeWVsbG93ICAgICAgID0gMTAsCglncmVlbiAgICAgICAgPSAx
+MSwKCWJsdWUgICAgICAgICA9IDEyLAoJaW5kaWdvICAgICAgID0gMTMsCglwaW5rICAgICAgICAg
+PSAxNCwKCXBlYWNoICAgICAgICA9IDE1LAoKCS0tIEV4dGVuZGVkIGNvbG9ycyAoMTbigJM2Mykg
+bWF5IHZhcnkgYnkgcGFsZXR0ZSBzZXR1cCwgYnV0IGhlcmUncyBhIHVzZWZ1bCBkZWZhdWx0IHNl
+dDoKCXJvc2UgICAgICAgICA9IDE2LAoJc2FsbW9uICAgICAgID0gMTcsCgliZWlnZSAgICAgICAg
+PSAxOCwKCWxpZ2h0X3llbGxvdyA9IDE5LAoJbGlnaHRfZ3JlZW4gID0gMjAsCglzZWFmb2FtICAg
+ICAgPSAyMSwKCXNreV9ibHVlICAgICA9IDIyLAoJcGVyaXdpbmtsZSAgID0gMjMsCglsYXZlbmRl
+ciAgICAgPSAyNCwKCWxpZ2h0X3BpbmsgICA9IDI1LAoJZGFya19icm93biA9MjgKCS0tIC4uLnlv
+dSBjYW4gY29udGludWUgYWRkaW5nIGFzIG5lZWRlZAp9Cm5ld190aW1lcj1mdW5jdGlvbihzcGF3
+bl9yYXRlLHN0YXJ0LGFjdGlvbikKCXJldHVybnsKCXNwYXduX3JhdGU9c3Bhd25fcmF0ZSwKCXRp
+bWVyPXN0YXJ0LAoJYWN0aW9uPWFjdGlvbiwKCXVwZGF0ZT1mdW5jdGlvbihzZWxmLG90aGVyKQoJ
+CWlmKAlzZWxmLmFjdGlvbj09bmlsKSB0aGVuCgkJCXJldHVybgoJCWVuZAoKCQlpZihzZWxmLnNw
+YXduX3JhdGU9PTApIHRoZW4KCQkJcmV0dXJuCgkJZWxzZWlmKHNlbGYuc3Bhd25fcmF0ZT4xKQl0
+aGVuCQoJCQlpZihzZWxmLnRpbWVyPnNlbGYuc3Bhd25fcmF0ZSkgdGhlbgoJCQkJc2VsZi5hY3Rp
+b24ob3RoZXIpCgkJCQlzZWxmLnRpbWVyPTAKCQkJZWxzZQoJCQkJc2VsZi50aW1lcis9MQoJCQll
+bmQKCQllbHNlCgkJCWZvciBpPTEsMS9zZWxmLnNwYXduX3JhdGUsMSBkbwoJCQkJc2VsZi5hY3Rp
+b24ob3RoZXIpCgkJCWVuZAoJCWVuZAoJZW5kCgl9CmVuZAoKZnVuY3Rpb24gcmFuZG9tX29mZnNj
+cmVlbl9wb2ludCgpCglsb2NhbCBzaWRlID0gZmxyKHJuZCg0KSkgIC0tIHBpY2sgYSByYW5kb20g
+c2lkZTogMD10b3AsIDE9Ym90dG9tLCAyPWxlZnQsIDM9cmlnaHQKCWlmIHNpZGUgPT0gMCB0aGVu
+CgkJLS0gVG9wOiB5ID0gLXRpbGVTaXplCgkJcmV0dXJuIG5ld19wb2ludChmbHIocm5kKHNjcmVl
+bldpZHRoIC8gdGlsZVNpemUpKSAqIHRpbGVTaXplLCAtdGlsZVNpemUpCgllbHNlaWYgc2lkZSA9
+PSAxIHRoZW4KCQktLSBCb3R0b206IHkgPSBzY3JlZW5IZWlnaHQKCQlyZXR1cm4gbmV3X3BvaW50
+KGZscihybmQoc2NyZWVuV2lkdGggLyB0aWxlU2l6ZSkpICogdGlsZVNpemUsIHNjcmVlbkhlaWdo
+dCkKCWVsc2VpZiBzaWRlID09IDIgdGhlbgoJCS0tIExlZnQ6IHggPSAtdGlsZVNpemUKCQlyZXR1
+cm4gbmV3X3BvaW50KC10aWxlU2l6ZSwgZmxyKHJuZChzY3JlZW5IZWlnaHQgLyB0aWxlU2l6ZSkp
+ICogdGlsZVNpemUpCgllbHNlCgkJLS0gUmlnaHQ6IHggPSBzY3JlZW5XaWR0aAoJCXJldHVybiBu
+ZXdfcG9pbnQoc2NyZWVuV2lkdGgsIGZscihybmQoc2NyZWVuSGVpZ2h0IC8gdGlsZVNpemUpKSAq
+IHRpbGVTaXplKQoJZW5kCmVuZApmdW5jdGlvbiByYW5kb21fb25zY3JlZW5fcG9pbnQoKQoJbG9j
+YWwgeCA9IGZscihybmQoc2NyZWVuV2lkdGgpKSAKCWxvY2FsIHkgPSBmbHIocm5kKHNjcmVlbkhl
+aWdodCkpCglyZXR1cm4gbmV3X3BvaW50KHgsIHkpCmVuZAoKZnVuY3Rpb24gZ2V0X2ZyYW1lKGFy
+cixzcGVlZCkJCglyZXR1cm4gYXJyWyhmbHIodCgpKjYwLyhzcGVlZCBvciAxKSklI2FycisxKV0K
+ZW5kCgpmdW5jdGlvbiBkcmF3X2ZpbGxfYmFyX2godXBwZXJfbGVmdCxzaXplLGZpbGwsbWF4LGJv
+cmRlcl9jb2xvcixmaWxsX2NvbG9yKQoJbG9jYWwgbG93ZXJfcmlnaHQ9dXBwZXJfbGVmdCtzaXpl
+CglyZWN0ZmlsbCh1cHBlcl9sZWZ0LngsdXBwZXJfbGVmdC55LAoJCXVwcGVyX2xlZnQueCtzaXpl
+LngqIG1pbiggKGZpbGwgLyBtYXgpLDEpLAlsb3dlcl9yaWdodC55CgkJLGZpbGxfY29sb3IpCgly
+ZWN0KHVwcGVyX2xlZnQueCx1cHBlcl9sZWZ0LnksbG93ZXJfcmlnaHQueCxsb3dlcl9yaWdodC55
+LGJvcmRlcl9jb2xvcikKZW5kCgpmdW5jdGlvbiBkcmF3X2ZpbGxfYmFyX3YodXBwZXJfbGVmdCwg
+c2l6ZSwgZmlsbCwgbWF4LCBib3JkZXJfY29sb3IsIGZpbGxfY29sb3IpCglsb2NhbCBsb3dlcl9y
+aWdodCA9IHVwcGVyX2xlZnQgKyBzaXplCglsb2NhbCBmaWxsX2hlaWdodCA9IHNpemUueSAqIG1p
+biggKGZpbGwgLyBtYXgpLDEpCQoJLS0gRHJhdyBmaWxsZWQgcG9ydGlvbiBmcm9tIHRvcCBkb3du
+d2FyZAoJcmVjdGZpbGwoCgkJdXBwZXJfbGVmdC54LAoJCWxvd2VyX3JpZ2h0LnkgLSBmaWxsX2hl
+aWdodCwKCQlsb3dlcl9yaWdodC54LAoJCWxvd2VyX3JpZ2h0LnksCgkJZmlsbF9jb2xvcgoJKQoK
+CS0tIERyYXcgYm9yZGVyCglyZWN0KAoJCXVwcGVyX2xlZnQueCwKCQl1cHBlcl9sZWZ0LnksCgkJ
+bG93ZXJfcmlnaHQueCwKCQlsb3dlcl9yaWdodC55LAoJCWJvcmRlcl9jb2xvcgoJKQplbmQ=
 :: include.lua
---[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-21 16:22:18",revision=815]]
+--[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-25 03:35:52",revision=1361]]
 include "lib.lua"
 include "helpers.lua"
 include "point.lua"
@@ -985,10 +1565,14 @@ include "stats.lua"
 include "field.lua"
 include "bead.lua"
 include "cursor.lua"
+include "god_cursor.lua"
 include "stats.lua"
-include "god.lua"
+include "gods/god.lua"
+include "gods/red_gods.lua"
+include "gods/green_gods.lua"
+include "gods/blue_gods.lua"
 :: input.lua
---[[pod_format="raw",created="2025-06-19 02:47:43",modified="2025-06-21 13:26:04",revision=253]]
+--[[pod_format="raw",created="2025-06-19 02:47:43",modified="2025-06-25 03:35:52",revision=519]]
 input_lookup = {
 	-- Define logical mappings for clarity
 	lpad = {
@@ -1130,7 +1714,7 @@ function qf(fmt,...)
 end
 function pqf(...) printh(qf(...)) end
 :: main.lua
---[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-21 16:22:18",revision=836]]
+--[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-25 03:35:52",revision=1326]]
 include "include.lua"
 tileSize=16
 halfTileSize=tileSize/2
@@ -1141,6 +1725,11 @@ input=new_input(0)
 mode=1
 modes={}
 game=nil
+
+--include "test.lua"
+
+--run_test()
+
 function	restart()
 	pq("----------------restart-----------------")
 	mode=1
@@ -1398,7 +1987,7 @@ function stop_sfx(sfx_id, channel)
 	end
 end
 :: stats.lua
---[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-06-21 16:22:18",revision=191]]
+--[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-06-25 03:35:52",revision=924]]
 new_stats=function()
 	return {
 		points=0,
@@ -1408,16 +1997,32 @@ new_stats=function()
 		combo_values={},
 		chain_values={},
 		gods={},
+		selected_god=0,
+		moves_max=0,
+		movetimer_max=0,
+		
+		match_vertical=false,
+		match_horizontal=false,
+		match_square=false,
+		
+	
 		init=function(self)
 			points=0
 			chain_multiplier=1
 			add(self.gods,new_base_god(self)) --add the initial stats in the base joker
 		end,
+		match_length=function(self,matches)
+			local n=0
+			for _, god in ipairs(self.gods) do
+				n=god:match_length(n,matches)
+			end
+			return n
+		end,
 		score_matches=function(self,matches)
 			for _, god in ipairs(self.gods) do
-				pq(god)
 				god:score_matches(matches)
-			end			
+			end
+			self:update_stats()			
 		end,		
 		reset_chain=function(self)
 			for _, god in ipairs(self.gods) do
@@ -1427,6 +2032,37 @@ new_stats=function()
 		update_stats=function(self)
 			for _, god in ipairs(self.gods) do
 				god:update()
+			end
+		end,
+		draw=function(self)
+			--colors
+			for i=1,#self.color_values do
+				spr(i,416,182+(i-1)*(tileSize+1))
+				print(self.color_values[i],416+tileSize+2,182+((i-1)*tileSize+1)+6,7)
+			end
+			--combos
+			print("combos",410,2,colors.green)
+			for i=1,15 do
+				print(pad_number((i+2),2).."=>"..self.combo_values[i] ,410,10+((i-1)*8),colors.green)
+			end
+			--chains
+			print("chains",446,2,colors.periwinkle)
+			for i=1,15 do
+				print(pad_number((i),2).."=>x"..self.chain_values[i] ,442,10+((i-1)*8),colors.periwinkle)
+			end			
+			--gods
+			for i=1,5 do
+				for j=1,3 do
+					local offset=new_point(2+(j-1)*46,(i-1)*52+2)
+					rectfill(offset.x,offset.y,offset.x+42,offset.y+48,19)
+					local god=self.gods[(i-1)*3+j+1]
+					if(god!=nil) then 
+						god:draw(offset)
+					end
+				end
+			end
+			if(self.selected_god!=0) then
+				self.gods[self.selected_god]:draw_modal()
 			end
 		end,
 		add_message=function(self,message,color)
@@ -1439,16 +2075,79 @@ new_stats=function()
 	}
 end
 
+:: test.lua
+--[[pod_format="raw",created="2025-06-23 22:39:03",modified="2025-06-25 03:35:52",revision=207]]
+		
+
+function run_test()
+	local gods={malvex_god,
+		flarim_god,
+		dravak_god,
+		skarn_god,		
+		green1_god,
+		green2_god,
+		green3_god}
+	pq("----------------starting tests-----------------")
+	for i=1,#gods do
+		local ctor=gods[i]
+		test_god(ctor)
+	end
+	pq("----------------ending tests-----------------")
+	stop()
+end
+function test_god(god_ctor)
+	local stats=new_stats()
+	stats:init()
+	local god=god_ctor(stats)
+	add(stats.gods,god)
+	stats:update_stats()
+	stats:score_matches(test_get_matches({0,0,0,0,3}))
+	stats:score_matches(test_get_matches({0,0,0,3,3}))
+	stats:score_matches(test_get_matches({0,0,0,4,5}))
+	stats:score_matches(test_get_matches({0,0,0,4,5}))
+	stats:reset_chain()
+	stats:score_matches(test_get_matches({0,0,0,0,3}))
+	stats:score_matches(test_get_matches({0,0,0,3,3}))
+	stats:score_matches(test_get_matches({0,0,0,4,5}))
+	stats:score_matches(test_get_matches({0,0,0,4,5}))
+	stats:reset_chain()
+	stats:score_matches(test_get_matches({4,4,0,0,0}))
+	stats:score_matches(test_get_matches({5,0,0,0,0}))
+	stats:score_matches(test_get_matches({4,0,4,0,0}))
+	stats:score_matches(test_get_matches({5,3,0,0,0}))
+	stats:reset_chain()
+	stats:score_matches(test_get_matches({4,4,0,0,0}))
+	stats:score_matches(test_get_matches({5,0,0,0,0}))
+	stats:score_matches(test_get_matches({4,0,4,0,0}))
+	stats:score_matches(test_get_matches({3,5,0,0,0}))
+	pq(god.name..":"..stats.points)
+end
+
+function test_get_matches(colors)
+	ret={}
+	for i=1,#colors do
+		for j=1,colors[i] do
+			local bead=new_bead(nil,new_point(1,j))
+			bead.color=i
+			add(ret,bead)
+		end
+	end
+	return ret
+end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEzOjA5OjI5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yMSAxNjoyNTozMyIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdvZC5sdWEj
-MzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InN0YXRzLmx1YSMzMyIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0iZ2FtZS5sdWEjNzUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9j
-YXRpb249ImZpZWxkLmx1YSMxMjkiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImN1cnNv
-ci5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iYmVhZC5sdWEjNiIsd29ya3Nw
-YWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ibWFpbi5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHts
-b2NhdGlvbj0iaGVscGVycy5sdWEjNzYiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlu
-Y2x1ZGUubHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29y
-a3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30s
-e2xvY2F0aW9uPSJzZngvMC5zZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
+Ni0yNSAwMzozNzowOSIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdvZHMvYmx1
+ZV9nb2RzLmx1YSM3MyIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9yZWRfZ29k
+cy5sdWEjMzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWUubHVhIzI2Iix3b3Jr
+c3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnb2RzL2dvZC5sdWEjOTgiLHdvcmtzcGFjZV9pbmRl
+eD0xfSx7bG9jYXRpb249InN0YXRzLmx1YSM0NCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlv
+bj0iZmllbGQubHVhIzE0NyIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0idGVzdC5sdWEj
+MSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ibWFpbi5sdWEjMSIsd29ya3NwYWNlX2lu
+ZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9ncmVlbl9nb2RzLmx1YSM1OSIsd29ya3NwYWNlX2luZGV4
+PTF9LHtsb2NhdGlvbj0iaGVscGVycy5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlv
+bj0iYmVhZC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iaW5jbHVkZS5sdWEj
+MSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iaW5wdXQubHVhIzEiLHdvcmtzcGFjZV9p
+bmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlv
+bj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngiLHdv
+cmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]
