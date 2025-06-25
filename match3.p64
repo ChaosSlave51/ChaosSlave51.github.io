@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAwMzozNTo1MiIscmV2aXNpb249MTQ2M11dbHo0AEUPAAAESwAA8yF7WzBdPXtibXA9cHh1
+Ni0yNSAwMzozODo1NSIscmV2aXNpb249MTQ2Nl1dbHo0AEUPAAAESwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIAMp5PTAsem9vbT0xfSw_AP8vgB8Y
 wB7ALrBOoE6ADhBOYC4QDgguUC4QDhguMC4gDiguIC4AHjguEF5ILhAueC4gHngeMC5YHlAuOB6A
 XkBtABzzEfAGLxuwDiAOkA4QCwAegC4QHsAesE6QbnCOUB4QHhAeBgD-A55QPgBOUC4gLnBugA4A
@@ -76,10 +76,10 @@ QLgg2BACAK8guECYYHiAWPAFfwAeD6UB-01iKBI4EigQBgBR2BBYElgEAJ9oAlgguEAoIji1ASQP
 MQD-----------8RUG09NH19
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAwMzozNzowOSJdXQ==
+Ni0yNSAwMzozOTozMiJdXQ==
 :: gods/
 :: gods/blue_gods.lua
---[[pod_format="raw",created="2025-06-24 17:53:59",modified="2025-06-25 03:35:52",revision=93]]
+--[[pod_format="raw",created="2025-06-24 17:53:59",modified="2025-06-25 03:38:55",revision=95]]
 blue1_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Blue 1"
@@ -170,7 +170,7 @@ blue5_god=function(stats)
 	return ret
 end
 :: gods/god.lua
---[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-06-25 03:35:52",revision=880]]
+--[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-06-25 03:38:55",revision=882]]
 new_god=function(stats)
 	return {
 		name,
@@ -274,7 +274,7 @@ new_base_god=function(stats)
 end
 
 :: gods/green_gods.lua
---[[pod_format="raw",created="2025-06-23 14:05:19",modified="2025-06-25 03:35:52",revision=243]]
+--[[pod_format="raw",created="2025-06-23 14:05:19",modified="2025-06-25 03:38:55",revision=245]]
 vireth_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Vireth"
@@ -386,7 +386,7 @@ end
 
 
 :: gods/red_gods.lua
---[[pod_format="raw",created="2025-06-21 17:20:58",modified="2025-06-25 03:35:52",revision=658]]
+--[[pod_format="raw",created="2025-06-21 17:20:58",modified="2025-06-25 03:38:55",revision=660]]
 malvex_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Malvex"
@@ -523,30 +523,30 @@ end
 
 :: gods/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTIxIDE3OjAyOjMyIixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAwMzozNzowOSJdXQ==
+Ni0yNSAwMzozOTozMiJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAwMzozNTo1MiIscmV2aXNpb249MTMzNV1dbHo0AIsAAABqBAAA8Ah7e2JtcD11c2VyZGF0
+Ni0yNSAwMzozODo1NSIscmV2aXNpb249MTMzN11dbHo0AIsAAABqBAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNgMALyIwAQCLLzEwAQArLzIwAQArLzMwAQArLzQwAQADLzUwAQATLzUwAQD--07x
 CyIpLGhpZGRlbj1mYWxzZSxwYW5feD0zMi41CwCFeT0tNzIuMTYBALI3LHRpbGVfaD0xNgoAEHcK
 AIB6b29tPTJ9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAwMzozNzowOSJdXQ==
+Ni0yNSAwMzozOTozMiJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAwMzozNTo1MiIscmV2aXNpb249MTMxOF1dbHo0AN0AAAAtCgAA-zBweHUAAygAAAQABA9A
+Ni0yNSAwMzozODo1NSIscmV2aXNpb249MTMyMF1dbHo0AN0AAAAtCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOvxA6oB
 EAYPIBABIAEgAfAADxIQAg4A_S0PJQ-mD-8RMA9AkAEIIA9QIA9ZEAIPK-CrDygPa8ABcA8ZEArw
 rA-4Cg--D4AP9w8NAXAPZg9JD1IPRcBSAEACEAIOUADoISABMA9A8MMPKA--8MY5AG-wCQEQBg4w
 AP------jR--AQCsz8gPQAAPEED--7Dw-wEA-_pQ-----yk=
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAwMzozNzowOSJdXQ==
+Ni0yNSAwMzozOTozMiJdXQ==
 :: bead.lua
---[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-25 03:35:52",revision=1636]]
+--[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-25 03:38:55",revision=1638]]
 beadid=0
 
 function new_bead(offset,position)
@@ -1029,7 +1029,7 @@ ICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfdXBkYXRlKQogIGVuZAplbmQKCmZ1bmN0aW9uIF9kcmF3
 ICgpCiAgaWYgZXJyb3JfdGhyZWFkIHRoZW4KICAgIGNhbGxfZXJyb3JfZXZlbnQgKGVycm9yX2Ry
 YXcpCiAgZWxzZQogICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfZHJhdykKICBlbmQKZW5k
 :: field.lua
---[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-25 03:35:52",revision=1621]]
+--[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-25 03:38:55",revision=1623]]
 function new_field()
 	return {
 		position = new_point(200, 100),
@@ -1235,7 +1235,7 @@ function new_field()
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-25 03:35:52",revision=1670]]
+--[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-25 03:38:55",revision=1675]]
 function new_game()
 	return{
 		field=nil,
@@ -1457,7 +1457,7 @@ function new_god_cursor(stats)
 end
 :: helpers.lua
 b64$LS1bW3BvZF9mb3JtYXQ9InJhdyIsY3JlYXRlZD0iMjAyNS0wNi0xOCAxMjo1NTozNyIsbW9k
-aWZpZWQ9IjIwMjUtMDYtMjUgMDM6MzU6NTIiLHJldmlzaW9uPTE0MTNdXQpmdW5jdGlvbiBzbShh
+aWZpZWQ9IjIwMjUtMDYtMjUgMDM6Mzg6NTUiLHJldmlzaW9uPTE0MTVdXQpmdW5jdGlvbiBzbShh
 KQoJcmV0dXJuIHNldG1ldGF0YWJsZShhLGEpCmVuZApmdW5jdGlvbiByYW5kb20obikKCWlmKG4_
 MCkgdGhlbiAKCQlyZXR1cm4gcm5kKCkqbgoJZWxzZQoJCXJldHVybiAtbitybmQoKSpuKjIgCgll
 bmQKZW5kCmZ1bmN0aW9uIHBpY2tfcmFuZG9tKGFycikKCWlmIGFycj09bmlsbCB0aGVuIHJldHVy
@@ -1551,7 +1551,7 @@ aWdodCwKCQlsb3dlcl9yaWdodC54LAoJCWxvd2VyX3JpZ2h0LnksCgkJZmlsbF9jb2xvcgoJKQoK
 CS0tIERyYXcgYm9yZGVyCglyZWN0KAoJCXVwcGVyX2xlZnQueCwKCQl1cHBlcl9sZWZ0LnksCgkJ
 bG93ZXJfcmlnaHQueCwKCQlsb3dlcl9yaWdodC55LAoJCWJvcmRlcl9jb2xvcgoJKQplbmQ=
 :: include.lua
---[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-25 03:35:52",revision=1361]]
+--[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-25 03:38:55",revision=1363]]
 include "lib.lua"
 include "helpers.lua"
 include "point.lua"
@@ -1572,7 +1572,7 @@ include "gods/red_gods.lua"
 include "gods/green_gods.lua"
 include "gods/blue_gods.lua"
 :: input.lua
---[[pod_format="raw",created="2025-06-19 02:47:43",modified="2025-06-25 03:35:52",revision=519]]
+--[[pod_format="raw",created="2025-06-19 02:47:43",modified="2025-06-25 03:38:55",revision=521]]
 input_lookup = {
 	-- Define logical mappings for clarity
 	lpad = {
@@ -1714,7 +1714,7 @@ function qf(fmt,...)
 end
 function pqf(...) printh(qf(...)) end
 :: main.lua
---[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-25 03:35:52",revision=1326]]
+--[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-25 03:38:55",revision=1328]]
 include "include.lua"
 tileSize=16
 halfTileSize=tileSize/2
@@ -1987,7 +1987,7 @@ function stop_sfx(sfx_id, channel)
 	end
 end
 :: stats.lua
---[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-06-25 03:35:52",revision=924]]
+--[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-06-25 03:38:55",revision=926]]
 new_stats=function()
 	return {
 		points=0,
@@ -2076,7 +2076,7 @@ new_stats=function()
 end
 
 :: test.lua
---[[pod_format="raw",created="2025-06-23 22:39:03",modified="2025-06-25 03:35:52",revision=207]]
+--[[pod_format="raw",created="2025-06-23 22:39:03",modified="2025-06-25 03:38:55",revision=209]]
 		
 
 function run_test()
@@ -2136,7 +2136,7 @@ function test_get_matches(colors)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEzOjA5OjI5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAwMzozNzowOSIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdvZHMvYmx1
+Ni0yNSAwMzozOTozMiIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdvZHMvYmx1
 ZV9nb2RzLmx1YSM3MyIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9yZWRfZ29k
 cy5sdWEjMzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWUubHVhIzI2Iix3b3Jr
 c3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnb2RzL2dvZC5sdWEjOTgiLHdvcmtzcGFjZV9pbmRl
