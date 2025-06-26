@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAyMDoxNzo0MyIscmV2aXNpb249MTY0N11dbHo0AKsPAADpSwAA8yF7WzBdPXtibXA9cHh1
+Ni0yNiAxNjo0Njo1OSIscmV2aXNpb249MTcxMl1dbHo0AFQWAAAETwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIAMp5PTAsem9vbT0xfSw_AP8vgB8Y
 wB7ALrBOoE6ADhBOYC4QDgguUC4QDhguMC4gDiguIC4AHjguEF5ILhAueC4gHngeMC5YHlAuOB6A
 XkBtABzzEfAGLxuwDiAOkA4QCwAegC4QHsAesE6QbnCOUB4QHhAeBgD-A55QPgBOUC4gLnBugA4A
@@ -61,27 +61,57 @@ IANQCgAiQBMKAHEwIyADQAMgDABhUBMQAzATDAAREyAA-wYTMAMgA2BjIENAAwAj8AITYCPwuvOj
 ACH5Gv8QBfC5XkA_MC6AHoAeEB4gDgAeYB6AHkAOEA4QDmAOkA5QDhAOIA5QCgAiQB4KAABJFQD5
 CAAMAGFQHhAOMB4MABEeIAAQHkkJ-wFgbiBOQA4ALvACHmAu8Lr_pAAiHx6kAI-5GfoF8LlaQDow
 KoAagBoQGiAKABpgGoAaQAoQChAKYAqQClAKEAogClAKACJAGgoAcTAqIApACiAMAGFQGhAKMBoM
-ABEaIAD-BhowCiAKYGogSkAKACrwAhpgKvC6_qMADw77BQ8xAP-------------b8RJkEATw-yNf
-EUAuEF4gPoAuQC4gPgAeQD4wPkBe0A4wHjDeFQBDDCCADqAhESC5HlBgDiAO0A4AIA4wMQwEHAAQ
-LhYWMAAOUB0ZIVAOHQAiHsAbABAOjxoAgAwCHQAAVwxkDhAOMD6QHwAgHjAfAAGjDBLgIAAzPmAe
-WAABgAAAhww1QD7gPAAGHgARIBIAIzAOPAABeQASoJQAABgAYB4ADjBuMHcAIUAelAA0DiAeHQBh
-QC4gHkAOHQAF7AABHwAAKQAA7QwxUB4gBABDIA7AXiQBQF5ALkBoJHsuMD4AXvC-bgFGMTguNgEA
-Ezd8AR81CA0E8xSwPyA28AVuZvAAjobAnpagrqaAvrZgzsZA3tYw3tYg3vYAEAQATwDu9gEDAAIU
-ACUAMe7mIDYA-wlAzsZgvraArqagnpbAjobwAH5W8AVOJrB5Ah4PPQP-Fh8ZPQP-Nw83EA3xEbB-
-IPAF3vAA-gLA-gSg-gaA-ghg-gpA-gww-gwg-g4QAwBEAP7wAAwAESAbAP8GQP4KYP4IgP4GoP4E
-wP4C8ADe8AV_EAP--7TzEzY-IPAFZm7wAIaOwJaeoKaugLa_YMbOQNbeMNbeIPYA3hAEABQALwYM
-AwAUACUAMebuIDYA-whAxs5gtr6Apq6glp7Aho7wAFZ_8AUmTi8D--_08Q928AXW8AD2AsD2BKD2
-BoD2CGD2CkD2DDD2DCD2DhADAEQA9vAADAARIBsA-wZA9gpg9giA9gag9gTA9gLwANbwBXYPA---
-tC9-GU4J---5DtABD8UC----_g8xAP958AuAGsAawCqwSqBKgAoQSmAqEAoLKlAqEAobKhQi-xAr
-KiAqABo7KhBaSyoQKnsqIBp7GjAqWxpQKjsagFpAnQAeDzEA-xO1BViAeGCYQLgg2BACAK8guECY
-YHiAWPAFfwAeD6UB-01iKBI4EigQBgBR2BBYElgEAJ9oAlgguEAoIji1ASQPMQD-----------8R
-UG09NH19
+ABEaIAD-BhowCiAKYGogSkAKACrwAhpgKvC6_qMADw-7BR0N1ADwRD8TMb4tDg0eLR8QDgEucW4d
+Hi0OHRwRLgEOGB4obg0PDn0MDiEeCB8YGB4IDkgtDw4OTRwOMT4PGAgeCC8OKDsNDgs9DGEuKA8Y
+CDsoKx0LPQEuzBDyLQgaqDsdDA0RDjE4Cig6CCoYGz0MDxVBCB8JCAoYKjgKHwwMGBstDC8VERgP
+CRgqHxUaKAoMHwwoGx0MHxQA8QEKDxUKKToYChgCCAIoHRkBFADzbAkKOQoZShgSKB0pGAcIClkK
+GQoJHw8JKhgCGBwZGAcIGkkKGQo5CgkGADoYDBkIBwg6EgYJClkaDxYGEhYCGgwJJwgqEgYFGQpJ
+Cg4GDgkFBgwFFgwIEgcIChIaAgUCCpkOBhwGDAYMByIHCiIKEgUGCgg5DgkOCR4MBRcAgBIKAhoC
+BgUSGABwLgwGPAcSBxIAwAoiBQYCCggZAQlOTBMAEAg-APA7FhIKSDsOPAoSGggKEgoiGgYCOlgL
+LA4iCgIIIgoSCgIKAgYFBhFKGAscDjIKCGIKAgoICgEOQQ4KCAsODA4iGmIaAgoCClEOERgPADAK
+CBI1ABAIOADwAREJUQ4KCA4MDgoSCggyGggpAMApUR4ILgIKEgoyCApwAAQRAPASAgoyGgIaAioJ
+AQkxCAEOCD4KYgpCCggaGQEZERgBHgEOIgAiChKmAFApQQ4hDjQAIAI61gBfAhoSOXHRCwwfMoQC
+Hg8xAP------------9a8CtkEATw-yNbQCsQWyA7gCtAKyA7ABtAOzA7QFvQCzAbMAswCyALEBsg
+C4ALYAtAGyAbUAtQG2ALIAvQDgBkCzALUAswHADhK0ALUAsAC1AL8AILUAsdACIbwBsAgwsAC0AL
+QAsQHQCkGxALMAsQCzA7kB8AIBswHwAQGyMAEuAgADM7YBtYAAGAAHUwGyALQDvgPAAGHgARIBIA
+IzALPAABeQASoJQAABgAYBsACzBrMHcAIUAblAA0CyAbHQBhQCsgG0ALHQAF7AABHwAAKQAgIBvB
+ABEgBAA0IAvAJAH7AFtAK0ArQBsQKzA7AFvwv20BNjcuNgEAEzd6AU82Ljc1Vw4E8xSwPyA28AVu
+ZvAAjobAnpagrqaAvrZgzsZA3tYw3tYg3vYAEAQATwDu9gEDAAIUACUAMe7mIDYA-wlAzsZgvraA
+rqagnpbAjobwAH5W8AVOJrB6Ah4PMQD-DxCAPgMTgBoC_QGgG0AbYDtAW0CLACsgO-ARPwNxkBtA
+G3AbYFUCIhAbZwJHIAvwEEYDASMAAUADQjALYBvIAiXwEEoDltAbMAsAC2ALECEANxvwFEwDUqAL
+AAsgIwBQG0ALIBsjABAwiAAFTwNhGwALEAsQ0QKpQEtwG1ALYBvwEFIDAEAAAmEAAI4DBiMABVUD
+cyAbIBtAazBfABhwwgAAVwMRMHIDAngDEVDEABAgQAAKXQMBJQAChgAVCyUAFA9gAzErYCtcA1Ar
+MCsgOwQAO-D-ApQBQzM0LjWXASItMpgBHTZZA-EQfyDwBd7wAP4CwP4EoP4GgP4IYP4KQP4MMP4M
+IP4OEAMARAD_8AAMABEgGwD-BkD_CmD_CID_BqD_BMD_AvAA3vAFfjoD-0YXejoDcDBbEFtwSxCA
+BgAWAD0r8AFAAzFACyAsAgC2BQJ3AgW_BQTbBRMwKQASYIICFAueAgMnAApMAwQnABuAJQANUgMA
+WgYCEAYakHcADFoDUkA7MEtAJQAqS1BOAAZeAwJOACMQGykASAsQG1CeAARmAyEwCy4EIRuAmAAN
+6gAFbgMAxQAiGyDsACMLMDUBL-ACdAMCAEABUUALMCsgxQAC8gBIMAvwAXwDcFsQKzArMEvmBjAw
+KwCKARv32QFdLTcuMTblBjk0LjH7Bg-0EgAAlwPzEzY-IPAFZm7wAIaOwJaeoKaugLa_YMbOQNbe
+MNbeIPYA3hAEABQA4AYMAwAUACUAMebuIDYA-whAxs5gtr6Apq6glp7Aho7wAFZ_8AUmTrYD-0YV
+jy4CMUA7QKoFSyA78CQtCjFQO1DiBQHmBhUjtgIALAoAfwICDAAAFAAn8CMsClEgG1AbMEoASSAb
+8CcoCjQgC3ClAwBuAAV6AwEZAAJPA0tgG-AjcAMBGwARC8YGGSNgAyJQG6sKGHCeACIgG54AEWDi
+ChAgNAAKRgNDUEuACxsAFyIGATGQC1CoBgxsJxUypgY-MC4yAgoG8Q928AXW8AD2AsD2BKD2BoD2
+CGD2CkD2DDD2DCD2DhADAEQA9vAADAARIBsA-wZA9gpg9giA9gag9gTA9gLwANbwBXbyAv9GFX-s
+AQD0CzAQG0AGABBbLA0s8A74AiEbICACAGwCAgoAEkAEAxkNBAMABgAgYCvRBhFg1AIAGgAm8A2g
+BgFWABFgewYFIwA5G-ARnAYTMEoGIgAboQIDJQYAlAAEHgMQoBgDITswnABBIDswSwkDFw0kAxGg
+HgMCPAATEEYAJBAbJwADMAMRsCoDEWBLDREglgY4QAtw0gBQIBuwG2BTDRErrQABkAAQIEIACD4D
+EsA6AwQiAQF8BgEnABMMXgFQ0AtQWxBaDQGCBgFWBC--AKwBCx0zTQMvfxn2Cf_PE33wAUKQO1A7
+LA0wAFtAVAM5K-AITgMRcH0PEVAMAAXwCQFaAyfwCU4DEXAIACAAC64MAhYAMkArQCUABFADWLAb
+gAsQIQADWgMAIwAFUgMgkDtrAADXDANrAANaAyXwCVADILAbhxADIwASS5oACUYAASMAJAswIwAB
+3AkCWgMFjgBgoAvACzBr2AABAgMjG0BYAwfUADIgG3BpDQH-AATWCSFAKyUACFQDAScAQwtQG0Ba
+DhFA7gBFIAvwCGQBcyArMDsgO2DOCQC4ECvw_7MBQzQxLjK2ASMxLlANHzXpAR4PDwP-JhiNDwMB
+gRMm8CXlAQMHAyBAO4EFAUkGGyT7AhEgTwkAXAUQMB0ABvMCQlAbUBuvBSnwKOcCAFMAEBCpBQBq
+AAbbAhMQFwBJYBvwJNECChkABcUCExBgABhwlAADuwIFlAAQIDQADLMCIEBLfQMSIB8AGCMAASFb
+EPcFGwlGASYxN-EPHzFOH---5fALgBrAGsAqsEqgSoAKEEpgKhAKCypQKhAKGyovJf8QKyogKgAa
+OyoQWksqECp7KiAaexowKlsaUCo7GoBaQJ0AHg8xAP8TtQVYgHhgmEC4INgQAgCvILhAmGB4gFjw
+BX8AHg_lAf9NYigSOBIoEAYAUdgQWBJYBACfaAJYILhAKCI4tQEkDzEA------------EVBtPTR9
+fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAyMDoxODoyOSJdXQ==
+Ni0yNiAxNjo0ODozOSJdXQ==
 :: gods/
 :: gods/blue_gods.lua
---[[pod_format="raw",created="2025-06-24 17:53:59",modified="2025-06-25 20:17:43",revision=292]]
+--[[pod_format="raw",created="2025-06-24 17:53:59",modified="2025-06-25 20:21:36",revision=294]]
 velith_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Velith"
@@ -170,7 +200,7 @@ caela_god=function(stats)
 	return ret
 end
 :: gods/god.lua
---[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-06-25 20:17:43",revision=1067]]
+--[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-06-26 16:46:59",revision=1125]]
 new_god=function(stats)
 	return {
 		name,
@@ -274,8 +304,10 @@ new_base_god=function(stats)
 	return ret
 end
 
+
+
 :: gods/green_gods.lua
---[[pod_format="raw",created="2025-06-23 14:05:19",modified="2025-06-25 20:17:43",revision=421]]
+--[[pod_format="raw",created="2025-06-23 14:05:19",modified="2025-06-26 16:46:59",revision=431]]
 vireth_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Vireth"
@@ -293,7 +325,7 @@ end
 egru_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Egru"
-	ret.title="The The Mold Father"
+	ret.title="The Mold Father"
 	ret.sprite=67
 	ret.description="+2 chain for chains above 3."
 	ret.flavor="His children crumble stone, what are you made of?"
@@ -387,7 +419,7 @@ end
 
 
 :: gods/purple_gods.lua
---[[pod_format="raw",created="2025-06-25 13:46:31",modified="2025-06-25 20:17:43",revision=249]]
+--[[pod_format="raw",created="2025-06-25 13:46:31",modified="2025-06-25 20:21:36",revision=251]]
 zuruth_god=function(stats)
 	ret= new_god(stats)
 	ret.name="zuruth"
@@ -498,7 +530,7 @@ soruun_god=function(stats)
 	return ret
 end
 :: gods/red_gods.lua
---[[pod_format="raw",created="2025-06-21 17:20:58",modified="2025-06-25 20:17:43",revision=844]]
+--[[pod_format="raw",created="2025-06-21 17:20:58",modified="2025-06-26 15:26:41",revision=868]]
 malvex_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Malvex"
@@ -539,13 +571,13 @@ dravak_god=function(stats)
 	end
 	return ret
 end 
-skarn_god=function(stats)
+skaza_god=function(stats)
 	ret= new_god(stats)
-	ret.name="Skarn"
+	ret.name="Skaza"
 	ret.title="The Red Maw"
-	ret.sprite=66
+	ret.sprite=72
 	ret.description="+2 combo for combos above 3."
-	ret.flavor="He is a reflection of all fires. All fires are a reflection of him"
+	ret.flavor="She chews for pleasure. It makes no difference to the furnace in her gizzard"
 	ret.color=colors.red
 	ret.update_color_values= function(self)
 		self.stats.color_values[1]+=1
@@ -630,7 +662,7 @@ end
 
 
 :: gods/yellow_gods.lua
---[[pod_format="raw",created="2025-06-25 15:51:33",modified="2025-06-25 20:17:43",revision=154]]
+--[[pod_format="raw",created="2025-06-25 15:51:33",modified="2025-06-25 20:21:36",revision=156]]
 yonvek_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Yonvek"
@@ -773,30 +805,30 @@ end
 
 :: gods/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTIxIDE3OjAyOjMyIixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAyMDoxODoyOSJdXQ==
+Ni0yNiAxNjo0ODozOSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAyMDoxNzo0MyIscmV2aXNpb249MTUwOV1dbHo0AIsAAABqBAAA8Ah7e2JtcD11c2VyZGF0
+Ni0yNiAxNjo0Njo1OSIscmV2aXNpb249MTU1OF1dbHo0AIsAAABqBAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNgMALyIwAQCLLzEwAQArLzIwAQArLzMwAQArLzQwAQADLzUwAQATLzUwAQD--07x
 CyIpLGhpZGRlbj1mYWxzZSxwYW5feD0zMi41CwCFeT0tNzIuMTYBALI3LHRpbGVfaD0xNgoAEHcK
 AIB6b29tPTJ9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAyMDoxODoyOSJdXQ==
+Ni0yNiAxNjo0ODozOSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAyMDoxNzo0MyIscmV2aXNpb249MTQ5Ml1dbHo0AN0AAAAtCgAA-zBweHUAAygAAAQABA9A
+Ni0yNiAxNjo0Njo1OSIscmV2aXNpb249MTU0MF1dbHo0AN0AAAAtCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOvxA6oB
 EAYPIBABIAEgAfAADxIQAg4A_S0PJQ-mD-8RMA9AkAEIIA9QIA9ZEAIPK-CrDygPa8ABcA8ZEArw
 rA-4Cg--D4AP9w8NAXAPZg9JD1IPRcBSAEACEAIOUADoISABMA9A8MMPKA--8MY5AG-wCQEQBg4w
 AP------jR--AQCsz8gPQAAPEED--7Dw-wEA-_pQ-----yk=
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAyMDoxODoyOSJdXQ==
+Ni0yNiAxNjo0ODozOSJdXQ==
 :: bead.lua
---[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-25 20:17:43",revision=1813]]
+--[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-26 16:46:59",revision=1825]]
 beadid=0
 
 function new_bead(offset,position)
@@ -1279,7 +1311,7 @@ ICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfdXBkYXRlKQogIGVuZAplbmQKCmZ1bmN0aW9uIF9kcmF3
 ICgpCiAgaWYgZXJyb3JfdGhyZWFkIHRoZW4KICAgIGNhbGxfZXJyb3JfZXZlbnQgKGVycm9yX2Ry
 YXcpCiAgZWxzZQogICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfZHJhdykKICBlbmQKZW5k
 :: field.lua
---[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-25 20:17:43",revision=1799]]
+--[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-26 16:46:59",revision=1848]]
 function new_field()
 	return {
 		position = new_point(200, 100),
@@ -1485,7 +1517,8 @@ function new_field()
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-25 20:17:43",revision=1931]]
+--[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-26 16:46:59",revision=2027]]
+
 function new_game()
 	return{
 		field=nil,
@@ -1499,44 +1532,33 @@ function new_game()
 		moves=0,		
 		movetimer=0,
 		stats=nil,
+	
+		current_trial=1,
+		current_trial_sprite=0,
 		
+		week_sprite=129,
+		
+	
+		week=get_week(),	
+		setup_trial = function(self,trial)
+			self.goal=trial.point_goal
+			self.current_trial_sprite=trial.sprite
+		end,
 		init=function(self)
+			pq(self.week,self.current_trial)
+			self:setup_trial(self.week.trials[self.current_trial])	
+	
 			self.field=new_field()
 			self.field:init()
 			self.stats=new_stats()
 			self.stats:init()
 			
-			local god_ctors=
-				{malvex_god,
-				flarim_god,
-				dravak_god,
-				skarn_god,
-				velcrith_god,
-				vireth_god,
-				egru_god,
-				myru_god,
-				beloth_god,
-				grask_god,
-				velith_god,
-				asul_god,
-				noen_god,
-				kyreth_god,
-				caela_god,
-				zuruth_god,
-				meraxi_god,
-				ilmeth_god,
-				dreluun_god,
-				soruun_god,
-				yonvek_god,
-				thimel_god,
-				vollun_god,
-				nethir_god,
-				ezeleth_god}
-			for i=1,#god_ctors do
-				local god=god_ctors[i](self.stats) 
-				god:init()
-				add(self.stats.gods,god)
-			end
+
+--			for i=1,#god_ctors do
+--				local god=god_ctors[i](self.stats) 
+--				god:init()
+--				add(self.stats.gods,god)
+--			end
 			
 			self.stats:update_stats()
 			self.cursor=new_cursor(self.field.position,new_point(3,7))
@@ -1552,7 +1574,25 @@ function new_game()
 				self.god_cursor:update()
 			end				
 			--0=free 1=moving 2=check 3=remove 4=drop 5=menu
-			if(self.state==0 and self.moves>=self.stats.moves_max and self.stats.points<self.goal) then
+			if(self.state==0 and self.stats.points>=self.goal) then
+				self.stats:add_message("You win this day",colors.yellow )
+				self.moves=0
+				self.current_trial+=1
+				local next_trial=self.week.trials[self.current_trial]
+				if(next_trial!=nil) then
+					self:setup_trial(next_trial)
+					self.stats:reset_trial()
+					pq(god_ctors)
+					local god=pick_random(god_ctors)(self.stats) 
+					god:init()
+					add(self.stats.gods,god)
+					self.stats.selected_god=#self.stats.gods
+					self.state=5
+				else
+					self.stats:add_message("You completed the week",colors.yellow )
+					self.current_trial=1
+				end
+			elseif(self.state==0 and self.moves>=self.stats.moves_max) then
 
 				self.stats.lives-=1
 				if(self.stats.lives>0) then
@@ -1603,7 +1643,7 @@ function new_game()
 					self.state=2
 				end
 			elseif(self.state==5) then
-				if(input:button_press(input_lookup.buttons.x)) then
+				if(input:button_press(input_lookup.buttons.x) or input:button_press(input_lookup.buttons.o)) then
 					self.state=0
 					self.stats.selected_god=0
 				end
@@ -1630,15 +1670,16 @@ function new_game()
 			draw_fill_bar_v(new_point(306, 166),
 					new_point(10,95),self.stats.points,self.goal,7,7)
 			--day of week	
-			spr(128,200,2)
+			spr(self.current_trial_sprite,200,2)
 			
-			spr(129,352,2)
+			spr(self.week_sprite,352,2)
 			self.stats:draw()
 			self.god_cursor:draw()
 		end,	
 
 	}
 end
+
 :: god.lua
 --[[pod_format="raw",created="2025-06-21 17:03:03",modified="2025-06-21 17:38:34",revision=37]]
 new_god=function(stats)
@@ -1741,7 +1782,7 @@ function new_god_cursor(stats)
 end
 :: helpers.lua
 b64$LS1bW3BvZF9mb3JtYXQ9InJhdyIsY3JlYXRlZD0iMjAyNS0wNi0xOCAxMjo1NTozNyIsbW9k
-aWZpZWQ9IjIwMjUtMDYtMjUgMjA6MTc6NDMiLHJldmlzaW9uPTE1OTBdXQpmdW5jdGlvbiBzbShh
+aWZpZWQ9IjIwMjUtMDYtMjYgMTY6NDY6NTkiLHJldmlzaW9uPTE2NDNdXQpmdW5jdGlvbiBzbShh
 KQoJcmV0dXJuIHNldG1ldGF0YWJsZShhLGEpCmVuZApmdW5jdGlvbiByYW5kb20obikKCWlmKG4_
 MCkgdGhlbiAKCQlyZXR1cm4gcm5kKCkqbgoJZWxzZQoJCXJldHVybiAtbitybmQoKSpuKjIgCgll
 bmQKZW5kCmZ1bmN0aW9uIHBpY2tfcmFuZG9tKGFycikKCWlmIGFycj09bmlsbCB0aGVuIHJldHVy
@@ -1836,7 +1877,7 @@ bF9jb2xvcgoJKQoKCS0tIERyYXcgYm9yZGVyCglyZWN0KAoJCXVwcGVyX2xlZnQueCwKCQl1cHBl
 cl9sZWZ0LnksCgkJbG93ZXJfcmlnaHQueCwKCQlsb3dlcl9yaWdodC55LAoJCWJvcmRlcl9jb2xv
 cgoJKQplbmQ=
 :: include.lua
---[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-25 20:17:43",revision=1541]]
+--[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-26 16:46:59",revision=1591]]
 include "lib.lua"
 include "helpers.lua"
 include "point.lua"
@@ -1852,6 +1893,7 @@ include "bead.lua"
 include "cursor.lua"
 include "god_cursor.lua"
 include "stats.lua"
+include "level.lua"
 include "gods/god.lua"
 include "gods/red_gods.lua"
 include "gods/green_gods.lua"
@@ -1859,7 +1901,7 @@ include "gods/blue_gods.lua"
 include "gods/purple_gods.lua"
 include "gods/yellow_gods.lua"
 :: input.lua
---[[pod_format="raw",created="2025-06-19 02:47:43",modified="2025-06-25 20:17:43",revision=694]]
+--[[pod_format="raw",created="2025-06-19 02:47:43",modified="2025-06-25 20:21:36",revision=696]]
 input_lookup = {
 	-- Define logical mappings for clarity
 	lpad = {
@@ -1944,6 +1986,32 @@ function all_buttons_pressed(buttons, player)
 	end
 	return true
 end
+:: level.lua
+--[[pod_format="raw",created="2025-06-25 20:26:34",modified="2025-06-26 16:46:59",revision=75]]
+function get_week()
+	local ret= new_week()
+	ret.sprite=129
+	add(ret.trials,new_trial(128,20,5))
+	add(ret.trials,new_trial(136,50,5))
+	add(ret.trials,new_trial(144,100,5))
+	add(ret.trials,new_trial(152,200,5))
+	add(ret.trials,new_trial(160,500,5))
+	return ret
+end
+
+new_week=function()
+	return{
+		sprite=0,
+		trials={}
+	}
+end
+
+new_trial=function(sprite,point_goal)
+	return{
+		sprite=sprite or 0,
+		point_goal= point_goal or 0
+	}
+end
 :: lib.lua
 --[[pod_format="raw",created="2025-06-18 12:48:35",modified="2025-06-18 20:24:52",revision=450]]
 --lib
@@ -2001,7 +2069,7 @@ function qf(fmt,...)
 end
 function pqf(...) printh(qf(...)) end
 :: main.lua
---[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-25 20:17:43",revision=1500]]
+--[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-26 16:46:59",revision=1550]]
 include "include.lua"
 tileSize=16
 halfTileSize=tileSize/2
@@ -2027,6 +2095,32 @@ end
 function _init()	
 	pq("----------------start-----------------")
 	restart()
+	god_ctors={malvex_god,
+				flarim_god,
+				dravak_god,
+				skaza_god,
+				velcrith_god,
+				vireth_god,
+				egru_god,
+				myru_god,
+				beloth_god,
+				grask_god,
+				velith_god,
+				asul_god,
+				noen_god,
+				kyreth_god,
+				caela_god,
+				zuruth_god,
+				meraxi_god,
+				ilmeth_god,
+				dreluun_god,
+				soruun_god,
+				yonvek_god,
+				thimel_god,
+				vollun_god,
+				nethir_god,
+				ezeleth_god
+				}
 end
 
 function _update()
@@ -2274,7 +2368,7 @@ function stop_sfx(sfx_id, channel)
 	end
 end
 :: stats.lua
---[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-06-25 20:17:43",revision=1107]]
+--[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-06-26 16:46:59",revision=1161]]
 new_stats=function()
 	return {
 		points=0,
@@ -2370,7 +2464,7 @@ new_stats=function()
 end
 
 :: test.lua
---[[pod_format="raw",created="2025-06-23 22:39:03",modified="2025-06-25 20:17:43",revision=382]]
+--[[pod_format="raw",created="2025-06-23 22:39:03",modified="2025-06-25 20:21:36",revision=384]]
 		
 
 function run_test()
@@ -2430,20 +2524,15 @@ function test_get_matches(colors)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEzOjA5OjI5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNSAyMDoxODoyOSIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdvZHMveWVs
-bG93X2dvZHMubHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdvZHMvcHVycGxl
-X2dvZHMubHVhIzM0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnb2RzL2JsdWVfZ29k
-cy5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9ncmVlbl9nb2RzLmx1
-YSM4NSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9yZWRfZ29kcy5sdWEjNzki
-LHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWUubHVhIzQxIix3b3Jrc3BhY2VfaW5k
-ZXg9MX0se2xvY2F0aW9uPSJnb2RzL2dvZC5sdWEjNiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2Nh
-dGlvbj0ic3RhdHMubHVhIzExIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJmaWVsZC5s
-dWEjNTgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InRlc3QubHVhIzQiLHdvcmtzcGFj
-ZV9pbmRleD0xfSx7bG9jYXRpb249Im1haW4ubHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9j
-YXRpb249ImhlbHBlcnMubHVhIzE0MSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iYmVh
-ZC5sdWEjMTE0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpbmNsdWRlLmx1YSMyMSIs
-d29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iaW5wdXQubHVhIzEiLHdvcmtzcGFjZV9pbmRl
-eD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlvbj0i
-bWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngiLHdvcmtz
-cGFjZV9pbmRleD00fX1dXQ==
+Ni0yNiAxNjo0ODozOSIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImxldmVsLmx1
+YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1lLmx1YSM3MyIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0ic3RhdHMubHVhIzI0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
+Y2F0aW9uPSJnb2RzL2dvZC5sdWEjMTAzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJm
+aWVsZC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ibWFpbi5sdWEjNTEiLHdv
+cmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImhlbHBlcnMubHVhIzExIix3b3Jrc3BhY2VfaW5k
+ZXg9MX0se2xvY2F0aW9uPSJpbmNsdWRlLmx1YSMxNiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2Nh
+dGlvbj0iYmVhZC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9ncmVl
+bl9nb2RzLmx1YSMxOCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3
+b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0z
+fSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2luZGV4PTR9fV1d
 :: [eoc]
