@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNiAyMDowMDoxNCIscmV2aXNpb249MTc0Ml1dbHo0AIYZAAAoUgAA8yF7WzBdPXtibXA9cHh1
+Ni0yNyAxNjoyMTo1MSIscmV2aXNpb249MTc3Nl1dbHo0AIYZAAAoUgAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIAMp5PTAsem9vbT0xfSw_AP8vgB8Y
 wB7ALrBOoE6ADhBOYC4QDgguUC4QDhguMC4gDiguIC4AHjguEF5ILhAueC4gHngeMC5YHlAuOB6A
 XkBtABzzEfAGLxuwDiAOkA4QCwAegC4QHsAesE6QbnCOUB4QHhAeBgD-A55QPgBOUC4gLnBugA4A
@@ -122,10 +122,10 @@ eGCYQLgg2BACAK8guECYYHiAWPAFfwAeD6UB-01iKBI4EigQBgBR2BBYElgEAJ9oAlgguEAoIji1
 ASQPMQD-----------8RUG09NH19
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNiAyMDowMDo0OSJdXQ==
+Ni0yNyAxNjoyODo0MCJdXQ==
 :: gods/
 :: gods/blue_gods.lua
---[[pod_format="raw",created="2025-06-24 17:53:59",modified="2025-06-25 20:21:36",revision=294]]
+--[[pod_format="raw",created="2025-06-24 17:53:59",modified="2025-06-27 16:21:51",revision=322]]
 velith_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Velith"
@@ -134,9 +134,7 @@ velith_god=function(stats)
 	ret.description="+3 to all shades"
 	ret.flavor="Every light casts a shadow. To kill the shades you must first kill the world"
 	ret.color=colors.blue
-	ret.update_color_values= function(self)
-		self.stats.color_values[3]+=3
-	end
+	ret.color_boosts={0,0,3,0,0}
 	return ret
 end
 asul_god=function(stats)
@@ -147,9 +145,7 @@ asul_god=function(stats)
 	ret.description="Adds 5 seconds to the move timer"
 	ret.flavor="He knows all that has ever been forgotten"
 	ret.color=colors.blue
-	ret.update_color_values= function(self)
-		self.stats.color_values[3]+=1
-	end
+	ret.color_boosts={0,0,3,0,0}
 	ret.update_other_values= function(self)
 
 		self.stats.movetimer_max+=5*60
@@ -164,9 +160,7 @@ noen_god=function(stats)
 	ret.description="Adds 1 turn per trial"
 	ret.flavor="The more one opens their mind to a paradox, the deeper the infection spreads"
 	ret.color=colors.blue
-	ret.update_color_values= function(self)
-		self.stats.color_values[3]+=1
-	end
+	ret.color_boosts={0,0,3,0,0}
 	ret.update_other_values= function(self)
 		self.stats.moves_max+=1
 	end
@@ -182,9 +176,7 @@ kyreth_god=function(stats)
 	ret.flavor="Do not ask for what The Weeper cries"
 	ret.color=colors.blue
 	ret.uses=1
-	ret.update_color_values= function(self)
-		self.stats.color_values[3]+=1
-	end
+	ret.color_boosts={0,0,3,0,0}
 	ret.score_matches=function(self,matches)
 		if(self.uses>0 and  #matches==0 and self.stats.chain_counter==1 ) then
 			self.stats:add_message(self.name..":Free move granted")
@@ -205,16 +197,14 @@ caela_god=function(stats)
 	ret.description="match squares"
 	ret.flavor="The nature of water is life. The nature of ice is death"
 	ret.color=colors.blue
-	ret.update_color_values= function(self)
-		self.stats.color_values[3]+=1
-	end
+	ret.color_boosts={0,0,3,0,0}
 	ret.update_other_values= function(self)
 		self.stats.match_square=true
 	end
 	return ret
 end
 :: gods/god.lua
---[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-06-26 20:00:14",revision=1141]]
+--[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-06-27 16:21:51",revision=1196]]
 new_god=function(stats)
 	return {
 		name,
@@ -224,7 +214,12 @@ new_god=function(stats)
 		flavor="",
 		color=0,
 		stats=stats,
-		update_color_values=function(self) end,
+		color_boosts={0,0,0,0,0},
+		update_color_values=function(self) 
+			for i=1,#self.color_boosts do
+				self.stats.color_values[i]+=self.color_boosts[i]
+			end
+		end,
 		update_combo_values=function(self) end,
 		update_chain_values=function(self) end,
 		update_other_values=function(self) end,
@@ -251,6 +246,14 @@ new_god=function(stats)
 		end,
 		draw_modal=function(self)
 			rectfill(174,20,174+150,20+184,32)
+			local offset=16
+			for i=1,#self.color_boosts	 do
+				for j=1,self.color_boosts[i] do
+					spr(i, 174+150-offset,20)
+					offset+=16
+				end
+			end
+		
 			print_centered(self.name,24)
 			print_centered(self.title,36)
 			spr(self.sprite, 235,54)
@@ -321,7 +324,7 @@ end
 
 
 :: gods/green_gods.lua
---[[pod_format="raw",created="2025-06-23 14:05:19",modified="2025-06-26 20:00:14",revision=446]]
+--[[pod_format="raw",created="2025-06-23 14:05:19",modified="2025-06-27 16:21:51",revision=476]]
 vireth_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Vireth"
@@ -330,9 +333,7 @@ vireth_god=function(stats)
 	ret.description="+3 to all rots"
 	ret.flavor="The scent is the first thing you will sense, and the last thing you will forget"
 	ret.color=colors.green
-	ret.update_color_values= function(self)
-		self.stats.color_values[2]+=3
-	end
+	ret.color_boosts={0,3,0,0,0}
 	return ret
 end
 
@@ -344,9 +345,7 @@ egru_god=function(stats)
 	ret.description="+2 chain for chains above 3."
 	ret.flavor="His children crumble stone, what are you made of?"
 	ret.color=colors.green
-	ret.update_color_values= function(self)
-		self.stats.color_values[2]+=1
-	end
+	ret.color_boosts={0,1,0,0,0}
 	ret.update_chain_values= function(self) --set values of all combos to n
 		for i = 4,20 do 
 			self.stats.combo_values[i]+=2
@@ -362,9 +361,7 @@ myru_god=function(stats)
 	ret.description="+3 chain for chains above 4."
 	ret.flavor="Death feeds life, life feeds death"
 	ret.color=colors.green
-	ret.update_color_values= function(self)
-		self.stats.color_values[2]+=1
-	end
+	ret.color_boosts={0,1,0,0,0}
 	ret.update_chain_values= function(self) --set values of all combos to n
 		for i = 5,20 do 
 			self.stats.combo_values[i]+=3
@@ -381,9 +378,7 @@ beloth_god=function(stats)
 	ret.description="Gain 2 combo size for every additional color"
 	ret.flavor="What you see is a fraction of a fraction of a fraction"
 	ret.color=colors.green
-	ret.update_color_values= function(self)
-		self.stats.color_values[2]+=1
-	end
+	ret.color_boosts={0,1,0,0,0}
 	ret.match_length=function(self,n,matches)
 		local seen = {}
 		for _, match in ipairs(matches) do
@@ -412,9 +407,7 @@ grask_god=function(stats)
 	ret.description="Double the size of mono combos 4 or greater"
 	ret.flavor="He is green"
 	ret.color=colors.green
-	ret.update_color_values= function(self)
-		self.stats.color_values[2]+=1
-	end
+	ret.color_boosts={0,1,0,0,0}
 	ret.match_length=function(self,n,matches)
 		if(#matches<2) then
 			return n
@@ -433,7 +426,7 @@ end
 
 
 :: gods/purple_gods.lua
---[[pod_format="raw",created="2025-06-25 13:46:31",modified="2025-06-25 20:21:36",revision=251]]
+--[[pod_format="raw",created="2025-06-25 13:46:31",modified="2025-06-27 16:21:51",revision=277]]
 zuruth_god=function(stats)
 	ret= new_god(stats)
 	ret.name="zuruth"
@@ -442,9 +435,7 @@ zuruth_god=function(stats)
 	ret.description="+3 to all shades"
 	ret.flavor="He is purple"
 	ret.color=colors.purple
-	ret.update_color_values= function(self)
-		self.stats.color_values[4]+=3
-	end
+	ret.color_boosts={0,0,0,3,0}
 	return ret
 end
 meraxi_god=function(stats)
@@ -455,9 +446,7 @@ meraxi_god=function(stats)
 	ret.description="Halfs time to move tiles. Score matches twice"
 	ret.flavor="No one has ever seen it move, that means no one sees it coming for them"
 	ret.color=colors.purple
-	ret.update_color_values= function(self)
-		self.stats.color_values[4]+=1
-	end
+	ret.color_boosts={0,0,0,1,0}
 	ret.update_other_values= function(self)
 		self.stats.movetimer_max/=2
 	end
@@ -475,6 +464,7 @@ ilmeth_god=function(stats)
 	ret.description="Destroy a random god All scores are doubled"
 	ret.flavor="There is a power to a contract.  Like with all things, to take that power one must destroy it"
 	ret.color=colors.purple
+	ret.color_boosts={0,0,0,1,0}
 	ret.destroyed=false
 	ret.update_color_values= function(self)
 		if(self.destroyed) then
@@ -508,9 +498,7 @@ dreluun_god=function(stats)
 	ret.description="Lose a move, Time is no longer a problem"
 	ret.flavor="Unused gold builds interest. Unused time festers away"
 	ret.color=colors.purple
-	ret.update_color_values= function(self)
-		self.stats.color_values[4]+=1
-	end
+	ret.color_boosts={0,0,0,1,0}
 	ret.update_other_values= function(self)
 		self.stats.movetimer_max=2147483647
 		self.stats.moves_max-=1
@@ -527,9 +515,7 @@ soruun_god=function(stats)
 	ret.flavor="At least you didn't try"
 	ret.color=colors.purple
 
-	ret.update_color_values= function(self)
-		self.stats.color_values[4]+=1
-	end
+	ret.color_boosts={0,0,0,1,0}
 	ret.update_other_stats= function(self)	
 		local values = self.stats.color_values
 		local sum = 0
@@ -544,7 +530,7 @@ soruun_god=function(stats)
 	return ret
 end
 :: gods/red_gods.lua
---[[pod_format="raw",created="2025-06-21 17:20:58",modified="2025-06-26 20:00:14",revision=896]]
+--[[pod_format="raw",created="2025-06-21 17:20:58",modified="2025-06-27 16:21:51",revision=937]]
 malvex_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Malvex"
@@ -553,9 +539,7 @@ malvex_god=function(stats)
 	ret.description="+3 to all wraiths"
 	ret.flavor="No one knows who chained him. No one knows what will be when he is freed"
 	ret.color=colors.red
-	ret.update_color_values= function(self)
-		self.stats.color_values[1]+=3
-	end
+	ret.color_boosts={3,0,0,0,0}
 	return ret
 end
 
@@ -568,14 +552,16 @@ dravak_god=function(stats)
 	ret.flavor="All flame spreads. He may be slow, but he is inevitable"
 	ret.color=colors.red
 	ret.upgrades=0
+	ret.color_boosts={1,0,0,0,0}
 	ret.score_matches=function(self,matches)
 		if(self.stats.chain_counter==3)then	--one more than shown
 			self.upgrades+=1
 			self.stats:add_message(self.name..":All values increased")
 		end
 	end
+	ret.base_update_color_values=ret.base_update_color_values
 	ret.update_color_values= function(self)
-		self.stats.color_values[1]+=1
+		self.base_update_color_values()
 		for i = 1,5 do
 			self.stats.color_values[i]+=self.upgrades
 		end
@@ -593,9 +579,7 @@ skaza_god=function(stats)
 	ret.description="+2 combo for combos above 3."
 	ret.flavor="She chews for pleasure. It makes no difference to the furnace in her gizzard"
 	ret.color=colors.red
-	ret.update_color_values= function(self)
-		self.stats.color_values[1]+=1
-	end
+	ret.color_boosts={1,0,0,0,0}
 	ret.update_chain_values= function(self) --set values of all combos to n
 		for i = 4,20 do 
 			self.stats.chain_values[i]+=2
@@ -613,9 +597,7 @@ flarim_god=function(stats)
 	ret.description="+1 combo for combos above 2."
 	ret.flavor="He is a reflection of all fires. All fires are a reflection of him"
 	ret.color=colors.red
-	ret.update_color_values= function(self)
-		self.stats.color_values[1]+=1
-	end
+	ret.color_boosts={1,0,0,0,0}
 	ret.update_chain_values= function(self) --set values of all combos to n
 		for i = 3,20 do 
 			self.stats.chain_values[i]+=1
@@ -631,14 +613,12 @@ velcrith_god=function(stats)
 	ret.description="Increases the chain counter for combos of exactly 3"
 	ret.flavor="Liar liar, soul's on fire"
 	ret.color=colors.red
+	ret.color_boosts={1,0,0,0,0}
 	ret.score_matches=function(self,matches)
 		if(#matches==3) then
 			self.stats.chain_counter+=1 
 			self.stats:add_message(self.name..":The chain grows stronger")
 		end
-	end
-	ret.update_color_values= function(self)
-		self.stats.color_values[1]+=1
 	end
 	return ret
 end 	
@@ -676,7 +656,7 @@ end
 
 
 :: gods/yellow_gods.lua
---[[pod_format="raw",created="2025-06-25 15:51:33",modified="2025-06-25 20:21:36",revision=156]]
+--[[pod_format="raw",created="2025-06-25 15:51:33",modified="2025-06-27 16:21:51",revision=183]]
 yonvek_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Yonvek"
@@ -685,9 +665,7 @@ yonvek_god=function(stats)
 	ret.description="+3 to all wisps"
 	ret.flavor="With enough light, your eyes will only see darkness"
 	ret.color=colors.yellow
-	ret.update_color_values= function(self)
-		self.stats.color_values[5]+=3
-	end
+	ret.color_boosts={0,0,0,0,3}
 	return ret
 end
 
@@ -699,9 +677,7 @@ thimel_god=function(stats)
 	ret.description="Prevent death once"
 	ret.flavor="Do not ask why you were granted one mercey"
 	ret.color=colors.yellow
-	ret.update_color_values= function(self)
-		self.stats.color_values[5]+=1
-	end
+	ret.color_boosts={0,0,0,0,1}
 	ret.init=function(self)
 		self.stats.lives+=1
 	end	
@@ -716,9 +692,7 @@ vollun_god=function(stats)
 	ret.description="If this is your last move for a trial, all scores are quadrupled"
 	ret.flavor="Hope, Pray, Beg. What names will you invoke when you think it is your last hour?"
 	ret.color=colors.yellow
-	ret.update_color_values= function(self)
-		self.stats.color_values[5]+=1
-	end
+	ret.color_boosts={0,0,0,0,1}
 	ret.score_matches=function(self,matches)
 		if(self.stats.moves_max==game.moves)then
 			self.stats:add_message(self.name..":A gift has been given")
@@ -741,9 +715,7 @@ nethir_god=function(stats)
 	ret.description="A line across matches all"
 	ret.flavor="When the blind leads the blind leads the blind, who knows who stands in the front?"
 	ret.color=colors.yellow
-	ret.update_color_values= function(self)
-		self.stats.color_values[5]+=1
-	end
+	ret.color_boosts={0,0,0,0,1}
 	ret.score_matches=function(self,matches)	
 		local row_counts = {}	
 		for _, bead in ipairs(matches) do
@@ -781,9 +753,7 @@ ezeleth_god=function(stats)
 	ret.flavor="In the dark, are you any different than an insect? Will not any light do?"
 	ret.color=colors.yellow
 	ret.uses=1
-	ret.update_color_values= function(self)
-		self.stats.color_values[5]+=1
-	end
+	ret.color_boosts={0,0,0,0,1}
 	ret.reset_chain=function(self) 
 		self.uses=1
 	end
@@ -819,30 +789,30 @@ end
 
 :: gods/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTIxIDE3OjAyOjMyIixtb2RpZmllZD0iMjAyNS0w
-Ni0yNiAyMDowMDo0OSJdXQ==
+Ni0yNyAxNjoyODo0MCJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNiAyMDowMDoxNCIscmV2aXNpb249MTU3M11dbHo0AIsAAABqBAAA8Ah7e2JtcD11c2VyZGF0
+Ni0yNyAxNjoyMTo1MSIscmV2aXNpb249MTYwNl1dbHo0AIsAAABqBAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNgMALyIwAQCLLzEwAQArLzIwAQArLzMwAQArLzQwAQADLzUwAQATLzUwAQD--07x
 CyIpLGhpZGRlbj1mYWxzZSxwYW5feD0zMi41CwCFeT0tNzIuMTYBALI3LHRpbGVfaD0xNgoAEHcK
 AIB6b29tPTJ9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNiAyMDowMDo0OSJdXQ==
+Ni0yNyAxNjoyODo0MCJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNiAyMDowMDoxNCIscmV2aXNpb249MTU1NV1dbHo0AN0AAAAtCgAA-zBweHUAAygAAAQABA9A
+Ni0yNyAxNjoyMTo1MSIscmV2aXNpb249MTU4OF1dbHo0AN0AAAAtCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOvxA6oB
 EAYPIBABIAEgAfAADxIQAg4A_S0PJQ-mD-8RMA9AkAEIIA9QIA9ZEAIPK-CrDygPa8ABcA8ZEArw
 rA-4Cg--D4AP9w8NAXAPZg9JD1IPRcBSAEACEAIOUADoISABMA9A8MMPKA--8MY5AG-wCQEQBg4w
 AP------jR--AQCsz8gPQAAPEED--7Dw-wEA-_pQ-----yk=
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNiAyMDowMDo0OSJdXQ==
+Ni0yNyAxNjoyODo0MCJdXQ==
 :: bead.lua
---[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-26 20:00:14",revision=1840]]
+--[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-27 14:29:25",revision=1842]]
 beadid=0
 
 function new_bead(offset,position)
@@ -1325,7 +1295,7 @@ ICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfdXBkYXRlKQogIGVuZAplbmQKCmZ1bmN0aW9uIF9kcmF3
 ICgpCiAgaWYgZXJyb3JfdGhyZWFkIHRoZW4KICAgIGNhbGxfZXJyb3JfZXZlbnQgKGVycm9yX2Ry
 YXcpCiAgZWxzZQogICAgY2FsbF9wcm90ZWN0ZWQgKHVzZXJfZHJhdykKICBlbmQKZW5k
 :: field.lua
---[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-26 20:00:14",revision=1863]]
+--[[pod_format="raw",created="2025-06-18 13:14:24",modified="2025-06-27 14:29:25",revision=1865]]
 function new_field()
 	return {
 		position = new_point(200, 100),
@@ -1531,7 +1501,7 @@ function new_field()
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-26 20:00:14",revision=2048]]
+--[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-27 16:21:51",revision=2094]]
 
 function new_game()
 	return{
@@ -1567,6 +1537,7 @@ function new_game()
 			self.stats=new_stats()
 			self.stats:init()
 			
+			--add(self.stats.gods,malvex_god(self.stats))
 
 --			for i=1,#god_ctors do
 --				local god=god_ctors[i](self.stats) 
@@ -1623,7 +1594,7 @@ function new_game()
 					self.state=1
 					self.moves+=1
 					self.movetimer=self.stats.movetimer_max
-				elseif(input:button_press(input_lookup.buttons.x)) then
+				elseif(#self.stats.gods>1 and  input:button_press(input_lookup.buttons.x)) then
 					self.state=5
 					self.stats.selected_god=2
 				end		
@@ -1797,7 +1768,7 @@ function new_god_cursor(stats)
 end
 :: helpers.lua
 b64$LS1bW3BvZF9mb3JtYXQ9InJhdyIsY3JlYXRlZD0iMjAyNS0wNi0xOCAxMjo1NTozNyIsbW9k
-aWZpZWQ9IjIwMjUtMDYtMjYgMjA6MDA6MTQiLHJldmlzaW9uPTE2NThdXQpmdW5jdGlvbiBzbShh
+aWZpZWQ9IjIwMjUtMDYtMjcgMTQ6Mjk6MjUiLHJldmlzaW9uPTE2NjBdXQpmdW5jdGlvbiBzbShh
 KQoJcmV0dXJuIHNldG1ldGF0YWJsZShhLGEpCmVuZApmdW5jdGlvbiByYW5kb20obikKCWlmKG4_
 MCkgdGhlbiAKCQlyZXR1cm4gcm5kKCkqbgoJZWxzZQoJCXJldHVybiAtbitybmQoKSpuKjIgCgll
 bmQKZW5kCmZ1bmN0aW9uIHBpY2tfcmFuZG9tKGFycikKCWlmIGFycj09bmlsbCB0aGVuIHJldHVy
@@ -1892,7 +1863,7 @@ bF9jb2xvcgoJKQoKCS0tIERyYXcgYm9yZGVyCglyZWN0KAoJCXVwcGVyX2xlZnQueCwKCQl1cHBl
 cl9sZWZ0LnksCgkJbG93ZXJfcmlnaHQueCwKCQlsb3dlcl9yaWdodC55LAoJCWJvcmRlcl9jb2xv
 cgoJKQplbmQ=
 :: include.lua
---[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-26 20:00:14",revision=1606]]
+--[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-27 14:29:25",revision=1608]]
 include "lib.lua"
 include "helpers.lua"
 include "point.lua"
@@ -2002,7 +1973,7 @@ function all_buttons_pressed(buttons, player)
 	return true
 end
 :: level.lua
---[[pod_format="raw",created="2025-06-25 20:26:34",modified="2025-06-26 20:00:14",revision=90]]
+--[[pod_format="raw",created="2025-06-25 20:26:34",modified="2025-06-27 14:29:25",revision=92]]
 function get_week()
 	local ret= new_week()
 	ret.sprite=129
@@ -2084,7 +2055,7 @@ function qf(fmt,...)
 end
 function pqf(...) printh(qf(...)) end
 :: main.lua
---[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-26 20:00:14",revision=1565]]
+--[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-27 14:29:25",revision=1567]]
 include "include.lua"
 tileSize=16
 halfTileSize=tileSize/2
@@ -2383,7 +2354,7 @@ function stop_sfx(sfx_id, channel)
 	end
 end
 :: stats.lua
---[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-06-26 20:00:14",revision=1176]]
+--[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-06-27 14:29:25",revision=1178]]
 new_stats=function()
 	return {
 		points=0,
@@ -2539,16 +2510,14 @@ function test_get_matches(colors)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEzOjA5OjI5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNiAyMDowMDo0OSIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImxldmVsLmx1
-YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1lLmx1YSM0NiIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0ic3RhdHMubHVhIzI0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
-Y2F0aW9uPSJnb2RzL2dvZC5sdWEjMTAzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJm
-aWVsZC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ibWFpbi5sdWEjNTEiLHdv
-cmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImhlbHBlcnMubHVhIzExIix3b3Jrc3BhY2VfaW5k
-ZXg9MX0se2xvY2F0aW9uPSJpbmNsdWRlLmx1YSMxNiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2Nh
-dGlvbj0iYmVhZC5sdWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9ncmVl
-bl9nb2RzLmx1YSMxOCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9yZWRfZ29k
-cy5sdWEjODMiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3Nw
-YWNlX2luZGV4PTJ9LHtsb2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xv
-Y2F0aW9uPSJzZngvMC5zZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
+Ni0yNyAxNjoyODo0MCIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdvZHMvZ29k
+Lmx1YSM0NiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9yZWRfZ29kcy5sdWEj
+OSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2FtZS5sdWEjOTMiLHdvcmtzcGFjZV9p
+bmRleD0xfSx7bG9jYXRpb249ImdvZHMvZ3JlZW5fZ29kcy5sdWEjMjEiLHdvcmtzcGFjZV9pbmRl
+eD0xfSx7bG9jYXRpb249ImdvZHMvYmx1ZV9nb2RzLmx1YSM3MiIsd29ya3NwYWNlX2luZGV4PTF9
+LHtsb2NhdGlvbj0iZ29kcy9wdXJwbGVfZ29kcy5sdWEjMzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7
+bG9jYXRpb249ImdvZHMveWVsbG93X2dvZHMubHVhIzEwNyIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5t
+YXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2lu
+ZGV4PTR9fV1d
 :: [eoc]
