@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNyAxNjoyMTo1MSIscmV2aXNpb249MTc3Nl1dbHo0AIYZAAAoUgAA8yF7WzBdPXtibXA9cHh1
+Ny0wMSAyMDo1MDo1OSIscmV2aXNpb249MjA5N11dbHo0AB0aAADKUgAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIAMp5PTAsem9vbT0xfSw_AP8vgB8Y
 wB7ALrBOoE6ADhBOYC4QDgguUC4QDhguMC4gDiguIC4AHjguEF5ILhAueC4gHngeMC5YHlAuOB6A
 XkBtABzzEfAGLxuwDiAOkA4QCwAegC4QHsAesE6QbnCOUB4QHhAeBgD-A55QPgBOUC4gLnBugA4A
@@ -91,41 +91,44 @@ Cx0AIhvAGwCDCwALQAtACxAdAKQbEAswCxALMDuQHwAgGzAfABAbIwAS4CAAMztgG1gAAYAAdTAb
 IAtAO_A8AAYeABEgEgAjMAs8AAF5ABKglAAAGABgGwALMGswdwAhQBuUADQLIBsdAGFAKyAbQAsd
 AAXsAAEfAAApACAgG8EAESAEADQgC8AkAfsAW0ArQCtAGxArMDsAW-C-bQE2Ny42AQATN3oBTzYu
 NzV9AQHzFyAgBLA-IDbwBW5m8ACOhsCelqCupoC_tmDOxkDe1jDe1iDe9gAQBABPAO72AQMAAhQA
-JQAx7uYgNgD-CUDOxmC_toCupqCelsCOhvAAflbwBU4msHoCHg8xAP8PEIA_AxOAGgL5AaAbQBtg
-O0BbQIsAKyA78BE-A3GQG0AbcBtgVQIiEBtnAkcgC-AQRgMBIwABQANCMAtgG8gCJfAQSgOW0Bsw
-CwALYAsQIQA3G-AUTANSoAsACyAjAFAbQAsgGyMAEDCIAAVPA2EbAAsQCxDRAqlAS3AbUAtgG-AQ
-UgMAQAACYQAAjgMGIwAFVQNzIBsgG0BrMF8AGHDCAABXAxEwcgMCeAMRUMQAECBAAApdAwElAAKG
-ABULJQAUD2ADMStgK1wDUCswKyA7BAA78P8ClAFDMzQuNZcBIi0ymAEdNlkD8RB-IPAF3vAA-gLA
--gSg-gaA-ghg-gpA-gww-gwg-g4QAwBEAP7wAAwAESAbAP8GQP4KYP4IgP4GoP4EwP4C8ADe8AV_
-OgP-Rhd6OgNwMFsQW3BLEIAGABYAPSvwAUADMUALICwCALYFAncCBb4FBNsFEzApABJgggIUC54C
-AycACkwDBCcAG4AlAA1SAwBaBgIQBhqQdwAMWgNSQDswS0AlACpLUE4ABl4DAk4AIxAbKQBICxAb
-UJ4ABGYDITALLgQhG4CYAA3qAAVuAwDFACIbIOwAIwswNQEv8AJ0AwIAQAFRQAswKyDFAALyAEgw
-C-ABfANwWxArMCswS_YGMDArAIoBG-fZAV0tNy4xNuUGOTQuMfsGAfUBHTKXA-MTNj8g8AVmbvAA
-ho7Alp6gpq6Atr5gxs5A1t4w1t4g9gDeEAQAFADgBgwDABQAJQAx5u4gNgD-CEDGzmC2voCmrqCW
-nsCGjvAAVn7wBSZOtgP-RhWPLgIxQDtAqgVLIDvwJC0KMVA7UOIFAeYGFSO2AgAsCgB-AgIMAAAU
-ACfwIywKUSAbUBswSgBJIBvwJygKNCALcKUDAG4ABXoDARkAAk8DS2Ab8CNwAwEbABELxgYZI2AD
-IlAbqwoYcJ4AIiAbngARYOIKECA0AApGA0NQS4ALGwAXIgYBMZALUKgGDJAqFTKmBj8wLjICCgbx
-D3bwBdbwAPYCwPYEoPYGgPYIYPYKQPYMMPYMIPYOEAMARAD28AAMABEgGwD-BkD2CmD2CID2BqD2
-BMD2AvAA1vAFdvIC-0YVf_wBAPQLMBAbQAYAEFssDSzwDvgCIRsgIAIAbAICCgASQAQDGQ0EAwAG
-ACBgK9EGEWDUAgAaACbwDaAGAVYAEWB7BgUjADkb8BGcBhMwSgYiABuhAgMlBgCUAAQeAxCgGAMh
-OzCcAEEgOzBLCQMXDSQDEaAeAwI8ABMQRgAkEBsnAAMwAxGwKgMRYEsNESCWBjhAC3DSAFAgG7Ab
-YFMNESutAAGQABAgQgAIPgMSwDoDBCIBAXwGAScAEwxeAVDQC1BbEFoNAYIGAVYEL-8ArAELHTNN
-Ay9-GfYJ-48TffABQpA7UDssDTAAW0BUAzkr8AhOAxFwfQ8RUAwABfAJAVoDJ-AJTgMRcAgAIAAL
-rgwCFgAyQCtAJQAEUANYsBuACxAhAANaAwAjAAVSAyCQO2sAANcMA2sAA1oDJfAJUAMgsBuHEAMj
-ABJLmgAJRgABIwAkCzAjAAHcCQJaAwWOAGCgC8ALMGvYAAECAyMbQFgDB9QAMiAbcGkNAf8ABNYJ
-IUArJQAIVAMBJwBDC1AbQFoOEUDuAEUgC-AIZAFzICswOyA7YM4JALgQK-D7swFDNDEuMrYBAAoA
-D0sc-1gBDwMYjQ8DAYETJvAl5QEDBwMgQDuBBQFJBhsk_wIRIE8JAFwFEDAdAAbzAkJQG1AbrwUp
-8CjnAgBTABAQqQUAagAG2wITEBcASWAb8CTRAgoZAAXFAhMQYAAYcJQAA7sCBZQAECA0AAyzAiBA
-S30DEiAfABgjAAEhWxD3BRsJRgEmMTfxDx4xWgwPrAETDzEA--_t8AuAGsAawCqwSqBKgAoQSmAq
-EAoLKlAqEAobKg0o-xArKiAqABo7KhBaSyoQKnsqIBp7GjAqWxpQKjsagFpAnQAeDzEA-xO1BViA
-eGCYQLgg2BACAK8guECYYHiAWPAFfwAeD6UB-01iKBI4EigQBgBR2BBYElgEAJ9oAlgguEAoIji1
-ASQPMQD-----------8RUG09NH19
+JQAx7uYgNgD-CUDOxmC_toCupqCelsCOhvAAflbwBU4msEkCHPAPEA8SDyAvEh8gLxIPIA8SIA4C
+DyAeDRINHg0CDhAOBwBjHx4CDR4NDQATHAwAJAINJQDwAQAuDS4dLg0u-QEuDVINLg0aACECPAYA
+QQ4NHgIzACACHgoABD8AMQIOABoAEBIYAPIODiA_DRINPkAODQ4CHQIODQ5QDgINDh0ODQIOYA4u
+AA9LGgweNhwDDzEA3RCA4AMTgLwC_QGgG0AbYDtAW0CLACsgO-AR4QNxkBtAG3AbYPcCIhAbCQNH
+IAvwEOgDASMAAeIDQjALYBtqAyXwEOwDltAbMAsAC2ALECEANxvwFO4DUqALAAsgIwBQG0ALIBsj
+ABAwiAAF8QNhGwALEAsQcwOpQEtwG1ALYBvwEPQDAEAAAmEAADAEBiMABfcDcyAbIBtAazBfABhw
+wgAA_QMRMBQEAhoEEVDEABAgQAAK-wMBJQAChgAVCyUAFA8CBDErYCv_A1ArMCsgOwQAO-D-ApQB
+QzM0LjWXAS8tMpgBAQD7A-EQfyDwBd7wAP4CwP4EoP4GgP4IYP4KQP4MMP4MIP4OEAMARAD_8AAM
+ABEgGwD-BkD_CmD_CID_BqD_BMD_AvAA3vAFftwDHS-w8DEA-w8BOgMXejoDcDBbEFtwSxAiBwAW
+AD0r8AFAAzFACyAsAgBYBgJ3AgVgBgR9BhMwKQASYIICFAueAgMnAApMAwQnABuAJQANUgMA-AYC
+sgYakHcADFoDUkA7MEtAJQAqS1BOAAZeAwJOACMQGykASAsQG1CeAARmAyEwCy4EIRuAmAAN6gAF
+bgMAxQAiGyDsACMLMDUBL-ACdAMCAEABUUALMCsgxQAC8gBIMAvwAXwDcFsQKzArMEuIBzAwKwCK
+ARv32QFdLTcuMTaHBzk0LjGdBwH1AR0ylwPzEzY-IPAFZm7wAIaOwJaeoKaugLa_YMbOQNbeMNbe
+IPYA3hAEABQAggcMAwAUACUAMebuIDYA-whAxs5gtr6Apq6glp7Aho7wAFZ_8AUmTrYD-0YVjy4C
+MUA7QKoFSyA78CTPCjFQO1DiBQHmBhUjtgIAzgoAfwICDAAAFAAn8CPOClEgG1AbMEoASSAb8CfK
+CjQgC3ClAwBuAAV6AwEZAAJPA0tgG-AjcAMBGwARC8YGGSNgAyJQG00LGHCeACIgG54AEWCECxAg
+NAAKRgNDUEuACxsAFyIGATGQC1CoBgwyKxUypgY-MC4ypAoG8Q928AXW8AD2AsD2BKD2BoD2CGD2
+CkD2DDD2DCD2DhADAEQA9vAADAARIBsA-wZA9gpg9giA9gag9gTA9gLwANbwBXbyAv9GFX-sAQCW
+DDAQG0AGABBbzg0s8A74AiEbICACAGwCAgoAEkAEAxkNBAMABgAgYCvRBhFg1AIAGgAm8A2gBgFW
+ABFgewYFIwA5G-ARnAYTMEoGIgAboQIDJQYAlAAEHgMQoBgDITswnABBIDswSwkDFw0kAxGgHgMC
+PAATEEYAJBAbJwADMAMRsCoDEWDtDREglgY4QAtw0gBQIBuwG2D1DRErrQABkAAQIEIACD4DEsA6
+AwQiAQF8BgEnABMMXgFQ0AtQWxD8DQGCBgFWBC--AKwBCx0zTQMvfxn2Cf_PE33wAUKQO1A7LA0w
+AFtAVAM5K-AITgMRcB8QEVAMAAXwCQFaAyfwCU4DEXAIACAAC64MAhYAMkArQCUABFADWLAbgAsQ
+IQADWgMAIwAFUgMgkDtrAADXDANrAANaAyXwCVADILAbKREDIwASS5oACUYAASMAJAswIwAB3AkC
+WgMFjgBgoAvACzBr2AABAgMjG0BYAwfUADIgG3BpDQH-AATWCSFAKyUACFQDAScAQwtQG0BaDhFA
+7gBFIAvwCGQBcyArMDsgO2DOCQBaESvw_7MBQzQxLjK2AQAKAA-tHP9YAQ8DGI0PAwEjFCbwJeUB
+AwcDIEA7gQUBSQYbJPsCESBPCQBcBRAwHQAG8wJCUBtQG68FKfAo5wIAUwAQEKkFAGoABtsCExAX
+AElgG-Ak0QIKGQAFxQITEGAAGHCUAAO7AgWUABAgNAAMswIgQEt9AxIgHwAYIwABIVsQ9wUbCUYB
+JjE38Q8eMVoMD6wBEw8xAP--rfALgBrAGsAqsEqgSoAKEEpgKhAKCypQKhAKGyqvKP8QKyogKgAa
+OyoQWksqECp7KiAaexowKlsaUCo7GoBaQJ0AHg8xAP8TtQVYgHhgmEC4INgQAgCvILhAmGB4gFjw
+BX8AHg_lAf9NYigSOBIoEAYAUdgQWBJYBACfaAJYILhAKCI4tQEkDzEA------------EVBtPTR9
+fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNyAxNjoyODo0MCJdXQ==
+Ny0wMSAyMDo1MTo0MiJdXQ==
 :: gods/
 :: gods/blue_gods.lua
---[[pod_format="raw",created="2025-06-24 17:53:59",modified="2025-06-27 16:21:51",revision=322]]
+--[[pod_format="raw",created="2025-06-24 17:53:59",modified="2025-07-01 20:50:59",revision=382]]
 velith_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Velith"
@@ -135,6 +138,7 @@ velith_god=function(stats)
 	ret.flavor="Every light casts a shadow. To kill the shades you must first kill the world"
 	ret.color=colors.blue
 	ret.color_boosts={0,0,3,0,0}
+	ret.cost=3
 	return ret
 end
 asul_god=function(stats)
@@ -145,7 +149,7 @@ asul_god=function(stats)
 	ret.description="Adds 5 seconds to the move timer"
 	ret.flavor="He knows all that has ever been forgotten"
 	ret.color=colors.blue
-	ret.color_boosts={0,0,3,0,0}
+	ret.color_boosts={0,0,1,0,0}
 	ret.update_other_values= function(self)
 
 		self.stats.movetimer_max+=5*60
@@ -160,7 +164,7 @@ noen_god=function(stats)
 	ret.description="Adds 1 turn per trial"
 	ret.flavor="The more one opens their mind to a paradox, the deeper the infection spreads"
 	ret.color=colors.blue
-	ret.color_boosts={0,0,3,0,0}
+	ret.color_boosts={0,0,1,0,0}
 	ret.update_other_values= function(self)
 		self.stats.moves_max+=1
 	end
@@ -176,7 +180,7 @@ kyreth_god=function(stats)
 	ret.flavor="Do not ask for what The Weeper cries"
 	ret.color=colors.blue
 	ret.uses=1
-	ret.color_boosts={0,0,3,0,0}
+	ret.color_boosts={0,0,1,0,0}
 	ret.score_matches=function(self,matches)
 		if(self.uses>0 and  #matches==0 and self.stats.chain_counter==1 ) then
 			self.stats:add_message(self.name..":Free move granted")
@@ -197,14 +201,14 @@ caela_god=function(stats)
 	ret.description="match squares"
 	ret.flavor="The nature of water is life. The nature of ice is death"
 	ret.color=colors.blue
-	ret.color_boosts={0,0,3,0,0}
+	ret.color_boosts={0,0,1,0,0}
 	ret.update_other_values= function(self)
 		self.stats.match_square=true
 	end
 	return ret
 end
 :: gods/god.lua
---[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-06-27 16:21:51",revision=1196]]
+--[[pod_format="raw",created="2025-06-20 23:37:11",modified="2025-07-01 20:50:59",revision=1577]]
 new_god=function(stats)
 	return {
 		name,
@@ -214,6 +218,7 @@ new_god=function(stats)
 		flavor="",
 		color=0,
 		stats=stats,
+		cost=4,
 		color_boosts={0,0,0,0,0},
 		update_color_values=function(self) 
 			for i=1,#self.color_boosts do
@@ -247,18 +252,21 @@ new_god=function(stats)
 		draw_modal=function(self)
 			rectfill(174,20,174+150,20+184,32)
 			local offset=16
-			for i=1,#self.color_boosts	 do
-				for j=1,self.color_boosts[i] do
-					spr(i, 174+150-offset,20)
-					offset+=16
-				end
+			for i=1,self.cost do
+				spr(130,174+150-(i)*18,21)
 			end
-		
-			print_centered(self.name,24)
-			print_centered(self.title,36)
+				
+			print(self.name,176,24,7)
+			print(self.title,176,38,6)
 			spr(self.sprite, 235,54)
 			local height=print_wrapped(self.description,new_point(180,100),140,7)
 			print_wrapped(self.flavor,new_point(180,100+height+20),140,6)
+			for i=1,#self.color_boosts	 do
+				for j=1,self.color_boosts[i] do
+					spr(i,174+148-offset,180)
+					offset+=16
+				end
+			end
 		end,
 	}
 end
@@ -324,7 +332,7 @@ end
 
 
 :: gods/green_gods.lua
---[[pod_format="raw",created="2025-06-23 14:05:19",modified="2025-06-27 16:21:51",revision=476]]
+--[[pod_format="raw",created="2025-06-23 14:05:19",modified="2025-07-01 20:50:59",revision=506]]
 vireth_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Vireth"
@@ -334,6 +342,7 @@ vireth_god=function(stats)
 	ret.flavor="The scent is the first thing you will sense, and the last thing you will forget"
 	ret.color=colors.green
 	ret.color_boosts={0,3,0,0,0}
+	ret.cost=3
 	return ret
 end
 
@@ -401,11 +410,11 @@ end
 
 grask_god=function(stats)
 	ret= new_god(stats)
-	ret.name="Grasl"
+	ret.name="Grask"
 	ret.title="The Fattened Leech"
 	ret.sprite=67
 	ret.description="Double the size of mono combos 4 or greater"
-	ret.flavor="He is green"
+	ret.flavor="It prefers essence, it settles for blood"
 	ret.color=colors.green
 	ret.color_boosts={0,1,0,0,0}
 	ret.match_length=function(self,n,matches)
@@ -426,7 +435,7 @@ end
 
 
 :: gods/purple_gods.lua
---[[pod_format="raw",created="2025-06-25 13:46:31",modified="2025-06-27 16:21:51",revision=277]]
+--[[pod_format="raw",created="2025-06-25 13:46:31",modified="2025-07-01 20:50:59",revision=312]]
 zuruth_god=function(stats)
 	ret= new_god(stats)
 	ret.name="zuruth"
@@ -436,6 +445,7 @@ zuruth_god=function(stats)
 	ret.flavor="He is purple"
 	ret.color=colors.purple
 	ret.color_boosts={0,0,0,3,0}
+	ret.cost=3
 	return ret
 end
 meraxi_god=function(stats)
@@ -530,7 +540,7 @@ soruun_god=function(stats)
 	return ret
 end
 :: gods/red_gods.lua
---[[pod_format="raw",created="2025-06-21 17:20:58",modified="2025-06-27 16:21:51",revision=937]]
+--[[pod_format="raw",created="2025-06-21 17:20:58",modified="2025-07-01 20:50:59",revision=968]]
 malvex_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Malvex"
@@ -540,6 +550,7 @@ malvex_god=function(stats)
 	ret.flavor="No one knows who chained him. No one knows what will be when he is freed"
 	ret.color=colors.red
 	ret.color_boosts={3,0,0,0,0}
+	ret.cost=3
 	return ret
 end
 
@@ -656,7 +667,7 @@ end
 
 
 :: gods/yellow_gods.lua
---[[pod_format="raw",created="2025-06-25 15:51:33",modified="2025-06-27 16:21:51",revision=183]]
+--[[pod_format="raw",created="2025-06-25 15:51:33",modified="2025-07-01 20:50:59",revision=212]]
 yonvek_god=function(stats)
 	ret= new_god(stats)
 	ret.name="Yonvek"
@@ -666,6 +677,7 @@ yonvek_god=function(stats)
 	ret.flavor="With enough light, your eyes will only see darkness"
 	ret.color=colors.yellow
 	ret.color_boosts={0,0,0,0,3}
+	ret.cost=3
 	return ret
 end
 
@@ -789,28 +801,28 @@ end
 
 :: gods/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTIxIDE3OjAyOjMyIixtb2RpZmllZD0iMjAyNS0w
-Ni0yNyAxNjoyODo0MCJdXQ==
+Ny0wMSAyMDo1MTo0MiJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNyAxNjoyMTo1MSIscmV2aXNpb249MTYwNl1dbHo0AIsAAABqBAAA8Ah7e2JtcD11c2VyZGF0
+Ny0wMSAyMDo1MDo1OSIscmV2aXNpb249MTkwMV1dbHo0AIsAAABqBAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNgMALyIwAQCLLzEwAQArLzIwAQArLzMwAQArLzQwAQADLzUwAQATLzUwAQD--07x
 CyIpLGhpZGRlbj1mYWxzZSxwYW5feD0zMi41CwCFeT0tNzIuMTYBALI3LHRpbGVfaD0xNgoAEHcK
 AIB6b29tPTJ9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNyAxNjoyODo0MCJdXQ==
+Ny0wMSAyMDo1MTo0MiJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEyOjEzOjQ0Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNyAxNjoyMTo1MSIscmV2aXNpb249MTU4OF1dbHo0AN0AAAAtCgAA-zBweHUAAygAAAQABA9A
+Ny0wMSAyMDo1MDo1OSIscmV2aXNpb249MTg4M11dbHo0AN0AAAAtCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOvxA6oB
 EAYPIBABIAEgAfAADxIQAg4A_S0PJQ-mD-8RMA9AkAEIIA9QIA9ZEAIPK-CrDygPa8ABcA8ZEArw
 rA-4Cg--D4AP9w8NAXAPZg9JD1IPRcBSAEACEAIOUADoISABMA9A8MMPKA--8MY5AG-wCQEQBg4w
 AP------jR--AQCsz8gPQAAPEED--7Dw-wEA-_pQ-----yk=
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDE1OjQxOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNyAxNjoyODo0MCJdXQ==
+Ny0wMSAyMDo1MTo0MiJdXQ==
 :: bead.lua
 --[[pod_format="raw",created="2025-06-18 13:37:09",modified="2025-06-27 14:29:25",revision=1842]]
 beadid=0
@@ -1501,7 +1513,7 @@ function new_field()
 end
 
 :: game.lua
---[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-06-27 16:21:51",revision=2094]]
+--[[pod_format="raw",created="2025-06-18 12:49:39",modified="2025-07-01 20:50:59",revision=2450]]
 
 function new_game()
 	return{
@@ -1516,10 +1528,9 @@ function new_game()
 		moves=0,		
 		movetimer=0,
 		stats=nil,
-	
+		shop=nil,
 		current_trial=1,
-		current_trial_sprite=0,
-		
+		current_trial_sprite=0,		
 		week_sprite=129,
 		
 	
@@ -1529,7 +1540,6 @@ function new_game()
 			self.current_trial_sprite=trial.sprite
 		end,
 		init=function(self)
-			pq(self.week,self.current_trial)
 			self:setup_trial(self.week.trials[self.current_trial])	
 	
 			self.field=new_field()
@@ -1537,6 +1547,7 @@ function new_game()
 			self.stats=new_stats()
 			self.stats:init()
 			
+			self.shop=new_shop(self.stats)
 			--add(self.stats.gods,malvex_god(self.stats))
 
 --			for i=1,#god_ctors do
@@ -1561,24 +1572,23 @@ function new_game()
 			--0=free 1=moving 2=check 3=remove 4=drop 5=menu
 			if(self.state==0 and self.stats.points>=self.goal) then
 				self.stats:add_message("You win this day",colors.yellow )
+				self.state=6
+				self.shop:init()
+				self.stats:add_message("This trial grants "..self.week.trials[self.current_trial].reward.." boons",colors.yellow )
+				self.stats.coins+=self.week.trials[self.current_trial].reward
+				local remaining_moves=self.stats.moves_max-self.moves
+				if(remaining_moves>0)then
+					self.stats.coins+=remaining_moves
+					self.stats:add_message("Remaining time grants "..remaining_moves.." boons",colors.yellow )
+				end			
 				self.moves=0
-				self.current_trial+=1
-				local next_trial=self.week.trials[self.current_trial]
-				if(next_trial!=nil) then
-					self:setup_trial(next_trial)
-					self.stats:reset_trial()
-					pq(god_ctors)
-					local god=pick_random(god_ctors)(self.stats) 
-					god:init()
-					add(self.stats.gods,god)
-					self.stats:update_stats()
-					self.stats.selected_god=#self.stats.gods
-					self.state=5
-				else
-					self.stats:add_message("You completed the week",colors.yellow )
-					self.current_trial=1
-				end
-			elseif(self.state==0 and self.moves>=self.stats.moves_max) then
+				
+				local extra=flr(self.stats.points/self.goal)-1
+				if(extra>0)then
+					self.stats.coins+=extra
+					self.stats:add_message("Your zeal adds "..extra.." boons",colors.yellow )
+				end		
+			elseif(self.state==0 and self.moves>=self.stats.moves_max) then --out of turns
 
 				self.stats.lives-=1
 				if(self.stats.lives>0) then
@@ -1587,9 +1597,9 @@ function new_game()
 					self.stats:reset_trial()
 				else
 					self.stats:add_message("You have failed. Your soul is lost",colors.red )
-					self.state=6
+					self.state=999
 				end
-			elseif(self.state==0 ) then
+			elseif(self.state==0 ) then --wait for player to make a move
 				if(input:button_press(input_lookup.buttons.o)) then
 					self.state=1
 					self.moves+=1
@@ -1598,7 +1608,7 @@ function new_game()
 					self.state=5
 					self.stats.selected_god=2
 				end		
-			elseif (self.state==1) then
+			elseif (self.state==1) then --wait for player to finish a move
 				if(input:button_press(input_lookup.buttons.o)or self.movetimer<=0) then
 					self.state=2
 					self.movetimer=0
@@ -1606,7 +1616,7 @@ function new_game()
 					self.field:update()
 					self.movetimer-=1
 				end
-			elseif (self.state==2) then
+			elseif (self.state==2) then --do matches
 				if(self.field:update()==false) then
 					local matches=self.field:find_matches()
 					if(#matches>0) then
@@ -1619,21 +1629,24 @@ function new_game()
 						
 					end
 				end
-			elseif (self.state==3) then
+			elseif (self.state==3) then --clean up matches
 				if(self.field:update()==false) then
 					self.state=4
 					self.field:remove_matched()
 				end	
-			elseif (self.state==4) then
+			elseif (self.state==4) then --if more matches, keep going
 				if(self.field:update()==false) then
 					self.state=2
 				end
-			elseif(self.state==5) then
+			elseif(self.state==5) then --god viewer is open
 				if(input:button_press(input_lookup.buttons.x) or input:button_press(input_lookup.buttons.o)) then
 					self.state=0
 					self.stats.selected_god=0
 				end
-			end			
+			elseif(self.state==6) then --open the shop
+				self.shop:update()		
+			end	
+			
 		end,
 		draw=function(self)
 			cls(5)
@@ -1661,8 +1674,26 @@ function new_game()
 			spr(self.week_sprite,352,2)
 			self.stats:draw()
 			self.god_cursor:draw()
+			
+			spr(130,140,2)
+			print(self.stats.coins, 140+16,8,7)
+		
+			if(self.state==6) then --open the shop
+				self.shop:draw()		
+			end
 		end,	
-
+		next_level=function(self)
+				self.current_trial+=1
+				local next_trial=self.week.trials[self.current_trial]
+				if(next_trial!=nil) then
+					self:setup_trial(next_trial)
+					self.stats:reset_trial()
+					self.state=0
+				else
+					self.stats:add_message("You completed the week",colors.yellow )
+					self.current_trial=1
+				end
+		end
 	}
 end
 
@@ -1731,7 +1762,7 @@ new_base_god=function(stats)
 end
 
 :: god_cursor.lua
---[[pod_format="raw",created="2025-06-23 12:58:19",modified="2025-06-23 17:21:40",revision=99]]
+--[[pod_format="raw",created="2025-06-23 12:58:19",modified="2025-07-01 18:04:12",revision=324]]
 function new_god_cursor(stats)
 	return{
 		stats=stats,
@@ -1863,11 +1894,12 @@ bF9jb2xvcgoJKQoKCS0tIERyYXcgYm9yZGVyCglyZWN0KAoJCXVwcGVyX2xlZnQueCwKCQl1cHBl
 cl9sZWZ0LnksCgkJbG93ZXJfcmlnaHQueCwKCQlsb3dlcl9yaWdodC55LAoJCWJvcmRlcl9jb2xv
 cgoJKQplbmQ=
 :: include.lua
---[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-06-27 14:29:25",revision=1608]]
+--[[pod_format="raw",created="2025-06-18 12:41:36",modified="2025-07-01 18:04:12",revision=1886]]
 include "lib.lua"
 include "helpers.lua"
 include "point.lua"
 include "sfx.lua"
+include "ui.lua"
 include "particle_system.lua"
 include "camera.lua"
 include "input.lua"
@@ -1880,6 +1912,10 @@ include "cursor.lua"
 include "god_cursor.lua"
 include "stats.lua"
 include "level.lua"
+
+include "shop.lua"
+include "shop_cursor.lua"
+
 include "gods/god.lua"
 include "gods/red_gods.lua"
 include "gods/green_gods.lua"
@@ -1973,15 +2009,16 @@ function all_buttons_pressed(buttons, player)
 	return true
 end
 :: level.lua
---[[pod_format="raw",created="2025-06-25 20:26:34",modified="2025-06-27 14:29:25",revision=92]]
+--[[pod_format="raw",created="2025-06-25 20:26:34",modified="2025-07-01 20:50:59",revision=198]]
 function get_week()
 	local ret= new_week()
 	ret.sprite=129
-	add(ret.trials,new_trial(128,20,5))
-	add(ret.trials,new_trial(136,50,5))
-	add(ret.trials,new_trial(144,100,5))
-	add(ret.trials,new_trial(152,200,5))
-	add(ret.trials,new_trial(160,500,5))
+	--add(ret.trials,new_trial(128,20,2))
+	add(ret.trials,new_trial(128,10,2))
+	add(ret.trials,new_trial(136,20,2))
+	add(ret.trials,new_trial(144,50,2))
+	add(ret.trials,new_trial(152,100,2))
+	add(ret.trials,new_trial(160,200,2))
 	return ret
 end
 
@@ -1992,10 +2029,11 @@ new_week=function()
 	}
 end
 
-new_trial=function(sprite,point_goal)
+new_trial=function(sprite,point_goal,reward)
 	return{
 		sprite=sprite or 0,
-		point_goal= point_goal or 0
+		point_goal= point_goal or 0,
+		reward=reward or 0
 	}
 end
 :: lib.lua
@@ -2055,7 +2093,7 @@ function qf(fmt,...)
 end
 function pqf(...) printh(qf(...)) end
 :: main.lua
---[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-06-27 14:29:25",revision=1567]]
+--[[pod_format="raw",created="2025-06-18 12:13:44",modified="2025-07-01 18:04:12",revision=1844]]
 include "include.lua"
 tileSize=16
 halfTileSize=tileSize/2
@@ -2080,7 +2118,6 @@ function	restart()
 end
 function _init()	
 	pq("----------------start-----------------")
-	restart()
 	god_ctors={malvex_god,
 				flarim_god,
 				dravak_god,
@@ -2107,6 +2144,7 @@ function _init()
 				nethir_god,
 				ezeleth_god
 				}
+		restart()
 end
 
 function _update()
@@ -2353,8 +2391,153 @@ function stop_sfx(sfx_id, channel)
 
 	end
 end
+:: shop.lua
+--[[pod_format="raw",created="2025-06-27 23:43:15",modified="2025-07-01 20:50:59",revision=459]]
+
+new_shop=function(stats)
+	return {
+		gods={},
+		selected_god=0,
+		stats=stats,
+		god_cursor=nil,
+		mode=0,
+		selected_yes=false,
+		init=function(self)
+			self.mode=0
+			self.god_cursor=new_shop_cursor(self)
+			self.selected_god=1
+			self.gods={}
+			for i=1,3 do
+				local god=nil
+				while god==nil do
+					local god_ctor=pick_random(god_ctors) 
+					god=god_ctor(self.stats)
+					for i=1,#self.stats.gods do
+						if(god.name==self.stats.gods[i].name) then
+							god=nil
+							break
+						end
+					end
+					if(god!=nil) then
+						for i=1,#self.gods do
+							if(god.name==self.gods[i].name) then
+								god=nil
+								break
+							end
+						end
+					end
+				end
+				add(self.gods,god)
+			end
+		end,
+		update=function(self)
+			if(self.mode==0) then
+				self.selected_yes=false
+				if input:button_press(input_lookup.buttons.o) and self.gods[self.selected_god].cost<=self.stats.coins then 
+					self.mode=1
+				elseif(input:button_press(input_lookup.buttons.x)) then
+					for i=1, #self.gods do
+						if(self.gods[i].cost<=self.stats.coins) then
+							self.mode=2
+							return
+						end
+					end
+					game:next_level()
+				end
+				self.god_cursor:update()
+			elseif(self.mode==1) then
+				if(input:button_press(input_lookup.buttons.o)) then
+					if(self.selected_yes ) then
+						game.stats:buy_god(self.gods[self.selected_god])
+						game:next_level()
+					else
+						self.mode=0
+					end
+				elseif input:button_press(input_lookup.buttons.x) then 
+					self.mode=0
+				end
+				if input:button_press(input_lookup.lpad.left) or input:button_press(input_lookup.lpad.right) then 
+					self.selected_yes=not self.selected_yes
+				end
+			elseif(self.mode==2) then
+				if input:button_press(input_lookup.buttons.o) then
+					if(self.selected_yes) then
+						game:next_level()
+					else
+						self.mode=0
+					end
+				elseif(input:button_press(input_lookup.buttons.x)) then
+					self.mode=0
+					--game:next_level()
+				end
+				if input:button_press(input_lookup.lpad.left) or input:button_press(input_lookup.lpad.right) then 
+					self.selected_yes=not self.selected_yes
+				end
+			end
+			
+			
+		end,
+		draw=function(self)
+			--draw the god icons
+			local offset=new_point(170,209)	
+			rectfill(offset.x,offset.y,offset.x+(52)*3+10,offset.y+52+5,19)
+			for i=1,3 do
+				local god=self.gods[i]
+				if(god!=nil) then 
+					god:draw(offset+new_point((i-1)*52+10,4))
+				end
+			end
+			--draw the selected god
+			self.gods[self.selected_god]:draw_modal()		
+			self.god_cursor:draw()
+
+			if(self.mode==1) then
+				local god=self.gods[self.selected_god]
+				rectfill(128,62,128+254,62+105,0)
+				print("Pledge yourself to "..god.name,171,91,7)
+				
+				draw_button(new_point(191,128),"Yes",self.selected_yes)
+				draw_button(new_point(275,128),"No",not self.selected_yes)
+			end	
+			if(self.mode==2) then
+				local god=self.gods[self.selected_god]
+				rectfill(128,62,128+254,62+105,0)
+				print("Pass up the opportunity?" ,171,91,7)
+				
+				draw_button(new_point(191,128),"Yes",self.selected_yes)
+				draw_button(new_point(275,128),"No",not self.selected_yes)
+			end
+		end
+	}
+end
+:: shop_cursor.lua
+--[[pod_format="raw",created="2025-06-29 03:54:41",modified="2025-07-01 18:04:12",revision=290]]
+function new_shop_cursor(shop)
+	return{
+		god_count=3,
+		shop=shop,
+		init=function(self)			
+		end,
+		update=function(self)		
+			if input:button_press(input_lookup.lpad.left) then 
+				self.shop.selected_god =
+					((self.shop.selected_god - 2) % self.god_count) + 1
+			elseif input:button_press(input_lookup.lpad.right) then 
+				self.shop.selected_god =
+					(self.shop.selected_god % self.god_count) + 1
+			end
+		end,
+		draw=function(self)
+			
+			local base_offset=new_point(170+10,209+4)	
+			local offset=new_point((self.shop.selected_god-1)*(52),0)+base_offset
+			rect(offset.x,offset.y,offset.x+42,offset.y+48,7)				
+
+		end
+	}
+end
 :: stats.lua
---[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-06-27 14:29:25",revision=1178]]
+--[[pod_format="raw",created="2025-06-20 02:42:37",modified="2025-07-01 20:50:59",revision=1495]]
 new_stats=function()
 	return {
 		points=0,
@@ -2372,7 +2555,7 @@ new_stats=function()
 		match_horizontal=false,
 		match_square=false,
 		lives=1,
-		
+		coins=0,
 		init=function(self)
 			self.points=0
 			selfchain_multiplier=1
@@ -2446,6 +2629,12 @@ new_stats=function()
 				del(self.messages,self.messages[1])
 			end
 		end,
+		buy_god=function(self,god)
+				self.coins-=god.cost
+				god:init()
+				add(self.gods,god)
+				self:update_stats()
+		end
 	}
 end
 
@@ -2508,16 +2697,36 @@ function test_get_matches(colors)
 	end
 	return ret
 end
+:: ui.lua
+--[[pod_format="raw",created="2025-06-29 23:44:00",modified="2025-07-01 18:04:12",revision=132]]
+draw_button=function(top_left,text,selected,size,border_color,fill_color,text_color )
+	selected=selected or false
+	border_color=border_color or  25
+	fill_color=fill_color or 6
+	text_color=text_color or 24
+	size=size or new_point(61,19)
+	local bottom_right=top_left+size
+	rectfill(top_left.x,top_left.y,bottom_right.x,bottom_right.y,fill_color)
+	if(selected) then
+		rect(top_left.x,top_left.y,bottom_right.x,bottom_right.y,border_color)
+	end
+	local text_x=size.x/2-2*#text
+	local text_y=size.y/2-3
+	print(text,top_left.x+text_x,top_left.y+text_y,text_color)	
+
+end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA2LTE4IDEzOjA5OjI5Iixtb2RpZmllZD0iMjAyNS0w
-Ni0yNyAxNjoyODo0MCIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdvZHMvZ29k
-Lmx1YSM0NiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9yZWRfZ29kcy5sdWEj
-OSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2FtZS5sdWEjOTMiLHdvcmtzcGFjZV9p
-bmRleD0xfSx7bG9jYXRpb249ImdvZHMvZ3JlZW5fZ29kcy5sdWEjMjEiLHdvcmtzcGFjZV9pbmRl
-eD0xfSx7bG9jYXRpb249ImdvZHMvYmx1ZV9nb2RzLmx1YSM3MiIsd29ya3NwYWNlX2luZGV4PTF9
-LHtsb2NhdGlvbj0iZ29kcy9wdXJwbGVfZ29kcy5sdWEjMzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7
-bG9jYXRpb249ImdvZHMveWVsbG93X2dvZHMubHVhIzEwNyIsd29ya3NwYWNlX2luZGV4PTF9LHts
-b2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5t
-YXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2lu
-ZGV4PTR9fV1d
+Ny0wMSAyMDo1MTo0MiIscnVudGltZT0xOCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249ImdhbWUubHVh
+Izg0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJzdGF0cy5sdWEjNzYiLHdvcmtzcGFj
+ZV9pbmRleD0xfSx7bG9jYXRpb249InNob3AubHVhIzE4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
+Y2F0aW9uPSJnb2RzL2JsdWVfZ29kcy5sdWEjMTAiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRp
+b249ImdvZHMveWVsbG93X2dvZHMubHVhIzEwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9u
+PSJnb2RzL3JlZF9nb2RzLmx1YSMxMCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29k
+cy9ncmVlbl9nb2RzLmx1YSM3OSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ29kcy9w
+dXJwbGVfZ29kcy5sdWEjMTAiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdvZHMvZ29k
+Lmx1YSMxMCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ibGV2ZWwubHVhIzkiLHdvcmtz
+cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHts
+b2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5z
+ZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]
